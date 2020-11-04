@@ -42,13 +42,13 @@ const Navigation = props => {
               <NavLink href="#stacks">Stacks</NavLink>
             </NavItem>
             <NavItem className="navlink">
-              <NavLink href="#" disabled>Prizes</NavLink>
+              <NavLink href="#sponsers">Sponsers</NavLink>
             </NavItem>
             <NavItem className="navlink">
               <NavLink href="#" disabled>FAQs</NavLink>
             </NavItem>
             <NavItem className="navlink">
-              <NavLink href="#" disabled>Contact Us</NavLink>
+              <NavLink href="#contact" >Contact Us</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

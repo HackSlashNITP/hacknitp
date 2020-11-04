@@ -8,7 +8,6 @@ class About extends React.Component {
         <div id="about">
           <div
             className="col-md-10 col-sm-12 d-flex align-items-end justify-content-end"
-            style={{ marginTop: `20vh` }}
           >
             <h1 className="abouttxt" data-aos="zoom-in" data-aos-duration="300">
               About Us

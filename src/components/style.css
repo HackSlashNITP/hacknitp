@@ -33,6 +33,12 @@ img {
 }
 
 /* About Section */
+#about {
+  background-color: #f9f9f9;
+  margin-top: 10vh;
+  padding-bottom: 10vh;
+  padding-top: 15vh;
+}
 
 .abouttxt {
   font-family: "Quicksand";
@@ -54,6 +60,34 @@ img {
   margin-top: 10vh;
 }
 .stackrow > h1 {
+  margin-top: 10vh;
+  color: #0e538c;
+  font-family: "Quicksand";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* SponsersRow */
+#sponsers {
+  background-color: #f9f9f9;
+  margin-top: 10vh;
+  padding-bottom: 10vh;
+  padding-top: 15vh;
+}
+.sponserrow > h1 {
+  margin-top: 10vh;
+  color: #490001;
+  font-family: "Quicksand";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Contact Us */
+label{
+  color:#700404;
+}
+
+.contactrow > h1 {
   margin-top: 10vh;
   color: #0e538c;
   font-family: "Quicksand";

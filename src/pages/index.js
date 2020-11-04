@@ -4,6 +4,8 @@ import SEO from "../components/seo"
 import Main from "../components/main"
 import About from "../components/about"
 import Stacks from "../components/stacks"
+import Sponsers from "../components/sponsers"
+import Contact from "../components/contact"
 
 const IndexPage = () => (
   <Layout>
@@ -11,6 +13,8 @@ const IndexPage = () => (
     <Main/>
     <About/>
     <Stacks/>
+    <Sponsers/>
+    <Contact/>
   </Layout>
 )
 

@@ -21,3 +21,9 @@ body {
 *{
   transition: all 0.5s;
 }
+.footer{
+  background-color: #f8f4f4;
+  font-family: 'Quicksand';
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

@@ -12,6 +12,7 @@ import "./layout.css"
 import "./style.css"
 import "aos/dist/aos.css"
 import { StaticQuery, graphql } from "gatsby"
+import Footer from "./footer"
 
 class Layout extends React.Component {
   constructor(props) {
@@ -51,6 +52,7 @@ class Layout extends React.Component {
             <div>
               <Navigation/>
               <main>{children}</main>
+              <Footer/>
             </div>
           </>
         )}
