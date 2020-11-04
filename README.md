@@ -1,2 +1,2 @@
-# Hack NITP 3.0
-Official portal for Hack NITP 3.0
+
+![logo](https://github.com/divyaprakash-Rx/hacknitp-3.0/blob/master/src/images/logo.svg)

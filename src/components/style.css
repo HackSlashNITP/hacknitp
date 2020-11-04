@@ -1,0 +1,33 @@
+.nav-link{
+    font-family: 'Quicksand';
+    font-weight: 600;
+    color:#9C0001;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+.nav-link:hover{
+    color: #700404;
+}
+img{
+    max-height: 65vh;
+}
+.bulb{
+    position: absolute;
+    right: 0;
+    top:100px;
+    z-index: -1;
+    max-height: 20vh;
+}
+.stack{
+    position: absolute;
+    bottom: 0;
+    margin-left: -5vh;
+    z-index: -1;
+    max-height: 20vh;
+}
+.htext{
+    font-family: 'Quicksand';
+    color:#0E538c;
+    margin: auto;
+}
