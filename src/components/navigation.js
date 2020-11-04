@@ -8,11 +8,11 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
+  // UncontrolledDropdown,
+  // DropdownToggle,
+  // DropdownMenu,
+  // DropdownItem,
+  // NavbarText,
 } from "reactstrap"
 
 const Navigation = props => {
@@ -36,10 +36,10 @@ const Navigation = props => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem className="navlink">
-              <NavLink href="#" disabled>About Us</NavLink>
+              <NavLink href="#about">About Us</NavLink>
             </NavItem>
             <NavItem className="navlink">
-              <NavLink href="#" disabled>Themes</NavLink>
+              <NavLink href="#stacks">Stacks</NavLink>
             </NavItem>
             <NavItem className="navlink">
               <NavLink href="#" disabled>Prizes</NavLink>

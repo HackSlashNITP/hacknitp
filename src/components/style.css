@@ -1,33 +1,62 @@
-.nav-link{
-    font-family: 'Quicksand';
-    font-weight: 600;
-    color:#9C0001;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 1.2rem;
+.nav-link {
+  font-family: "Quicksand";
+  font-weight: 600;
+  color: #9c0001;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1.2rem;
 }
-.nav-link:hover{
-    color: #700404;
+.nav-link:hover {
+  color: #700404;
 }
-img{
-    max-height: 65vh;
+img {
+  max-height: 65vh;
 }
-.bulb{
-    position: absolute;
-    right: 0;
-    top:100px;
-    z-index: -1;
-    max-height: 20vh;
+.bulb {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  z-index: -1;
+  max-height: 20vh;
 }
-.stack{
-    position: absolute;
-    bottom: 0;
-    margin-left: -5vh;
-    z-index: -1;
-    max-height: 20vh;
+.stack {
+  position: absolute;
+  bottom: 0;
+  margin-left: -5vh;
+  z-index: -1;
+  max-height: 20vh;
 }
-.htext{
-    font-family: 'Quicksand';
-    color:#0E538c;
-    margin: auto;
+.htext {
+  font-family: "Quicksand";
+  color: #0e538c;
+  margin: auto;
+}
+
+/* About Section */
+
+.abouttxt {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: bold;
+  line-height: 130.2%;
+  /* or 33px */
+
+  letter-spacing: 0.15em;
+
+  color: #490001;
+}
+.idea {
+  max-height: 45vh;
+}
+
+/* Stack Row */
+.stackrow > div {
+  margin-top: 10vh;
+}
+.stackrow > h1 {
+  margin-top: 10vh;
+  color: #0e538c;
+  font-family: "Quicksand";
+  font-size: 2.5rem;
+  font-weight: bold;
 }
