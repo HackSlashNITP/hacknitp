@@ -1,5 +1,9 @@
 import styled from "styled-components"
 
+export const Maindiv=styled.div`
+background-color:#aa9090;
+`
+
 export const Aboutdiv = styled.div`
   background-color: #0f0000;
   margin-top: 10vh;
@@ -15,5 +19,8 @@ export const Aboutdiv = styled.div`
     letter-spacing: 0.15em;
 
     color: #aa9090;
+  }
+  h1 {
+    color: #fff8f8;
   }
 `
