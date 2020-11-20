@@ -23,15 +23,51 @@ body {
 }
 .regButton{
    margin: auto;
-   
+
 }
 
 *{
   transition: all 0.5s;
 }
 .footer{
-  background-color: #f8f4f4;
+  background-color: #260404;
   font-family: 'Quicksand';
-  padding-top: 30px;
-  padding-bottom: 30px;
+  color: #FFFFFF;
+  padding-left: 61px;
+  padding-top: 61px;
+}
+
+.first{
+    padding-right: 120px;
+}
+
+.vline{
+    border-right: 2px solid white;
+    margin-top: 50px;
+    margin-right: 0px;
+    height: 350px;
+}
+
+.second{
+    padding-left: 200px;
+}
+
+.second h5{
+    color: #2286E0;
+}
+
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.third h3{
+    color: #2286E0;
+}
+.copyright{
+    padding-bottom: 20px;
+    padding-right: 100px;
 }
