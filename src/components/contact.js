@@ -52,9 +52,10 @@ class Contact extends React.Component {
                 onSubmit={this.handleSubmit}
                 action="https://formspree.io/f/mgepozpw"
                 method="POST"
+          
               >
                 <div class="form-group">
-                  <label for="">Name</label>
+                  <label htmlFor="name">Name</label>
                   <input
                     type="text"
                     class="form-control"
@@ -66,7 +67,7 @@ class Contact extends React.Component {
                   />
                 </div>
                 <div class="form-group">
-                  <label for="">E-mail</label>
+                  <label htmlFor="email">E-mail</label>
                   <input
                     type="email"
                     class="form-control"
@@ -78,7 +79,7 @@ class Contact extends React.Component {
                   />
                 </div>
                 <div class="form-group">
-                  <label for="">Message</label>
+                  <label htmlFor="message">Message</label>
                   <textarea
                     class="form-control"
                     name="message"
