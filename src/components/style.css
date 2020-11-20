@@ -8,12 +8,12 @@
 }
 
 .wrap {
-background: url("../images/main.png") no-repeat center center;
-background-size: auto;
-background-size: cover;
-height: 100vh;
+  background: url("../images/main.png") no-repeat center center;
+  background-size: auto;
+  background-size: cover;
+  height: 100vh;
 }
-.logowrap{
+.logowrap {
   height: calc(100vh - 120px);
 }
 .wrap > img {
@@ -53,43 +53,30 @@ img {
   padding-top: 15vh;
 }
 
-.abouttxt {
-  font-family: "Quicksand";
+/* .abouttxt {
+  font-family: "NotoSans";
   font-style: normal;
   font-weight: bold;
   line-height: 130.2%;
-  /* or 33px */
 
   letter-spacing: 0.15em;
 
   color: #490001;
-}
+} */
 .idea {
   max-height: 45vh;
 }
 
 /* Stack Row */
+#stacks {
+  background-color: #0f0000;
+}
 .stackrow > div {
   margin-top: 10vh;
 }
 .stackrow > h1 {
   margin-top: 10vh;
-  color: #0e538c;
-  font-family: "Quicksand";
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
-/* SponsersRow */
-#sponsers {
-  background-color: #f9f9f9;
-  margin-top: 10vh;
-  padding-bottom: 10vh;
-  padding-top: 15vh;
-}
-.sponserrow > h1 {
-  margin-top: 10vh;
-  color: #490001;
+  color: #fff8f8;
   font-family: "Quicksand";
   font-size: 2.5rem;
   font-weight: bold;
@@ -99,11 +86,19 @@ img {
 label {
   color: #700404;
 }
-
+#contact,.footer {
+  background-color: #0f0000;
+}
+.footer{
+  color: #ffffff;
+}
 .contactrow > h1 {
   margin-top: 10vh;
-  color: #0e538c;
+  color: #fff8f8;
   font-family: "Quicksand";
   font-size: 2.5rem;
   font-weight: bold;
+}
+label{
+  color:#fff8f8;
 }

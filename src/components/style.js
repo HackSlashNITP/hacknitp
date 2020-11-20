@@ -6,21 +6,41 @@ background-color:#aa9090;
 
 export const Aboutdiv = styled.div`
   background-color: #0f0000;
-  margin-top: 10vh;
-  padding-bottom: 10vh;
+  padding-bottom: 15vh;
   padding-top: 15vh;
+  .abouthead{
+    font-family:"Poppins";
+  }
   .abouttxt {
-    font-family: "Quicksand";
+    font-family: "NotoSans";
     font-style: normal;
-    font-weight: bold;
     line-height: 130.2%;
-    /* or 33px */
-
     letter-spacing: 0.15em;
-
     color: #aa9090;
   }
   h1 {
     color: #fff8f8;
   }
+`
+export const Sponsordiv = styled.div`
+  background-color: #0f0000;
+  padding-bottom: 15vh;
+  padding-top: 15vh;
+  h1 {
+    margin-top: 10vh;
+    color: #FFF8F8;
+    font-family: "Poppins";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .container{
+    max-width:1500px;
+  }
+`
+export const Sponsorcarddiv = styled.div`
+  width: 200px;
+  height: 150px;
+  margin:4vh;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
 `

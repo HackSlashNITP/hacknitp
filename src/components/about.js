@@ -7,11 +7,11 @@ class About extends React.Component {
     return (
       <>
         <Aboutdiv>
-          <div className="row d-flex" style={{ minHeight: `40vh` }}>
-            <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+          <div className="row d-flex justify-content-around" style={{ minHeight: `40vh` }}>
+            <div className="col-md-5 col-sm-12 d-flex justify-content-center">
               <div className="row" style={{ marginTop: `5vh` }}>
                 <h1
-                  className="abouttxt"
+                  className="abouthead"
                   data-aos="zoom-in"
                   data-aos-duration="300"
                 >
@@ -58,10 +58,10 @@ class About extends React.Component {
                 </p>
               </div>
             </div>
-            <div className="col-md-6 col-sm-12 d-flex justify-content-center flex-column">
+            <div className="col-md-5 col-sm-12 d-flex justify-content-center flex-column">
               <div className="row" style={{ marginTop: `5vh` }}>
                 <h1
-                  className="abouttxt"
+                  className="abouthead"
                   data-aos="zoom-in"
                   data-aos-duration="300"
                 >
@@ -84,7 +84,7 @@ class About extends React.Component {
 
                 <h1
                   style={{ marginTop: `5vh`, width: `100%` }}
-                  className="abouttxt"
+                  className="abouthead"
                   data-aos="zoom-in"
                   data-aos-duration="300"
                 >
@@ -99,7 +99,7 @@ class About extends React.Component {
                 </p>
                 <h1
                   style={{ marginTop: `5vh`, width: `100%` }}
-                  className="abouttxt"
+                  className="abouthead"
                   data-aos="zoom-in"
                   data-aos-duration="300"
                 >
