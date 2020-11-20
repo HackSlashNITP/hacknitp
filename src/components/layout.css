@@ -31,8 +31,8 @@ body {
 }
 .footer{
   background-color: #260404;
-  font-family: 'Quicksand';
-  color: #FFFFFF;
+  font-family: 'Poppins';
+  /* color: #FFFFFF; */
   padding-left: 61px;
   padding-top: 61px;
 }

@@ -1,5 +1,11 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import hack from "../images/hacknitp.png"
+import insta from "../images/insta.svg"
+import linkedin from "../images/linkedin.svg"
+import twitter from "../images/twitter.svg"
+import fb from "../images/fb.svg"
+
 import {
   faCoffee,
   faAddressBook,
@@ -20,8 +26,7 @@ class Footer extends React.Component {
             <div className="d-flex justify-content-center">
                 <div className="container first">
                 <div className="mb-5 display-4">
-                    WINTER '21<br/>
-                    HACKNITP
+                    <img src={hack} className="img-fluid" alt="contact" />
                 </div>
                 <div className="mb-5">
                     <h5>
@@ -30,7 +35,10 @@ class Footer extends React.Component {
                     Bihar (800005), India </h5>
                 </div>
                 <div>
-                    logos
+                    <img src={fb} className="img-fluid" alt="insta" />
+                    <img src={twitter} className="img-fluid" alt="insta" />
+                    <img src={linkedin} className="img-fluid" alt="insta" />
+                    <img src={insta} className="img-fluid" alt="insta" />
                 </div>
                 </div>
                 <div className="vline">
@@ -39,11 +47,11 @@ class Footer extends React.Component {
                     <h1>Coordinators</h1> <br/>
                     <h3>Kumar Harsh</h3>
                     <h5>+91 6205572993</h5> <br/>
-                    <h3>Kumar Harsh</h3>
+                    <h3>Parth Sharma</h3>
                     <h5>+91 9617704017</h5> <br/>
-                    <h3>Kumar Harsh</h3>
+                    <h3>Prince Sinha</h3>
                     <h5>+91 9065967814</h5> <br/>
-                    <h3>Kumar Harsh</h3>
+                    <h3>Raj Kothari</h3>
                     <h5>+91 9179904378</h5> <br/>
                 </div>
                 <div className="container third">
@@ -53,7 +61,7 @@ class Footer extends React.Component {
                     <h3>hackslashclub@nitp.ac.in</h3>
                     </div>
                 </div>
-                <p align="right" className="copyright"> Copyright &copy; 2020 Royalking. All rights reserved.</p>
+                <p align="right" className="copyright"> Copyright &copy; 2020. All rights reserved.</p>
             </div>
       </>
     )
