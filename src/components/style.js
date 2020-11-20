@@ -1,15 +1,15 @@
 import styled from "styled-components"
 
-export const Maindiv=styled.div`
-background-color:#aa9090;
+export const Maindiv = styled.div`
+  background-color: #aa9090;
 `
 
 export const Aboutdiv = styled.div`
   background-color: #0f0000;
   padding-bottom: 15vh;
   padding-top: 15vh;
-  .abouthead{
-    font-family:"Poppins";
+  .abouthead {
+    font-family: "Poppins";
   }
   .abouttxt {
     font-family: "NotoSans";
@@ -28,19 +28,19 @@ export const Sponsordiv = styled.div`
   padding-top: 15vh;
   h1 {
     margin-top: 10vh;
-    color: #FFF8F8;
+    color: #fff8f8;
     font-family: "Poppins";
     font-size: 2.5rem;
     font-weight: bold;
   }
-  .container{
-    max-width:1500px;
+  .container {
+    max-width: 1500px;
   }
 `
 export const Sponsorcarddiv = styled.div`
   width: 200px;
   height: 150px;
-  margin:4vh;
+  margin: 4vh;
   background: rgba(255, 255, 255, 0.15);
   border-radius: 20px;
 `
@@ -58,4 +58,16 @@ export const FaqWrapper = styled.div`
 export const FaqSection = styled.section`
   background: #0f0000;
   padding: 10vh 0;
+`
+
+export const FaqHeading = styled.h1`
+  color: #fff8f8;
+  padding: 0 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 82px;
+  text-align: center;
+  margin-bottom: 10vh;
 `

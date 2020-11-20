@@ -1,8 +1,6 @@
 import React, { Component } from "react"
-import styled from "styled-components"
 import { FAQ } from "../shared/faq-data"
-import "bootstrap/dist/css/bootstrap.min.css"
-import { FaqWrapper, FaqSection } from "./style"
+import { FaqWrapper, FaqSection, FaqHeading } from "./style"
 
 function RenderFaq({ item }) {
   return <FaqWrapper key={item.id}>{item.question}</FaqWrapper>
@@ -19,18 +17,19 @@ class Faq extends Component {
   render() {
     const faq = this.state.faq.map(que => {
       return (
-        <div className="mb-2">
+        <li className="mb-2">
           <RenderFaq item={que} />
-        </div>
+        </li>
       )
     })
 
     return (
       <FaqSection>
-        <div className="col-lg-9 offset-lg-1">
-          <ul>
-            <li className="list-unstyled">{faq}</li>
-          </ul>
+        <FaqHeading className="row justify-content-center">
+          Some Question Asked by You
+        </FaqHeading>
+        <div className="row d-flex  justify-content-center">
+          <ul className="col-11 col-md-9 list-unstyled ">{faq}</ul>
         </div>
       </FaqSection>
     )
