@@ -44,3 +44,18 @@ export const Sponsorcarddiv = styled.div`
   background: rgba(255, 255, 255, 0.15);
   border-radius: 20px;
 `
+export const FaqWrapper = styled.div`
+  background: #260404;
+  border-radius: 25px;
+  color: #fff;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  padding: 15px 5px 15px 32px;
+`
+export const FaqSection = styled.section`
+  background: #0f0000;
+  padding: 10vh 0;
+`

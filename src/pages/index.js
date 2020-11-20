@@ -6,15 +6,18 @@ import About from "../components/about"
 import Stacks from "../components/stacks"
 import Sponsers from "../components/sponsers"
 import Contact from "../components/contact"
+import Faq from "../components/faq"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Main/>
-    <About/>
-    <Stacks/>
-    <Sponsers/>
-    <Contact/>
+    <Main />
+
+    <About />
+    <Stacks />
+    <Sponsers />
+    <Faq />
+    <Contact />
   </Layout>
 )
 
