@@ -1,5 +1,6 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FooterDiv } from "./style"
 import hack from "../images/hacknitp.png"
 import insta from "../images/insta.svg"
 import linkedin from "../images/linkedin.svg"
@@ -14,18 +15,18 @@ import {
 class Footer extends React.Component {
   render() {
     return (
-      <>
-        <div className="footer">
+        <>
+        <FooterDiv>
             <div className="d-flex justify-content-center row">
                 <div className="col-lg-4 col-md-6 text-sm-center text-md-left first">
                 <div className="mb-5">
                     <img src={hack} className="img-fluid" alt="contact" />
                 </div>
                 <div className="mb-5">
-                    <h5>
+                    <h6>
                     National Institute of Technology Patna, <br/>
                     Ashok Rajpath Road, Patna, <br/>
-                    Bihar (800005), India </h5>
+                    Bihar (800005), India </h6>
                 </div>
                 <div>
                     <img src={fb} className="img-fluid logo" alt="insta" />
@@ -36,15 +37,15 @@ class Footer extends React.Component {
                 </div>
 
                 <div className="col-lg-4 col-md-6 text-sm-center text-md-left second">
-                    <h1>Coordinators</h1> <br/>
-                    <h3>Kumar Harsh</h3>
-                    <h5>+91 6205572993</h5> <br/>
-                    <h3>Parth Sharma</h3>
-                    <h5>+91 9617704017</h5> <br/>
-                    <h3>Prince Sinha</h3>
-                    <h5>+91 9065967814</h5> <br/>
-                    <h3>Raj Kothari</h3>
-                    <h5>+91 9179904378</h5> <br/>
+                    <h2>Coordinators</h2> <br/>
+                    <h4>Kumar Harsh</h4>
+                    <h6>+91 6205572993</h6> <br/>
+                    <h4>Parth Sharma</h4>
+                    <h6>+91 9617704017</h6> <br/>
+                    <h4>Prince Sinha</h4>
+                    <h6>+91 9065967814</h6> <br/>
+                    <h4>Raj Kothari</h4>
+                    <h6>+91 9179904378</h6> <br/>
                 </div>
                 <div className="col-lg-4 col-md-6 text-sm-center text-lg-left third">
                     <i class="fab fa-facebook-f"></i>
@@ -54,7 +55,7 @@ class Footer extends React.Component {
                     </div>
                 </div>
                 <p align="right" className="copyright"> Copyright &copy; 2020. All rights reserved.</p>
-            </div>
+      </FooterDiv>
       </>
     )
   }

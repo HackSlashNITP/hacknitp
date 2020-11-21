@@ -91,3 +91,80 @@ export const FaqSolutionWrapper = styled.div`
 
   text-align: center;
 `
+export const FooterDiv = styled.div`
+    background-color: #260404 !important;
+    font-family: 'Poppins';
+    padding-left: 2vw;
+    padding-top: 6vh;
+    color: #FFFFFF;
+
+    .first{
+        padding-right: 120px;
+        h6{
+            font-size: 1.1rem;
+        }
+    }
+    .second{
+        padding-left: 7vw;
+        border-left: 2px solid rgba(255,255,255,0.4);
+        /* margin-: 0; */
+        height: 400px;
+        h6{
+            color: #2286E0;
+        }
+    }
+    .third{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        h3{
+            color: #2286E0;
+        }
+    }
+    .copyright{
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+    .logo{
+        padding: 10px;
+        height: 5.5rem;
+    }
+
+    @media (max-width: 850px) {
+        .second{
+            /* padding-left: 4rem; */
+        }
+        .first{
+            padding-right: 50px;
+        }
+        .copyright{
+            padding-top: 5vh;
+            text-align: center;
+        }
+    }
+    @media (max-width: 770px) {
+        align-self: center;
+        .first{
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            padding-bottom: 50px;
+            border-bottom: 2px solid white;
+            width: 75%
+        }
+        .second{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+            margin: 50px 0;
+            border-left: 0;
+            align-items: center;
+        }
+    }
+
+  /* background-color: #260404 !important; */
+  /* padding-left: 50vw; */
+`
