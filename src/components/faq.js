@@ -29,7 +29,7 @@ function RenderFaq({ item }) {
         <span style={{ marginRight: 20, paddingRight: 20 }}>
           {item.question}
         </span>
-        <ExpandTag>{toggleIcon(isOpen)}</ExpandTag>
+        <span className="expand">{toggleIcon(isOpen)}</span>
       </FaqWrapper>
       <Collapse isOpen={isOpen}>
         <FaqSolutionWrapper>{item.solution}</FaqSolutionWrapper>
@@ -56,7 +56,7 @@ class Faq extends Component {
     })
 
     return (
-      <FaqSection>
+      <FaqSection id="FAQ">
         <h1 className="heading row justify-content-center">
           Some Question Asked by You
         </h1>

@@ -45,10 +45,10 @@ const Navigation = props => {
               <NavLink href="#sponsers">Sponsers</NavLink>
             </NavItem>
             <NavItem className="navlink">
-              <NavLink href="#" disabled>FAQs</NavLink>
+              <NavLink href="#FAQ">FAQs</NavLink>
             </NavItem>
             <NavItem className="navlink">
-              <NavLink href="#contact" >Contact Us</NavLink>
+              <NavLink href="#contact">Contact Us</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

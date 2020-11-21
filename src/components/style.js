@@ -55,6 +55,10 @@ export const FaqWrapper = styled.div`
   font-size: 24px;
   line-height: 33px;
   padding: 15px 5px 15px 32px;
+  .expand {
+    position: absolute;
+    right: 25px;
+  }
 `
 export const FaqSection = styled.section`
   background: #0f0000;
@@ -71,11 +75,6 @@ export const FaqSection = styled.section`
     text-align: center;
     margin-bottom: 10vh;
   }
-`
-
-export const ExpandTag = styled.span`
-  position: absolute;
-  right: 25px;
 `
 
 export const FaqSolutionWrapper = styled.div`
