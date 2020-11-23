@@ -47,7 +47,7 @@ class Footer extends React.Component {
   render() {
     return (
       <>
-        <FooterDiv>
+        <FooterDiv id="contact">
           <div className="d-flex justify-content-center row">
             <div className="col-lg-4 col-md-6 text-sm-center text-md-left first">
               <div className="mb-5">

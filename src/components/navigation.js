@@ -45,6 +45,9 @@ const Navigation = props => {
               <NavLink href="#sponsors">Sponsers</NavLink>
             </NavItem>
             <NavItem className="navlink">
+              <NavLink href="#organizer">Organizers</NavLink>
+            </NavItem>
+            <NavItem className="navlink">
               <NavLink href="#FAQ">FAQs</NavLink>
             </NavItem>
             <NavItem className="navlink">

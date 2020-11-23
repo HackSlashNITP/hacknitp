@@ -6,7 +6,7 @@ class Organizers extends React.Component {
   render() {
     return (
       <>
-        <Organiserdiv>
+        <Organiserdiv id="organizer">
           <div className="row d-flex justify-content-center">
             <h1>Organizers</h1>
           </div>
