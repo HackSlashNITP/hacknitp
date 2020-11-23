@@ -17,7 +17,6 @@ export const Aboutdiv = styled.div`
     line-height: 130.2%;
     letter-spacing: 0.15em;
     color: #ffff90;
-
   }
   h1 {
     color: #fff8f8;
@@ -51,10 +50,10 @@ export const Organizercarddiv = styled.div`
     justify-self: center;
     align-self: center;
     border-radius: 50%;
-    min-height:80%;
-    min-width:80%;
-    width:80%;
-    height:80%;
+    min-height: 80%;
+    min-width: 80%;
+    width: 80%;
+    height: 80%;
   }
   .social {
     position: absolute;
@@ -64,14 +63,14 @@ export const Organizercarddiv = styled.div`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(15, 0,0, 0.5);
-    display:none;
+    background-color: rgba(15, 0, 0, 0.5);
+    display: none;
   }
- 
+
   :hover {
     transition: all 1s;
-    .social{
-      display:flex;
+    .social {
+      display: flex;
     }
   }
 `
@@ -106,7 +105,7 @@ export const Sponsorcarddiv = styled.div`
       display: flex;
       justify-self: center;
       align-self: center;
-      max-height:100px;
+      max-height: 100px;
     }
   }
   :hover {
@@ -135,11 +134,13 @@ export const FaqSection = styled.section`
   background: #0f0000;
   padding: 10vh 0;
   .faqrow {
-    color: #fff8f8;
-    font-family: "Quicksand";
-    font-size: 2.5rem;
-    margin-bottom:5vh;
-    font-weight: bold;
+    h1 {
+      color: #fff8f8;
+      font-family: "Quicksand";
+      font-size: 2.5rem;
+      margin-bottom: 5vh;
+      font-weight: bold;
+    }
   }
 `
 
@@ -162,7 +163,7 @@ export const FooterDiv = styled.div`
   font-family: "Poppins";
   padding-left: 2vw;
   padding-top: 6vh;
-  padding-bottom:4vh;
+  padding-bottom: 4vh;
   color: #ffffff;
 
   .first {
@@ -192,9 +193,9 @@ export const FooterDiv = styled.div`
   }
   .copyright {
     padding-right: 10px;
-    margin-top:3vh;
-    margin-bottom:-2vh;
-    }
+    margin-top: 3vh;
+    margin-bottom: -2vh;
+  }
   .logo {
     padding: 10px;
     height: 5.5rem;
