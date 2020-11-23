@@ -106,6 +106,7 @@ export const Sponsorcarddiv = styled.div`
       display: flex;
       justify-self: center;
       align-self: center;
+      max-height:100px;
     }
   }
   :hover {

@@ -9,7 +9,6 @@ const Sponsorcard = props => {
           src={props.url}
           alt=""
           className="img-fluid"
-          style={{ maxHeight: `90%` }}
           data-aos="zoom-in"
           data-aos-duration="300"
         />

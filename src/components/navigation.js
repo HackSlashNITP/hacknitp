@@ -14,7 +14,7 @@ import {
   // DropdownItem,
   // NavbarText,
 } from "reactstrap"
-
+import menu from "../images/menu.svg"
 const Navigation = props => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -32,7 +32,9 @@ const Navigation = props => {
           />
         </NavbarBrand>
         <span style={{ flex: `4 1 auto` }} />
-        <NavbarToggler color="dark" onClick={toggle} />
+        <NavbarToggler color="white" onClick={toggle} >
+          <img src={menu} width="60px" alt="toggle" />
+        </NavbarToggler>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem className="navlink">
