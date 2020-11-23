@@ -134,7 +134,7 @@ export const FaqSection = styled.section`
   background: #0f0000;
   padding: 10vh 0;
   .faqrow {
-          text-align:center;
+    text-align: center;
 
     h1 {
       color: #fff8f8;
@@ -142,7 +142,7 @@ export const FaqSection = styled.section`
       font-size: 2.5rem;
       margin-bottom: 5vh;
       font-weight: bold;
-      text-align:center;
+      text-align: center;
     }
   }
 `
