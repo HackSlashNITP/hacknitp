@@ -33,15 +33,6 @@ const Organizerlist = [
     facebook: "https://www.facebook.com/princesinha7072",
   },
   {
-    name: "Divya Prakash",
-    desg: "Lead Organizer",
-    img:
-      "https://media-exp1.licdn.com/dms/image/C4E03AQGCIhsewexWJQ/profile-displayphoto-shrink_200_200/0/1599927402689?e=1611792000&v=beta&t=Y5YkD8XOj9iuEKRg8RowyrNV5ZN_75pAnVVhp4MPaWg",
-    linkedin: "https://www.linkedin.com/in/divyaprakashrx/",
-    facebook: "https://www.facebook.com/profile.php?id=100011144353781",
-    instagram: "https://www.instagram.com/divyaprakash.1/",
-  },
-  {
     name: "Garima Singh",
     desg: "Lead Organizer",
     img:
@@ -57,6 +48,24 @@ const Organizerlist = [
     linkedin: "https://www.linkedin.com/in/rakshita-jain-425106188/",
     facebook: "https://www.facebook.com/rakshita.jain.7923",
   },
+  {
+    name: "Anushka Chandel",
+    desg: "Lead Organizer",
+    img:
+      "https://media-exp1.licdn.com/dms/image/C5103AQHxy_QeJYntQw/profile-displayphoto-shrink_200_200/0/1556600287577?e=1611792000&v=beta&t=geHWRomRAdxaXugwYL4FIr0MDjSPKmKQ10WY4vYObtg",
+    linkedin: "https://www.linkedin.com/in/chandelanushka/",
+    facebook: "https://www.facebook.com/anushka.chandel.7547",
+  },
+  {
+    name: "Divya Prakash",
+    desg: "Lead Organizer",
+    img:
+      "https://media-exp1.licdn.com/dms/image/C4E03AQGCIhsewexWJQ/profile-displayphoto-shrink_200_200/0/1599927402689?e=1611792000&v=beta&t=Y5YkD8XOj9iuEKRg8RowyrNV5ZN_75pAnVVhp4MPaWg",
+    linkedin: "https://www.linkedin.com/in/divyaprakashrx/",
+    facebook: "https://www.facebook.com/profile.php?id=100011144353781",
+    instagram: "https://www.instagram.com/divyaprakash.1/",
+  },
+
   {
     name: "Kumar Abhinandan",
     desg: "Sponsors Lead",

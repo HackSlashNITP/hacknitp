@@ -61,10 +61,14 @@ class Footer extends React.Component {
                 </h6>
               </div>
               <div>
-                <img src={fb} className="img-fluid logo" alt="insta" />
-                <img src={twitter} className="img-fluid logo" alt="insta" />
-                <img src={linkedin} className="img-fluid logo" alt="insta" />
-                <img src={insta} className="img-fluid logo" alt="insta" />
+                <a href="https://www.facebook.com/Hack-NITP-30-105821918001593/">
+                  <img src={fb} className="img-fluid logo" alt="insta" />
+                </a>
+                {/* <img src={twitter} className="img-fluid logo" alt="insta" /> */}
+                <a href="https://www.linkedin.com/company/hack-nitp-3-0/">
+                  <img src={linkedin} className="img-fluid logo" alt="insta" />
+                </a>
+                {/* <a href=""><img src={insta} className="img-fluid logo" alt="insta" /></a> */}
               </div>
             </div>
 
