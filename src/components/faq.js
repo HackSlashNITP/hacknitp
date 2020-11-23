@@ -63,9 +63,9 @@ class Faq extends Component {
 
     return (
       <FaqSection id="FAQ">
-        <h1 className="heading row justify-content-center">
-          Some Question Asked by You
-        </h1>
+        <div className="row d-flex justify-content-center faqrow">
+          <h1>Frequently Asked Questions</h1>
+        </div>
         <div className="row d-flex  justify-content-center">
           <ul className="col-11 col-md-9 col-lg-7 list-unstyled ">{faq}</ul>
         </div>

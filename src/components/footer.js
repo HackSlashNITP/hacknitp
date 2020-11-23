@@ -112,7 +112,10 @@ class Footer extends React.Component {
                       onChange={this.handleInputChange}
                     ></textarea>
                   </div>
-                  <div className="col-sm-12 d-flex justify-content-center">
+                  <div
+                    className="col-sm-12 d-flex justify-content-center"
+                    style={{ paddingBottom: `20px` }}
+                  >
                     <button type="Submit" class="btn btn-primary">
                       Submit
                     </button>
@@ -122,10 +125,12 @@ class Footer extends React.Component {
             </div>
             <div className="col-lg-4 col-md-6 text-sm-center text-lg-left third">
               <i class="fab fa-facebook-f"></i>
-              <img src={email} className="img-fluid" alt="mail" />{" "}
+              <a href="mailto:hackslashclub@nitp.ac.in">
+                <img src={email} className="img-fluid" alt="mail" />
+              </a>
               <h1>Email</h1>
               <br />
-              <h3>hackslashclub@nitp.ac.in</h3>
+              <h5>hackslashclub@nitp.ac.in</h5>
             </div>
           </div>
           <p align="right" className="copyright">

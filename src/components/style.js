@@ -16,7 +16,7 @@ export const Aboutdiv = styled.div`
     font-style: normal;
     line-height: 130.2%;
     letter-spacing: 0.15em;
-    color: #aa9090;
+    color: #ffff90;
 
   }
   h1 {
@@ -123,7 +123,7 @@ export const FaqWrapper = styled.div`
   font-family: Noto Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 33px;
   padding: 15px 5px 15px 32px;
   .expand {
@@ -134,17 +134,12 @@ export const FaqWrapper = styled.div`
 export const FaqSection = styled.section`
   background: #0f0000;
   padding: 10vh 0;
-
-  .heading {
+  .faqrow {
     color: #fff8f8;
-    padding: 0 20px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 55px;
-    line-height: 82px;
-    text-align: center;
-    margin-bottom: 10vh;
+    font-family: "Quicksand";
+    font-size: 2.5rem;
+    margin-bottom:5vh;
+    font-weight: bold;
   }
 `
 
@@ -154,7 +149,7 @@ export const FaqSolutionWrapper = styled.div`
   font-family: Poppins;
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 18px;
   border-radius: 25px;
   margin: 20px 0;
   padding: 20px 30px;
@@ -167,6 +162,7 @@ export const FooterDiv = styled.div`
   font-family: "Poppins";
   padding-left: 2vw;
   padding-top: 6vh;
+  padding-bottom:4vh;
   color: #ffffff;
 
   .first {
@@ -190,14 +186,15 @@ export const FooterDiv = styled.div`
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    h3 {
+    h5 {
       color: #2286e0;
     }
   }
   .copyright {
-    padding-bottom: 20px;
     padding-right: 10px;
-  }
+    margin-top:3vh;
+    margin-bottom:-2vh;
+    }
   .logo {
     padding: 10px;
     height: 5.5rem;
