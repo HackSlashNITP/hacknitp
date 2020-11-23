@@ -42,7 +42,7 @@ const Navigation = props => {
               <NavLink href="#stacks">Stacks</NavLink>
             </NavItem>
             <NavItem className="navlink">
-              <NavLink href="#sponsers">Sponsers</NavLink>
+              <NavLink href="#sponsors">Sponsers</NavLink>
             </NavItem>
             <NavItem className="navlink">
               <NavLink href="#FAQ">FAQs</NavLink>

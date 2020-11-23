@@ -5,7 +5,8 @@ import Main from "../components/main"
 import About from "../components/about"
 import Stacks from "../components/stacks"
 import Sponsers from "../components/sponsers"
-import Contact from "../components/contact"
+import Organizers from "../components/organisers"
+// import Contact from "../components/contact"
 import Faq from "../components/faq"
 
 const IndexPage = () => (
@@ -16,8 +17,9 @@ const IndexPage = () => (
     <About />
     <Stacks />
     <Sponsers />
+    <Organizers />
     <Faq />
-    <Contact />
+    {/* <Contact /> */}
   </Layout>
 )
 

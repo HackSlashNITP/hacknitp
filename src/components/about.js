@@ -1,12 +1,11 @@
 import React from "react"
-import idea from "../images/bulb.svg"
 import {Aboutdiv} from "./style"
 
 class About extends React.Component {
   render() {
     return (
       <>
-        <Aboutdiv>
+        <Aboutdiv id="about">
           <div className="row d-flex justify-content-around" style={{ minHeight: `40vh` }}>
             <div className="col-md-5 col-sm-12 d-flex justify-content-center">
               <div className="row" style={{ marginTop: `5vh` }}>

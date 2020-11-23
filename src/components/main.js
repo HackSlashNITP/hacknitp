@@ -1,7 +1,6 @@
 import React from "react"
 import logo from "../images/logo.svg"
 import Navigation from "./navigation"
-import { Maindiv } from "./style"
 class Main extends React.Component {
   render() {
     return (
@@ -9,7 +8,7 @@ class Main extends React.Component {
         <div className="wrap">
           <Navigation />
           <div className="logowrap d-flex justify-content-center align-items-center">
-            <img src={logo} className="img-fluid" />
+            <img src={logo} alt="HackNITP'21" className="img-fluid" />
           </div>
         </div>
       </>

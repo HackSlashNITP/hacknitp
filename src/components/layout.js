@@ -12,7 +12,6 @@ import "./style.css"
 import "aos/dist/aos.css"
 import { StaticQuery, graphql } from "gatsby"
 import Footer from "./footer"
-import {Maindiv } from "./style"
 
 class Layout extends React.Component {
   constructor(props) {

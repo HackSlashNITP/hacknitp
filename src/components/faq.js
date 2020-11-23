@@ -1,14 +1,13 @@
-import { faMinusCircle, faPlusCircle } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import React, { Component, useState } from "react"
 import { FAQ } from "../shared/faq-data"
 import {
   FaqWrapper,
   FaqSection,
-  FaqHeading,
-  ExpandTag,
+  // FaqHeading,
+  // ExpandTag,
   FaqSolutionWrapper,
 } from "./style"
+import faq from "../images/faq.svg"
 import { Collapse } from "reactstrap"
 
 function RenderFaq({ item }) {
@@ -18,9 +17,16 @@ function RenderFaq({ item }) {
 
   const toggleIcon = isOpen => {
     if (isOpen) {
-      return <FontAwesomeIcon icon={faMinusCircle} />
+      return (
+        <img
+          src={faq}
+          className="img-fluid"
+          alt="faq"
+          style={{ transform: `rotate(180deg)` }}
+        />
+      )
     } else {
-      return <FontAwesomeIcon icon={faPlusCircle} />
+      return <img src={faq} alt="faq" className="img-fluid" />
     }
   }
   return (
