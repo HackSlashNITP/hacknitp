@@ -1,5 +1,9 @@
 const Sponsorlist = [
   {
+    img:"https://image.flaticon.com/icons/png/512/25/25231.png",
+    link:"https://github.com/"
+  },
+  {
     img: "/images/sponsors/phoenix.jpg",
     link: "https://phnxglobal.com/",
   },
