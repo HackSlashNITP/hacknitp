@@ -119,7 +119,7 @@ export const FaqWrapper = styled.div`
   border-radius: 25px;
   position: relative;
   color: #fff;
-  font-family: Noto Sans;
+  font-family: "NotoSans";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -150,7 +150,7 @@ export const FaqSection = styled.section`
 export const FaqSolutionWrapper = styled.div`
   color: floralwhite;
   background-color: #941010;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
