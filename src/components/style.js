@@ -97,6 +97,7 @@ export const Sponsorcarddiv = styled.div`
   background: rgba(255, 255, 255, 0.15);
   border-radius: 20px;
   padding: 20px;
+  transition: background-color 0.5s ease;
   a {
     width: 200px;
     height: 150px;
@@ -109,9 +110,8 @@ export const Sponsorcarddiv = styled.div`
     }
   }
   :hover {
-    width: 220px;
-    height: 165px;
-    transition: all 0.2s;
+    /* transition: all 0.5s ease; */
+    background-color: #581c0c;
   }
 `
 export const FaqWrapper = styled.div`

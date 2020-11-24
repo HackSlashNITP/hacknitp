@@ -112,7 +112,7 @@ class About extends React.Component {
                   data-aos="zoom-in"
                   data-aos-duration="300"
                 >
-                  Saturday to Sunday 16-17 January 2021
+                  Friday to Sunday 15-17 January 2021
                 </p>
               </div>
             </div>
