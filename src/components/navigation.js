@@ -22,17 +22,17 @@ const Navigation = props => {
 
   return (
     <div>
-      <Navbar expand="md">
-        <NavbarBrand href="/" disabled>
+      <Navbar expand="md" className="container-fluid">
+        <NavbarBrand href="/" disabled className="ml-lg-5 ">
           <img
             src={logo}
-            style={{ maxHeight: `50px`, marginLeft: `50px` }}
-            className="img-fluid"
+            style={{ maxHeight: `50px` }}
+            className="img-fluid "
             alt=" "
           />
         </NavbarBrand>
         <span style={{ flex: `4 1 auto` }} />
-        <NavbarToggler color="white" onClick={toggle} >
+        <NavbarToggler color="white" onClick={toggle}>
           <img src={menu} width="60px" alt="toggle" />
         </NavbarToggler>
         <Collapse isOpen={isOpen} navbar>

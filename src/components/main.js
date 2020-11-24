@@ -8,7 +8,12 @@ class Main extends React.Component {
         <div className="wrap">
           <Navigation />
           <div className="logowrap d-flex justify-content-center align-items-center">
-            <img src={logo} alt="HackNITP'21" className="img-fluid" />
+            <img
+              src={logo}
+              alt="HackNITP'21"
+              className="img-fluid"
+              style={{ maxWidth: "85%" }}
+            />
           </div>
         </div>
       </>
