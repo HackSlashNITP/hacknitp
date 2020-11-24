@@ -77,7 +77,7 @@ class Footer extends React.Component {
               <div>
                 <form
                   onSubmit={this.handleSubmit}
-                  action="https://formspree.io/f/mgepozpw"
+                  action="https://formspree.io/f/mleowdnp"
                   method="POST"
                 >
                   <div class="form-group">
