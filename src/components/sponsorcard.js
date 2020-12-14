@@ -4,7 +4,7 @@ import { Sponsorcarddiv } from "./style"
 const Sponsorcard = props => {
   return (
     <Sponsorcarddiv className="d-flex justify-content-center align-items-center">
-      <a style={{ maxHeight: `90%` }} href={props.link}>
+      <a target="_blank" style={{ maxHeight: `90%` }} href={props.link}>
         <img
           src={props.url}
           alt=""
