@@ -20,7 +20,7 @@ const Organizerlist = [
     name: "Parth Sharma",
     desg: "Lead Organizer",
     img:
-      "https://media-exp1.licdn.com/dms/image/C5603AQF_m5xldNAIiA/profile-displayphoto-shrink_200_200/0/1568098561123?e=1611792000&v=beta&t=wftegiU66rUOqwm301PLMmr9viGTpKYba9EZGlQ3tmU",
+      "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/parth_sharma_tixY53D.jpg",
     linkedin: "https://www.linkedin.com/in/parth-sharma-265403193/",
     facebook: "https://www.facebook.com/parthsharma0707",
   },
