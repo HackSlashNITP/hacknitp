@@ -70,7 +70,7 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
-      <script src={withPrefix('devfolio.js')} type="text/javascript" />
+      <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
     </Helmet>
   )
 }
