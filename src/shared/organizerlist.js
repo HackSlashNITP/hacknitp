@@ -15,6 +15,7 @@ const Organizerlist = [
       "https://media-exp1.licdn.com/dms/image/C5103AQH0Az0gY5rw8g/profile-displayphoto-shrink_200_200/0?e=1611792000&v=beta&t=51xv-PCKLK2amZE11yVNyPdBp_ArUBOhAOxXL79Nc8k",
     linkedin: "https://www.linkedin.com/in/rajkothari634/",
     facebook: "https://www.facebook.com/raj.kothari.9400",
+    instagram: "https://www.instagram.com/_raj.kothari_6_3_4_/",
   },
   {
     name: "Parth Sharma",
