@@ -1,8 +1,20 @@
+import React from "react"
+const themes = [
+  "Open innovation",
+  "Employability",
+  "Sustainable development",
+  "Education",
+  "Social security and awareness",
+  "Food",
+]
+
 export const FAQ = [
   {
     id: 1,
     question: "Do you have a particular theme for the Hackathon?",
-    solution: "Yes, they will be disclosed shortly!",
+    solution: themes.map(theme => {
+      return <tr>{theme}</tr>
+    }),
   },
   {
     id: 2,

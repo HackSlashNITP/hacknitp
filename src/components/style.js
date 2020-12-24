@@ -158,8 +158,7 @@ export const FaqSolutionWrapper = styled.div`
   margin: 20px 0;
   padding: 20px 30px;
   line-height: 40px;
-
-  text-align: center;
+  text-align: left;
 `
 export const FooterDiv = styled.div`
   background-color: #260404 !important;
