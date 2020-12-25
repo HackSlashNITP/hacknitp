@@ -54,11 +54,11 @@ class Footer extends React.Component {
                 <img src={hack} className="img-fluid" alt="contact" />
               </div>
               <div className="mb-5">
-                <h6>
+                <p>
                   National Institute of Technology Patna, <br />
                   Ashok Rajpath Road, Patna, <br />
                   Bihar (800005), India
-                </h6>
+                </p>
               </div>
               <div>
                 <a href="https://www.facebook.com/Hack-NITP-30-105821918001593/">

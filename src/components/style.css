@@ -1,5 +1,5 @@
 .nav-link {
-  font-family: "Quicksand";
+  font-family: "NotoSans";
   font-weight: 600;
   color: #ffffff;
   margin-left: 20px;
@@ -128,3 +128,8 @@ label {
 label {
   color: #fff8f8;
 }
+
+.mobile navlink{
+  text-decoration: underline;
+}
+

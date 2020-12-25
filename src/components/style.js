@@ -16,12 +16,13 @@ export const Aboutdiv = styled.div`
     font-style: normal;
     line-height: 1.4rem;
     letter-spacing: 0.02rem;
-    color: #ffff90;
+    color: #e9c1c1;
   }
   h1 {
     color: #fff8f8;
   }
 `
+
 export const Organiserdiv = styled.div`
   background-color: #0f0000;
   padding-bottom: 15vh;
@@ -94,7 +95,7 @@ export const Sponsorcarddiv = styled.div`
   width: 200px;
   height: 150px;
   margin: 4vh;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.25);
   border-radius: 20px;
   padding: 20px;
   transition: background-color 0.5s ease;
@@ -113,6 +114,11 @@ export const Sponsorcarddiv = styled.div`
     /* transition: all 0.5s ease; */
     background-color: #581c0c;
   }
+
+  @media (max-width: 600px){
+    height: 100px;
+    width: 100px;
+  }
 `
 export const FaqWrapper = styled.div`
   background: #260404;
@@ -122,12 +128,28 @@ export const FaqWrapper = styled.div`
   font-family: "NotoSans";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.0rem;
   line-height: 33px;
   padding: 15px 5px 15px 32px;
   .expand {
     position: absolute;
-    right: 25px;
+    right: 15px;
+  }
+
+  @media (max-width: 550px){
+    font-size: 0.7rem;
+    .expand img{
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  @media (max-width: 375px){
+    font-size: 0.58rem;
+    .expand img{
+      height: 20px;
+      width: 20px;
+    }
   }
 `
 export const FaqSection = styled.section`
@@ -138,18 +160,18 @@ export const FaqSection = styled.section`
 
     h1 {
       color: #fff8f8;
-      font-family: "Quicksand";
+      font-family: "Poppins";
       font-size: 2.5rem;
       margin-bottom: 5vh;
       font-weight: bold;
       text-align: center;
-    }
+    }    margin-left: 5vw;
   }
 `
 
 export const FaqSolutionWrapper = styled.div`
   color: floralwhite;
-  background-color: #941010;
+  background-color: rgba(255, 16, 16, 0.4);
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
@@ -169,13 +191,13 @@ export const FooterDiv = styled.div`
   color: #ffffff;
 
   .first {
-    padding-right: 120px;
-    h6 {
-      font-size: 1.1rem;
+    padding-right: 3vw;
+    p {
+      font-size: 0.9rem;
     }
   }
   .second {
-    padding-left: 7vw;
+    padding-left: 5vw;
     border-left: 2px solid rgba(255, 255, 255, 0.4);
     /* margin-: 0; */
     height: 400px;
@@ -203,7 +225,7 @@ export const FooterDiv = styled.div`
     height: 5.5rem;
   }
 
-  @media (max-width: 850px) {
+  @media (max-width: 990px) {
     .second {
       /* padding-left: 4rem; */
     }
@@ -214,6 +236,10 @@ export const FooterDiv = styled.div`
       padding-top: 5vh;
       text-align: center;
     }
+    .third{
+      padding-top: 8vh;
+    }
+
   }
   @media (max-width: 770px) {
     align-self: center;
