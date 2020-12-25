@@ -44,6 +44,10 @@ const Sponsorlist = [
     img: "images/sponsors/replit.png",
   },
   {
+    link: "https://dockship.io/",
+    img: "images/sponsors/dockship2.png"
+  },
+  {
     link: "https://givemycertificate.com/index.php",
     img: "images/sponsors/givemycerti.png",
   },
