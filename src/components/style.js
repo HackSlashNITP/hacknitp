@@ -91,28 +91,47 @@ export const Sponsordiv = styled.div`
 `
 
 export const Sponsorcarddiv = styled.div`
-  width: 200px;
-  height: 150px;
   margin: 4vh;
   background: rgba(255, 255, 255, 0.15);
   border-radius: 20px;
+
   padding: 20px;
   transition: background-color 0.5s ease;
+  ${props => {
+    if (props.type === "gold") {
+      return ` width:400px;height:300px; @media(max-width:425px){height:225px}`
+    } else if (props.type === "silver") {
+      return ` width:300px;height:225px`
+    } else {
+      return `width:200px;height:150px`
+    }
+  }};
+
+  max-width: 90%;
   a {
-    width: 200px;
-    height: 150px;
+    width: 100%;
+    height: 100%;
     display: grid;
     img {
       display: flex;
       justify-self: center;
       align-self: center;
-      max-height: 100px;
+      max-height: ${props =>
+        props.type === "gold" || props.type === "silver" ? `120px` : `100px`};
     }
   }
   :hover {
     /* transition: all 0.5s ease; */
     background-color: #581c0c;
   }
+`
+
+export const SponserHead = styled.p`
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: ${props => props.color};
+  margin: 25px;
 `
 export const FaqWrapper = styled.div`
   background: #260404;
