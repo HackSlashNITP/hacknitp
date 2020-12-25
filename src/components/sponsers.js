@@ -1,6 +1,6 @@
 import React from "react"
 import { Sponsordiv, SponserHead } from "./style"
-import Sponsorcard from "./sponsorcard"
+import Sponsorcard, { LeadOrganiser } from "./sponsorcard"
 import { GoldSponsors, SilverSponsers, Patrons } from "../shared/sponsorlist"
 class Sponsers extends React.Component {
   render() {
@@ -48,6 +48,17 @@ class Sponsers extends React.Component {
                   />
                 )
               })}
+            </div>
+            <div style={{ textAlign: "center" }}>
+              <div
+                className="row d-flex justify-content-center"
+                style={{ marginTop: `75px` }}
+              >
+                <SponserHead color="floralwhite">Lead Organiser</SponserHead>
+              </div>
+              <div className="row d-flex justify-content-around align-items-center">
+                <LeadOrganiser />
+              </div>
             </div>
           </div>
         </Sponsordiv>

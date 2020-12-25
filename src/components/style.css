@@ -92,6 +92,16 @@ img {
   height: 50px;
 }
 
+.social {
+  width: 40px;
+  height: 40px;
+  margin: 0 15px;
+}
+
+.social:first-child {
+  margin-left: 0px;
+}
+
 /* Stack Row */
 #stacks {
   background-color: #0f0000;

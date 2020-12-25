@@ -39,8 +39,8 @@ export const Organiserdiv = styled.div`
 `
 
 export const Organizercarddiv = styled.div`
-  width: 230px;
-  height: 230px;
+  width: 180px;
+  height: 180px;
   margin: 4vh;
   background: rgba(255, 255, 255, 0.15);
   border-radius: 50%;
@@ -133,6 +133,21 @@ export const SponserHead = styled.p`
   color: ${props => props.color};
   margin: 25px;
 `
+export const Hackslash = styled.div`
+  color: white;
+  text-align: left;
+  margin-top: 75px;
+  max-width: 750px;
+
+  div {
+    justify-content: center;
+  }
+  .main-img {
+    width: 100%;
+    height: 100%;
+  }
+`
+
 export const FaqWrapper = styled.div`
   background: #260404;
   border-radius: 25px;
