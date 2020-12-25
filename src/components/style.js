@@ -176,12 +176,20 @@ export const FaqSolutionWrapper = styled.div`
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.0rem;
   border-radius: 25px;
   margin: 20px 0;
   padding: 20px 30px;
   line-height: 40px;
   text-align: left;
+
+  @media (max-width: 550px){
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 440px){
+    font-size: 0.67rem;
+  }
 `
 export const FooterDiv = styled.div`
   background-color: #260404 !important;
