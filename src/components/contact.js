@@ -73,7 +73,7 @@ class Contact extends React.Component {
                       class="form-control"
                       name="email"
                       id="email"
-                      placeholder="Enter your E-mail"
+                      placeholder="Enter your E-mailllllllllllll"
                       value={this.state.email}
                       onChange={this.handleInputChange}
                     />
@@ -91,7 +91,7 @@ class Contact extends React.Component {
                     ></textarea>
                   </div>
                   <div className="col-sm-12 d-flex justify-content-center">
-                    <button type="Submit" class="btn btn-primary">
+                    <button type="Submit" class="btn btn-danger">
                       Submit
                     </button>
                   </div>

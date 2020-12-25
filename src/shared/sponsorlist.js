@@ -83,7 +83,7 @@ const Sponsorlist = [
   },
   {
     link: "https://www.hackathonsinternational.com/",
-    img: "images/sponsors/hackathonsint.png",
+    img: "images/sponsors/HackInt.png",
   },
   {
     link: "https://www.clerky.com/",

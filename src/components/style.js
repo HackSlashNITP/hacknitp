@@ -95,7 +95,7 @@ export const Sponsorcarddiv = styled.div`
   width: 200px;
   height: 150px;
   margin: 4vh;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.20);
   border-radius: 20px;
   padding: 20px;
   transition: background-color 0.5s ease;
@@ -116,8 +116,9 @@ export const Sponsorcarddiv = styled.div`
   }
 
   @media (max-width: 600px){
-    height: 100px;
-    width: 100px;
+    margin: 1vh;
+    height: 125px;
+    width: 125px;
   }
 `
 export const FaqWrapper = styled.div`
@@ -137,15 +138,15 @@ export const FaqWrapper = styled.div`
   }
 
   @media (max-width: 550px){
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     .expand img{
       height: 20px;
       width: 20px;
     }
   }
 
-  @media (max-width: 375px){
-    font-size: 0.58rem;
+  @media (max-width: 440px){
+    font-size: 0.67rem;
     .expand img{
       height: 20px;
       width: 20px;
@@ -208,17 +209,27 @@ export const FooterDiv = styled.div`
   .third {
     display: flex;
     align-items: center;
-    justify-content: center;
+    ${'' /* justify-content: center; */}
     flex-direction: column;
     text-align: center;
     h5 {
       color: #2286e0;
     }
   }
+
+  .before{
+    height: 9vh;
+  }
+
+  .after{
+    height: 13vh;
+  }
+
   .copyright {
-    padding-right: 10px;
-    margin-top: 3vh;
+    ${'' /* padding-right: 6.0vw; */}
+    margin-top: 2vh;
     margin-bottom: -2vh;
+    
   }
   .logo {
     padding: 10px;
@@ -241,6 +252,12 @@ export const FooterDiv = styled.div`
     }
 
   }
+
+  @media(max-width: 990px){
+    .before, .after{
+      height: 0;
+    }
+  }
   @media (max-width: 770px) {
     align-self: center;
     .first {
@@ -249,7 +266,7 @@ export const FooterDiv = styled.div`
       margin: 0;
       padding-bottom: 50px;
       border-bottom: 2px solid white;
-      width: 75%;
+      width: 85%;
     }
     .second {
       display: flex;

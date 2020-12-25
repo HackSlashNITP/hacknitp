@@ -133,3 +133,7 @@ label {
   text-decoration: underline;
 }
 
+.btn-primary{
+  background-color: #2286ff !important;
+  border-color: #2286ff !important;
+}

@@ -120,7 +120,7 @@ class Footer extends React.Component {
                     className="col-sm-12 d-flex justify-content-center"
                     style={{ paddingBottom: `20px` }}
                   >
-                    <button type="Submit" class="btn btn-primary">
+                    <button type="Submit" class="btn btn-primary mt-4">
                       Submit
                     </button>
                   </div>
@@ -128,18 +128,20 @@ class Footer extends React.Component {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 text-sm-center text-lg-left third">
+              <div className="before"></div>
               <i class="fab fa-facebook-f"></i>
               <a href="mailto:hackslashclub@nitp.ac.in">
                 <img src={email} className="img-fluid" alt="mail" />
               </a>
-              <h1>Email</h1>
-              <br />
+              <h1 className="my-3">Email</h1>
+              
               <h5>hackslashclub@nitp.ac.in</h5>
+              <div className="after"></div>
+              <p align="right"className="copyright">
+                &copy; HackNITP 2021. All rights reserved.
+              </p>
             </div>
           </div>
-          <p align="right" className="copyright">
-            &copy; HackNITP 2021. All rights reserved.
-          </p>
         </FooterDiv>
       </>
     )
