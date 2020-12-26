@@ -50,7 +50,7 @@ export const LeadOrganiser = props => {
             skills
           </p>
           <div className="card-footer">
-            <a href="https://twitter.com/hackslash_nitp">
+            <a href="https://www.linkedin.com/company/hackslash">
               <img className="social" src={ldin} alt="linkedin" />
             </a>
             <a href="https://www.facebook.com/hackSlash.nitp">
