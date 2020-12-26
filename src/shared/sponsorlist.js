@@ -110,6 +110,17 @@ export const Patrons = [
   },
 ]
 
+export const Communities = [
+  {
+    img: "images/community/dscnitp.png",
+    link: "https://dsc.community.dev/national-institute-of-technology-patna/",
+  },
+  {
+    img: "images/community/robotics.png",
+    link: "https://roboticsclubnitp.tech/",
+  },
+]
+
 const Sponsorlist = [
   {
     img: "images/sponsors/devfolio.png",

@@ -1,7 +1,12 @@
 import React from "react"
 import { Sponsordiv, SponserHead } from "./style"
 import Sponsorcard, { LeadOrganiser } from "./sponsorcard"
-import { GoldSponsors, SilverSponsers, Patrons } from "../shared/sponsorlist"
+import {
+  GoldSponsors,
+  SilverSponsers,
+  Patrons,
+  Communities,
+} from "../shared/sponsorlist"
 class Sponsers extends React.Component {
   render() {
     return (
@@ -59,6 +64,20 @@ class Sponsers extends React.Component {
               <div className="row d-flex justify-content-around align-items-center">
                 <LeadOrganiser />
               </div>
+              <SponserHead color="floralwhite" style={{ marginTop: `75px` }}>
+                Community Partner
+              </SponserHead>
+            </div>
+            <div className="row d-flex justify-content-around align-items-center stackrow">
+              {Communities.map(elem => {
+                return (
+                  <Sponsorcard
+                    url={elem.img}
+                    link={elem.link}
+                    type={`community`}
+                  />
+                )
+              })}
             </div>
           </div>
         </Sponsordiv>

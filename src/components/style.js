@@ -25,7 +25,7 @@ export const Aboutdiv = styled.div`
 export const Organiserdiv = styled.div`
   background-color: #0f0000;
   padding-bottom: 15vh;
-  padding-top: 15vh;
+
   h1 {
     margin-top: 10vh;
     color: #fff8f8;
@@ -102,6 +102,8 @@ export const Sponsorcarddiv = styled.div`
       return ` width:400px;height:300px; @media(max-width:425px){height:225px}`
     } else if (props.type === "silver") {
       return ` width:300px;height:225px`
+    } else if (props.type === "community") {
+      return ` width:250px;height:188px`
     } else {
       return `width:200px;height:150px`
     }
