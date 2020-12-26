@@ -138,3 +138,22 @@ label {
 label {
   color: #fff8f8;
 }
+
+.timer-bar {
+  width: 100%;
+  display: flex;
+  color: white;
+  justify-content: center;
+  flex-direction: row;
+}
+.timer-box {
+  width: 70px;
+  height: 80px;
+  display: flex;
+  background: red;
+  border-radius: 5px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
