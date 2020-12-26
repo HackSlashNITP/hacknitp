@@ -22,6 +22,22 @@ export const FAQ = [
     solution: "A team can consist of 1-4 members.",
   },
   {
+    id: 4,
+    question: "What do I need to do to participate?",
+    solution: "Apply using devfolio and join Discord server.",
+  },
+  {
+    id: 5,
+    question: "Where I will get all my announcements?",
+    solution: "On the Discord",
+  },
+  {
+    id: 6,
+    question: "What are the themes?",
+    solution:
+      "The themes are Open innovation,Employability,Sustainable development,Education,Social security and awareness,Food",
+  },
+  {
     id: 3,
     question: "Are there any registration charges?",
     solution: "Nope. None at all!",
