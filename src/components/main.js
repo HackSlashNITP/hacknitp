@@ -41,8 +41,7 @@ class Main extends React.Component {
     this.setState(
       {
         duration: duration,
-      },
-      () => console.log(this.state.duration)
+      }
     )
     this.startTimer()
   }
@@ -61,8 +60,7 @@ class Main extends React.Component {
       {
         duration: duration,
         time: this.msToTime(this.state.duration),
-      },
-      () => console.log(this.state)
+      }
     )
     if (this.state.duration === 0) {
       window.clearInterval(this.timer)
