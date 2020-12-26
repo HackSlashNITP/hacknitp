@@ -17,7 +17,7 @@ class Sponsers extends React.Component {
           </div>
           <div className="container">
             <div className="row d-flex justify-content-center">
-              <SponserHead color="gold">Gold Sponsers</SponserHead>
+              <SponserHead color="gold">Gold Sponsors</SponserHead>
             </div>
             <div className="row d-flex justify-content-around align-items-center stackrow">
               {GoldSponsors.map(elem => {
@@ -27,7 +27,7 @@ class Sponsers extends React.Component {
               })}
             </div>
             <div className="row d-flex justify-content-center">
-              <SponserHead color="silver">Silver Sponsers</SponserHead>
+              <SponserHead color="silver">Silver Sponsors</SponserHead>
             </div>
             <div className="row d-flex justify-content-around align-items-center stackrow">
               {SilverSponsers.map(elem => {
