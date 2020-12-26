@@ -26,7 +26,7 @@ export const Aboutdiv = styled.div`
 export const Organiserdiv = styled.div`
   background-color: #0f0000;
   padding-bottom: 15vh;
-  padding-top: 15vh;
+
   h1 {
     margin-top: 10vh;
     color: #fff8f8;
@@ -40,8 +40,8 @@ export const Organiserdiv = styled.div`
 `
 
 export const Organizercarddiv = styled.div`
-  width: 230px;
-  height: 230px;
+  width: 180px;
+  height: 180px;
   margin: 4vh;
   background: rgba(255, 255, 255, 0.15);
   border-radius: 50%;
@@ -92,22 +92,35 @@ export const Sponsordiv = styled.div`
 `
 
 export const Sponsorcarddiv = styled.div`
-  width: 200px;
-  height: 150px;
   margin: 4vh;
   background: rgba(255, 255, 255, 0.20);
   border-radius: 20px;
+
   padding: 20px;
   transition: background-color 0.5s ease;
+  ${props => {
+    if (props.type === "gold") {
+      return ` width:400px;height:300px; @media(max-width:425px){height:225px}`
+    } else if (props.type === "silver") {
+      return ` width:300px;height:225px`
+    } else if (props.type === "community") {
+      return ` width:250px;height:188px`
+    } else {
+      return `width:200px;height:150px`
+    }
+  }};
+
+  max-width: 90%;
   a {
-    width: 200px;
-    height: 150px;
+    width: 100%;
+    height: 100%;
     display: grid;
     img {
       display: flex;
       justify-self: center;
       align-self: center;
-      max-height: 100px;
+      max-height: ${props =>
+        props.type === "gold" || props.type === "silver" ? `120px` : `100px`};
     }
   }
   :hover {
@@ -121,6 +134,29 @@ export const Sponsorcarddiv = styled.div`
     width: 125px;
   }
 `
+
+export const SponserHead = styled.p`
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: ${props => props.color};
+  margin: 25px;
+`
+export const Hackslash = styled.div`
+  color: white;
+  text-align: left;
+  margin-top: 75px;
+  max-width: 750px;
+
+  div {
+    justify-content: center;
+  }
+  .main-img {
+    width: 100%;
+    height: 100%;
+  }
+`
+
 export const FaqWrapper = styled.div`
   background: #260404;
   border-radius: 25px;
