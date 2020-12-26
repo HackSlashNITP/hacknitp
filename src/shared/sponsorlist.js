@@ -37,6 +37,7 @@ export const SilverSponsers = [
 ]
 
 export const Patrons = [
+  { img: "images/sponsors/dockship.png", link: "https://dockship.io/" },
   {
     img: "images/sponsors/axure.png",
     link: "https://www.axure.com/",
@@ -168,7 +169,7 @@ const Sponsorlist = [
   },
   {
     link: "https://dockship.io/",
-    img: "images/sponsors/dockship2.png"
+    img: "images/sponsors/dockship2.png",
   },
   {
     link: "https://givemycertificate.com/index.php",

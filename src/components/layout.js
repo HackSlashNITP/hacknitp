@@ -49,6 +49,9 @@ class Layout extends React.Component {
           <>
             <div>
               <main>{children}</main>
+              <a href="https://discord.gg/at7c7rx5Cv" rel="noreferrer" style={{position:`fixed`,bottom:0,right:0,zIndex:3}}>
+                <img src="images/discord.svg" alt="join discord" />
+              </a>
             </div>
           </>
         )}

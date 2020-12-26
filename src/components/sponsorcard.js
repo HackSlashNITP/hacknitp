@@ -10,7 +10,12 @@ const Sponsorcard = props => {
       className="d-flex justify-content-center align-items-center"
       type={props.type}
     >
-      <a target="_blank" style={{ maxHeight: `90%` }} href={props.link}>
+      <a
+        target="_blank"
+        rel="noreferrer"
+        style={{ maxHeight: `90%` }}
+        href={props.link}
+      >
         <img
           src={props.url}
           alt=""

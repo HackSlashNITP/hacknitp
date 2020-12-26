@@ -23,7 +23,7 @@ const Navigation = props => {
 
   return (
     <div>
-      <Navbar expand="md" className="container-fluid fix-nav" >
+      <Navbar expand="md" className="container-fluid fix-nav">
         <NavbarBrand href="/" disabled className="ml-lg-5 ">
           <img
             src={logo}
@@ -36,25 +36,35 @@ const Navigation = props => {
         <NavbarToggler color="white" onClick={toggle}>
           <img src={menu} width="60px" alt="toggle" />
         </NavbarToggler>
-        <Collapse isOpen={isOpen} navbar >
+        <Collapse isOpen={isOpen} navbar>
           <Nav className=" navvvy pt-4" navbar>
             <NavItem className="navlink">
-              <NavLink href="#about" className="text-right">About Us</NavLink>
+              <NavLink href="#about" className="text-right">
+                About Us
+              </NavLink>
             </NavItem>
             {/* <NavItem className="navlink">
               <NavLink href="#stacks">Stacks</NavLink>
             </NavItem> */}
             <NavItem className="navlink">
-              <NavLink href="#sponsors" className="text-right">Sponsors</NavLink>
+              <NavLink href="#sponsors" className="text-right">
+                Sponsors
+              </NavLink>
             </NavItem>
             <NavItem className="navlink">
-              <NavLink href="#organizer" className="text-right">Organizers</NavLink>
+              <NavLink href="#organizer" className="text-right">
+                Organizers
+              </NavLink>
             </NavItem>
             <NavItem className="navlink">
-              <NavLink href="#FAQ" className="text-right">FAQs</NavLink>
+              <NavLink href="#FAQ" className="text-right">
+                FAQs
+              </NavLink>
             </NavItem>
             <NavItem className="navlink">
-              <NavLink href="#contact" className="text-right">Contact Us</NavLink>
+              <NavLink href="#contact" className="text-right">
+                Contact Us
+              </NavLink>
             </NavItem>
           </Nav>
         </Collapse>

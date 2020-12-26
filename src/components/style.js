@@ -100,11 +100,11 @@ export const Sponsorcarddiv = styled.div`
   transition: background-color 0.5s ease;
   ${props => {
     if (props.type === "gold") {
-      return ` width:400px;height:300px; @media(max-width:425px){height:225px}`
+      return ` width:300px;height:225px; @media(max-width:425px){height:225px}`
     } else if (props.type === "silver") {
-      return ` width:300px;height:225px`
-    } else if (props.type === "community") {
       return ` width:250px;height:188px`
+    } else if (props.type === "community") {
+      return ` width:300px;height:225px`
     } else {
       return `width:200px;height:150px`
     }
@@ -120,7 +120,7 @@ export const Sponsorcarddiv = styled.div`
       justify-self: center;
       align-self: center;
       max-height: ${props =>
-        props.type === "gold" || props.type === "silver" ? `120px` : `100px`};
+        props.type === "gold" || props.type === "silver" ? `100px` : `80px`};
     }
   }
   :hover {
