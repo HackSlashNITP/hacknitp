@@ -16,12 +16,13 @@ export const Aboutdiv = styled.div`
     font-style: normal;
     line-height: 1.4rem;
     letter-spacing: 0.02rem;
-    color: #ffff90;
+    color: #e9c1c1;
   }
   h1 {
     color: #fff8f8;
   }
 `
+
 export const Organiserdiv = styled.div`
   background-color: #0f0000;
   padding-bottom: 15vh;
@@ -92,7 +93,7 @@ export const Sponsordiv = styled.div`
 
 export const Sponsorcarddiv = styled.div`
   margin: 4vh;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.20);
   border-radius: 20px;
 
   padding: 20px;
@@ -126,6 +127,12 @@ export const Sponsorcarddiv = styled.div`
     /* transition: all 0.5s ease; */
     background-color: #581c0c;
   }
+
+  @media (max-width: 600px){
+    margin: 1vh;
+    height: 125px;
+    width: 125px;
+  }
 `
 
 export const SponserHead = styled.p`
@@ -158,12 +165,28 @@ export const FaqWrapper = styled.div`
   font-family: "NotoSans";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.0rem;
   line-height: 33px;
   padding: 15px 5px 15px 32px;
   .expand {
     position: absolute;
-    right: 25px;
+    right: 15px;
+  }
+
+  @media (max-width: 550px){
+    font-size: 0.8rem;
+    .expand img{
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  @media (max-width: 440px){
+    font-size: 0.67rem;
+    .expand img{
+      height: 20px;
+      width: 20px;
+    }
   }
 `
 export const FaqSection = styled.section`
@@ -174,27 +197,35 @@ export const FaqSection = styled.section`
 
     h1 {
       color: #fff8f8;
-      font-family: "Quicksand";
+      font-family: "Poppins";
       font-size: 2.5rem;
       margin-bottom: 5vh;
       font-weight: bold;
       text-align: center;
-    }
+    }    margin-left: 5vw;
   }
 `
 
 export const FaqSolutionWrapper = styled.div`
   color: floralwhite;
-  background-color: #941010;
+  background-color: rgba(255, 16, 16, 0.4);
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.0rem;
   border-radius: 25px;
   margin: 20px 0;
   padding: 20px 30px;
   line-height: 40px;
   text-align: left;
+
+  @media (max-width: 550px){
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 440px){
+    font-size: 0.67rem;
+  }
 `
 export const FooterDiv = styled.div`
   background-color: #260404 !important;
@@ -205,13 +236,13 @@ export const FooterDiv = styled.div`
   color: #ffffff;
 
   .first {
-    padding-right: 120px;
-    h6 {
-      font-size: 1.1rem;
+    padding-right: 3vw;
+    p {
+      font-size: 0.9rem;
     }
   }
   .second {
-    padding-left: 7vw;
+    padding-left: 5vw;
     border-left: 2px solid rgba(255, 255, 255, 0.4);
     /* margin-: 0; */
     height: 400px;
@@ -222,24 +253,34 @@ export const FooterDiv = styled.div`
   .third {
     display: flex;
     align-items: center;
-    justify-content: center;
+    ${'' /* justify-content: center; */}
     flex-direction: column;
     text-align: center;
     h5 {
       color: #2286e0;
     }
   }
+
+  .before{
+    height: 9vh;
+  }
+
+  .after{
+    height: 13vh;
+  }
+
   .copyright {
-    padding-right: 10px;
-    margin-top: 3vh;
+    ${'' /* padding-right: 6.0vw; */}
+    margin-top: 2vh;
     margin-bottom: -2vh;
+    
   }
   .logo {
     padding: 10px;
     height: 5.5rem;
   }
 
-  @media (max-width: 850px) {
+  @media (max-width: 990px) {
     .second {
       /* padding-left: 4rem; */
     }
@@ -250,6 +291,16 @@ export const FooterDiv = styled.div`
       padding-top: 5vh;
       text-align: center;
     }
+    .third{
+      padding-top: 8vh;
+    }
+
+  }
+
+  @media(max-width: 990px){
+    .before, .after{
+      height: 0;
+    }
   }
   @media (max-width: 770px) {
     align-self: center;
@@ -259,7 +310,7 @@ export const FooterDiv = styled.div`
       margin: 0;
       padding-bottom: 50px;
       border-bottom: 2px solid white;
-      width: 75%;
+      width: 85%;
     }
     .second {
       display: flex;

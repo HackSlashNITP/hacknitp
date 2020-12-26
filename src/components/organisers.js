@@ -31,7 +31,7 @@ class Organizers extends React.Component {
                     <h4 style={{ color: `#ffffff`, fontFamily: `Poppins` }}>
                       {elem.name}
                     </h4>
-                    <h5 style={{ color: `#ffffff`, fontFamily: `Poppins` }}>
+                    <h5 style={{ color: `#2286e0`, fontFamily: `Poppins` }}>
                       {elem.desg}
                     </h5>
                   </div>

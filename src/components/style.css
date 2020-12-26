@@ -1,5 +1,5 @@
 .nav-link {
-  font-family: "Quicksand";
+  font-family: "NotoSans";
   font-weight: 600;
   color: #ffffff;
   margin-left: 20px;
@@ -139,6 +139,15 @@ label {
   color: #fff8f8;
 }
 
+
+.mobile navlink{
+  text-decoration: underline;
+}
+
+.btn-primary{
+  background-color: #2286ff !important;
+  border-color: #2286ff !important;
+}
 .timer-bar {
   width: 100%;
   display: flex;

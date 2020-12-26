@@ -20,7 +20,7 @@ function RenderFaq({ item }) {
       return (
         <img
           src={faq}
-          className="img-fluid"
+          className="img-fluid size"
           alt="faq"
           style={{ transform: `rotate(180deg)` }}
         />
@@ -32,7 +32,7 @@ function RenderFaq({ item }) {
   return (
     <div>
       <FaqWrapper key={item.id} role="button" onClick={toggle}>
-        <span style={{ marginRight: 20, paddingRight: 20 }}>
+        <span style={{ margin: 0, padding: 0 }}>
           {item.question}
         </span>
         <span className="expand">{toggleIcon(isOpen)}</span>
@@ -67,7 +67,7 @@ class Faq extends Component {
           <h1>Frequently Asked Questions</h1>
         </div>
         <div className="row d-flex  justify-content-center">
-          <ul className="col-11 col-md-9 col-lg-7 list-unstyled ">{faq}</ul>
+          <ul className="col-11 col-md-9 col-lg-7 list-unstyled px-0 mx-0">{faq}</ul>
         </div>
       </FaqSection>
     )
