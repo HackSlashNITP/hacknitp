@@ -34,10 +34,11 @@ export const SilverSponsers = [
     link: "https://www.echoar.xyz/",
     img: "images/sponsors/echoAR.png",
   },
+  { img: "images/sponsors/dockship.png", link: "https://dockship.io/" }
 ]
 
 export const Patrons = [
-  { img: "images/sponsors/dockship.png", link: "https://dockship.io/" },
+  
   {
     img: "images/sponsors/axure.png",
     link: "https://www.axure.com/",
