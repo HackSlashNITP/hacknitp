@@ -100,6 +100,13 @@ const Organizerlist = [
     facebook: "https://www.facebook.com/profile.php?id=100009281599648",
   },
   {
+    name: "Asmit Vimal",
+    desg: "Web Developer",
+    img: "images/asmit.jpg",
+    linkedin: "https://www.linkedin.com/in/asmit-vimal-415719199/",
+    facebook: "https://www.facebook.com/Vi.Asmit.001",
+  },
+  {
     name: "Neha Kumari",
     desg: "Outreach Lead",
     img:
