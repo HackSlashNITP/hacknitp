@@ -87,7 +87,7 @@ const Organizerlist = [
     name: "Shagufta Iqbal",
     desg: "PR Lead",
     img:
-      "https://media-exp1.licdn.com/dms/image/C4E03AQE30tuO40Y37w/profile-displayphoto-shrink_200_200/0?e=1611792000&v=beta&t=M7lcGOQZebjoBbzhGzFalLIfv2hOSGAX4xqUFxUzLrQ",
+      "https://media-exp1.licdn.com/dms/image/C4E03AQEa9x2PMj9vPA/profile-displayphoto-shrink_200_200/0/1608880928874?e=1614816000&v=beta&t=qtsi04XgO8F2yfkhUGL39GULIIHGxJ9-ffo2XeQiPNE",
     linkedin: "https://www.linkedin.com/in/shagufta-iqbal-6196451a6/",
     facebook: "https://www.facebook.com/shagufta.iqbal.50999",
   },
@@ -98,6 +98,13 @@ const Organizerlist = [
       "https://media-exp1.licdn.com/dms/image/C5603AQHWTDxJ-pfsnQ/profile-displayphoto-shrink_200_200/0?e=1611792000&v=beta&t=RwU-46aZjNHmkigzMyMj4a59hhCLG6We1Ob69KTUhmY",
     linkedin: "https://www.linkedin.com/in/neeraj-2212/",
     facebook: "https://www.facebook.com/profile.php?id=100009281599648",
+  },
+  {
+    name: "Neha Kumari",
+    desg: "Outreach Lead",
+    img:
+      "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/neha_kumari_hh061DE.jpeg",
+    linkedin: "https://www.linkedin.com/in/neha-nk-1709/",
   },
 ]
 

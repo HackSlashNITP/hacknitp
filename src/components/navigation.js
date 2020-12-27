@@ -66,6 +66,16 @@ const Navigation = props => {
                 Contact Us
               </NavLink>
             </NavItem>
+            <NavItem className="navlink">
+              <NavLink
+                href="https://bit.ly/hacknitp-mentorJudge"
+                className="text-right"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Apply Mentor/Judge
+              </NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>

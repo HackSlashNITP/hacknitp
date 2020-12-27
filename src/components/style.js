@@ -40,27 +40,27 @@ export const Organiserdiv = styled.div`
 `
 
 export const Organizercarddiv = styled.div`
-  width: 180px;
-  height: 180px;
+  width: 120px;
+  height: 120px;
   margin: 4vh;
   background: rgba(255, 255, 255, 0.15);
-  border-radius: 50%;
-  padding: 5px;
+  border-radius: 5px;
+  padding: 2px;
   img {
     display: flex;
     justify-self: center;
     align-self: center;
-    border-radius: 50%;
-    min-height: 80%;
-    min-width: 80%;
-    width: 80%;
-    height: 80%;
+    border-radius: 5px;
+    min-height: 90%;
+    min-width: 90%;
+    width: 90%;
+    height: 90%;
   }
   .social {
     position: absolute;
-    width: 230px;
-    height: 230px;
-    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -73,6 +73,10 @@ export const Organizercarddiv = styled.div`
     .social {
       display: flex;
     }
+  }
+  @media(max-width:768px){
+    width:80px;
+    height:80px;
   }
 `
 export const Sponsordiv = styled.div`
@@ -100,7 +104,7 @@ export const Sponsorcarddiv = styled.div`
   transition: background-color 0.5s ease;
   ${props => {
     if (props.type === "gold") {
-      return ` width:300px;height:225px; @media(max-width:425px){height:225px}`
+      return ` width:300px;height:225px; @media(max-width:425px){height:225px;}`
     } else if (props.type === "silver") {
       return ` width:250px;height:188px`
     } else if (props.type === "community") {

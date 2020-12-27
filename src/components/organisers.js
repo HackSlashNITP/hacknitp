@@ -25,15 +25,15 @@ class Organizers extends React.Component {
                     <Organizercard
                       url={elem.img}
                       linkedin={elem.linkedin}
-                      facebook={elem.facebook}
-                      instagram={elem.instagram}
+                      // facebook={elem.facebook}
+                      // instagram={elem.instagram}
                     />
-                    <h4 style={{ color: `#ffffff`, fontFamily: `Poppins` }}>
+                    <h6 style={{ color: `#ffffff`, fontFamily: `Poppins` }}>
                       {elem.name}
-                    </h4>
-                    <h5 style={{ color: `#2286e0`, fontFamily: `Poppins` }}>
+                    </h6>
+                    <p style={{ color: `#2286e0`, fontFamily: `Poppins`,fontSize:`0.8rem` }}>
                       {elem.desg}
-                    </h5>
+                    </p>
                   </div>
                 )
               })}

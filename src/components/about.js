@@ -7,115 +7,82 @@ class About extends React.Component {
       <>
         <Aboutdiv id="about" className="container-fluid">
           <div
-            className="row d-flex justify-content-around"
+            className="container d-flex justify-content-around"
             style={{ minHeight: `40vh` }}
           >
-            <div className="col-md-5 col-sm-12 d-flex justify-content-center">
-              <div className="row" style={{ marginTop: `5vh` }}>
-                <h1
-                  className="abouthead"
-                  data-aos="zoom-in"
-                  data-aos-duration="300"
-                >
-                  About Us
-                </h1>
-                <p
-                  className="abouttxt"
-                  data-aos="zoom-in"
-                  data-aos-duration="300"
-                >
-                  National Institute of Technology Patna is the 18th National
-                  Institute of Technology created by the Ministry of H.R.D.
-                  Government of India after rechristening the erstwhile Bihar
-                  College of Engineering Patna on 28. 01. 2004. NIT Patna marked
-                  its humble beginning in 1886 with the establishment of
-                  pleaders survey training school which was subsequently
-                  promoted of Bihar College of Engineering Patna in 1924. This
-                  made this institute the 6th Oldest Engineering Institute of
-                  India. The graduate level curriculum was later elevated to the
-                  post graduate level in 1978. The institute is situated on the
-                  south bank of holy river Ganges behind Gandhi Ghat, one of the
-                  most important and reverential place of Patna. The Gandhi Ghat
-                  is associated with the immersion of ashes of father of the
-                  Nation Mahatma Gandhi in the river Ganges. The campus has a
-                  picturesque river view with historic building presenting a
-                  spectacle of architectural delight and natural beauty.
-                  <br />
-                  <br />
-                  National Institute of Technology Patna has been declared as an
-                  Institute of National Importance and has been granted a fully
-                  Autonomous Status by MHRD, Government of India. The Institute
-                  has also been declared as a Centre of Excellence of impart
-                  high level education training , research and development in
-                  science, engineering technology and humanities. It is
-                  imparting high quality education & values at UG (B.Tech), PG
-                  (M.Tech) & Ph .D programmes through its experienced faculty
-                  well versed in their respective field of engineering an
-                  technology with well equipped laboratories . At present the
-                  Institute has seven disciplines viz. Architecture, Civil
-                  Engineering, Compute Science & Engg., Electrical Engg.,
-                  Electronics & Communication Engg., Information Technology and
-                  Mechanical Engg., and well established departments of physics,
-                  Mathematics and Humanities and Social Science.
-                </p>
-              </div>
+            <div className="row" style={{ marginTop: `5vh` }}>
+              <h1
+                className="abouthead"
+                data-aos="zoom-in"
+                data-aos-duration="300"
+              >
+                The Event
+              </h1>
+              <p
+                className="abouttxt"
+                data-aos="zoom-in"
+                data-aos-duration="300"
+              >
+                Hack can do anything and everything!! Here the red sun manifests
+                danger and the trainee is hacking to varnish the danger. This is
+                HACKNITP. Hackslash presents HACKNITP 3.0. The path to success
+                starts with a single step and a single opportunity. This is
+                one!! Hackslash Developers' Club, NIT Patna empowers students to
+                achieve excellence in virtual world. The world of codes may
+                frighten you like huge danger but club will hold your hands to
+                teach you to fight but don't forget the game is yours. HackSlash
+                is student driven community. Student shall work for growth of
+                students. The club strives to build and improve the open
+                sourcing environment and the coding culture of the whole city of
+                Patna and eventually the whole state of Bihar. The will power
+                and determination of each Developer, Competitive Coder, Designer
+                and Innovative thinker is what governs our great community.
+              </p>
             </div>
-            <div className="col-md-5 col-sm-12 d-flex justify-content-center flex-column">
-              <div className="row" style={{ marginTop: `5vh` }}>
-                <h1
-                  className="abouthead"
-                  data-aos="zoom-in"
-                  data-aos-duration="300"
-                >
-                  The Event
-                </h1>
-                <p
-                  className="abouttxt"
-                  data-aos="zoom-in"
-                  data-aos-duration="300"
-                >
-                  The hack is only a small part of the competition. The real
-                  spirit lies in building your network in the growing tech
-                  community and collaborating with some of the finest minds of
-                  the nation. Just remember, taking the Hackathons too seriously
-                  defeats the purpose. Save the seriousness for pitching to
-                  investors. Keeping an open mind will open new doors, help
-                  build new relationships and acquire new skills.This is
-                  hackNITP.
-                </p>
+          </div>
+          <div className="container" style={{ marginTop: `5vh` }}>
+            {/* <h1
+              className="abouthead"
+              data-aos="zoom-in"
+              data-aos-duration="300"
+            >
+              About Us
+            </h1>
+            <p className="abouttxt" data-aos="zoom-in" data-aos-duration="300">
+              HackSlash, currently under the Mozilla Campus Clubs Network, is an
+              all student driven developers community located in the National
+              Institute of Technology Patna. It is a community intended to
+              provide a room for college students to learn and collaborate on a
+              plethora of projects among themselves as well as with mentors.The
+              club strives to build and improve the open sourcing environment
+              and the coding culture of the whole city of Patna and eventually
+              the whole state of Bihar. The will power and determination of each
+              Developer, Competitive Coder, Designer and Innovative thinker is
+              what governs our great community.
+            </p> */}
 
-                <h1
-                  style={{ marginTop: `5vh`, width: `100%` }}
-                  className="abouthead"
-                  data-aos="zoom-in"
-                  data-aos-duration="300"
-                >
-                  Where
-                </h1>
-                <p
-                  className="abouttxt"
-                  data-aos="zoom-in"
-                  data-aos-duration="300"
-                >
-                  The event will be conducted Online
-                </p>
-                <h1
-                  style={{ marginTop: `5vh`, width: `100%` }}
-                  className="abouthead"
-                  data-aos="zoom-in"
-                  data-aos-duration="300"
-                >
-                  When
-                </h1>
-                <p
-                  className="abouttxt"
-                  data-aos="zoom-in"
-                  data-aos-duration="300"
-                >
-                  Friday to Sunday 15-17 January 2021
-                </p>
-              </div>
-            </div>
+            {/* <h1
+              style={{ marginTop: `5vh`, width: `100%` }}
+              className="abouthead"
+              data-aos="zoom-in"
+              data-aos-duration="300"
+            >
+              Where
+            </h1>
+            <p className="abouttxt" data-aos="zoom-in" data-aos-duration="300">
+              The event will be conducted Online
+            </p> */}
+            <h1
+              style={{ marginTop: `5vh`, width: `100%` }}
+              className="abouthead"
+              data-aos="zoom-in"
+              data-aos-duration="300"
+            >
+              When
+            </h1>
+            <h4 className="abouttxt" data-aos="zoom-in" data-aos-duration="300">
+              15 January 6:00PM to 18 January 6:00AM
+            </h4>
           </div>
         </Aboutdiv>
       </>
