@@ -116,13 +116,12 @@ class Footer extends React.Component {
                       onChange={this.handleInputChange}
                     ></textarea>
                   </div>
-                  <div
-                    className="col-sm-12 d-flex justify-content-center"
-                    style={{ paddingBottom: `20px` }}
-                  >
-                    <button type="Submit" class="btn btn-primary mt-4">
-                      Submit
-                    </button>
+                  <div className="form-group row">
+                    <div className="col-sm-12 d-flex justify-content-center mb-2">
+                      <button type="Submit" class="btn btn-primary ">
+                        Submit
+                      </button>
+                    </div>
                   </div>
                 </form>
               </div>
@@ -134,10 +133,10 @@ class Footer extends React.Component {
                 <img src={email} className="img-fluid" alt="mail" />
               </a>
               <h1 className="my-3">Email</h1>
-              
+
               <h5>hackslashclub@nitp.ac.in</h5>
               <div className="after"></div>
-              <p align="right"className="copyright">
+              <p align="right" className="copyright">
                 &copy; HackNITP 2021. All rights reserved.
               </p>
             </div>
