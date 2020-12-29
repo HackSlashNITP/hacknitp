@@ -38,7 +38,6 @@ export const SilverSponsers = [
 ]
 
 export const Patrons = [
-  
   {
     img: "images/sponsors/axure.png",
     link: "https://www.axure.com/",
@@ -76,7 +75,14 @@ export const Patrons = [
     link: "https://1password.com/",
     img: "images/sponsors/1password.png",
   },
-
+  {
+    img: "images/sponsors/codingblocks.png",
+    link: "",
+  },
+  {
+    img: "images/sponsors/interview.png",
+    link: "",
+  },
   {
     link: "https://rosenfeldmedia.com/",
     img: "images/sponsors/rosenfeld.png",
