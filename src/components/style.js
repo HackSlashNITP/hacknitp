@@ -14,8 +14,9 @@ export const Aboutdiv = styled.div`
   .abouttxt {
     font-family: "NotoSans";
     font-style: normal;
-    line-height: 1.4rem;
+    line-height: 1.7rem;
     letter-spacing: 0.02rem;
+    font-size:1.2rem;
     color: #e9c1c1;
   }
   h1 {

@@ -32,12 +32,6 @@ export const FAQ = [
     solution: "On the Discord",
   },
   {
-    id: 6,
-    question: "What are the themes?",
-    solution:
-      "The themes are Open innovation,Employability,Sustainable development,Education,Social security and awareness,Food",
-  },
-  {
     id: 3,
     question: "Are there any registration charges?",
     solution: "Nope. None at all!",

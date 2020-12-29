@@ -92,6 +92,13 @@ const Organizerlist = [
     facebook: "https://www.facebook.com/shagufta.iqbal.50999",
   },
   {
+    name: "Neha Kumari",
+    desg: "Outreach Lead",
+    img:
+      "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/neha_kumari_hh061DE.jpeg",
+    linkedin: "https://www.linkedin.com/in/neha-nk-1709/",
+  },
+  {
     name: "Neeraj Patil",
     desg: "Web Lead",
     img:
@@ -99,19 +106,13 @@ const Organizerlist = [
     linkedin: "https://www.linkedin.com/in/neeraj-2212/",
     facebook: "https://www.facebook.com/profile.php?id=100009281599648",
   },
+
   {
     name: "Asmit Vimal",
     desg: "Web Developer",
     img: "images/asmit.jpg",
     linkedin: "https://www.linkedin.com/in/asmit-vimal-415719199/",
     facebook: "https://www.facebook.com/Vi.Asmit.001",
-  },
-  {
-    name: "Neha Kumari",
-    desg: "Outreach Lead",
-    img:
-      "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/neha_kumari_hh061DE.jpeg",
-    linkedin: "https://www.linkedin.com/in/neha-nk-1709/",
   },
 ]
 

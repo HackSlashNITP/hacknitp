@@ -17,13 +17,13 @@ class Layout extends React.Component {
     super()
     if (typeof window !== `undefined`) {
       const AOS = require("aos")
-      AOS.init()
+      AOS.init({once: true})
     }
   }
   componentDidMount() {
     if (typeof window !== `undefined`) {
       const AOS = require("aos")
-      AOS.init()
+      AOS.init({ once: true })
     }
   }
   componentDidUpdate() {

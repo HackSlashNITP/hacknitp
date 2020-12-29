@@ -6,10 +6,7 @@ class About extends React.Component {
     return (
       <>
         <Aboutdiv id="about" className="container-fluid">
-          <div
-            className="container d-flex justify-content-around"
-            style={{ minHeight: `40vh` }}
-          >
+          <div className="container d-flex justify-content-around">
             <div className="row" style={{ marginTop: `5vh` }}>
               <h1
                 className="abouthead"
@@ -40,6 +37,20 @@ class About extends React.Component {
               </p>
             </div>
           </div>
+          <div className="container" style={{ marginTop: `2vh` }}>
+            <a
+              style={{
+                textDecoration: `none`,
+                fontSize: `1.5rem`,
+              }}
+              className="abouthead"
+              data-aos="zoom-in"
+              data-aos-duration="300"
+              href="http://bit.ly/rulebook-hacknitp3"
+            >
+              Download Rulebook
+            </a>
+          </div>
           <div className="container" style={{ marginTop: `5vh` }}>
             {/* <h1
               className="abouthead"
@@ -60,7 +71,6 @@ class About extends React.Component {
               Developer, Competitive Coder, Designer and Innovative thinker is
               what governs our great community.
             </p> */}
-
             {/* <h1
               style={{ marginTop: `5vh`, width: `100%` }}
               className="abouthead"
