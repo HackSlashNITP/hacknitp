@@ -74,9 +74,9 @@ export const Organizercarddiv = styled.div`
       display: flex;
     }
   }
-  @media(max-width:768px){
-    width:80px;
-    height:80px;
+  @media (max-width: 768px) {
+    width: 80px;
+    height: 80px;
   }
 `
 export const Sponsordiv = styled.div`
@@ -97,7 +97,7 @@ export const Sponsordiv = styled.div`
 
 export const Sponsorcarddiv = styled.div`
   margin: 4vh;
-  background: rgba(255, 255, 255, 0.20);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 20px;
 
   padding: 20px;
@@ -132,7 +132,7 @@ export const Sponsorcarddiv = styled.div`
     background-color: #581c0c;
   }
 
-  @media (max-width: 600px){
+  @media (max-width: 600px) {
     margin: 1vh;
     height: 125px;
     width: 125px;
@@ -140,6 +140,7 @@ export const Sponsorcarddiv = styled.div`
 `
 
 export const SponserHead = styled.p`
+  text-align: center;
   font-size: 2.5rem;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -169,7 +170,7 @@ export const FaqWrapper = styled.div`
   font-family: "NotoSans";
   font-style: normal;
   font-weight: normal;
-  font-size: 1.0rem;
+  font-size: 1rem;
   line-height: 33px;
   padding: 15px 5px 15px 32px;
   .expand {
@@ -177,17 +178,17 @@ export const FaqWrapper = styled.div`
     right: 15px;
   }
 
-  @media (max-width: 550px){
+  @media (max-width: 550px) {
     font-size: 0.8rem;
-    .expand img{
+    .expand img {
       height: 20px;
       width: 20px;
     }
   }
 
-  @media (max-width: 440px){
+  @media (max-width: 440px) {
     font-size: 0.67rem;
-    .expand img{
+    .expand img {
       height: 20px;
       width: 20px;
     }
@@ -206,7 +207,8 @@ export const FaqSection = styled.section`
       margin-bottom: 5vh;
       font-weight: bold;
       text-align: center;
-    }    margin-left: 5vw;
+    }
+    margin-left: 5vw;
   }
 `
 
@@ -216,18 +218,18 @@ export const FaqSolutionWrapper = styled.div`
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  font-size: 1.0rem;
+  font-size: 1rem;
   border-radius: 25px;
   margin: 20px 0;
   padding: 20px 30px;
   line-height: 40px;
   text-align: left;
 
-  @media (max-width: 550px){
+  @media (max-width: 550px) {
     font-size: 0.8rem;
   }
 
-  @media (max-width: 440px){
+  @media (max-width: 440px) {
     font-size: 0.67rem;
   }
 `
@@ -257,7 +259,7 @@ export const FooterDiv = styled.div`
   .third {
     display: flex;
     align-items: center;
-    ${'' /* justify-content: center; */}
+    ${"" /* justify-content: center; */}
     flex-direction: column;
     text-align: center;
     h5 {
@@ -265,19 +267,18 @@ export const FooterDiv = styled.div`
     }
   }
 
-  .before{
+  .before {
     height: 9vh;
   }
 
-  .after{
+  .after {
     height: 13vh;
   }
 
   .copyright {
-    ${'' /* padding-right: 6.0vw; */}
+    ${"" /* padding-right: 6.0vw; */}
     margin-top: 2vh;
     margin-bottom: -2vh;
-    
   }
   .logo {
     padding: 10px;
@@ -295,14 +296,14 @@ export const FooterDiv = styled.div`
       padding-top: 5vh;
       text-align: center;
     }
-    .third{
+    .third {
       padding-top: 8vh;
     }
-
   }
 
-  @media(max-width: 990px){
-    .before, .after{
+  @media (max-width: 990px) {
+    .before,
+    .after {
       height: 0;
     }
   }
