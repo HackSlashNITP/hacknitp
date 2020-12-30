@@ -52,36 +52,7 @@ class About extends React.Component {
             </a>
           </div>
           <div className="container" style={{ marginTop: `5vh` }}>
-            {/* <h1
-              className="abouthead"
-              data-aos="zoom-in"
-              data-aos-duration="300"
-            >
-              About Us
-            </h1>
-            <p className="abouttxt" data-aos="zoom-in" data-aos-duration="300">
-              HackSlash, currently under the Mozilla Campus Clubs Network, is an
-              all student driven developers community located in the National
-              Institute of Technology Patna. It is a community intended to
-              provide a room for college students to learn and collaborate on a
-              plethora of projects among themselves as well as with mentors.The
-              club strives to build and improve the open sourcing environment
-              and the coding culture of the whole city of Patna and eventually
-              the whole state of Bihar. The will power and determination of each
-              Developer, Competitive Coder, Designer and Innovative thinker is
-              what governs our great community.
-            </p> */}
-            {/* <h1
-              style={{ marginTop: `5vh`, width: `100%` }}
-              className="abouthead"
-              data-aos="zoom-in"
-              data-aos-duration="300"
-            >
-              Where
-            </h1>
-            <p className="abouttxt" data-aos="zoom-in" data-aos-duration="300">
-              The event will be conducted Online
-            </p> */}
+
             <h1
               style={{ marginTop: `5vh`, width: `100%` }}
               className="abouthead"

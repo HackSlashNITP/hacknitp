@@ -35,7 +35,7 @@ class Main extends React.Component {
   }
   componentDidMount() {
     let d1 = Date.now()
-    let d2 = new Date(2021, 1, 15).getTime()
+    let d2 = new Date(2021, 1, 15,18,0,0).getTime()
     let duration = d2 - d1
     //console.log(d1 + ":d1\n" + d2 + " :d2\n" + duration + " :duration")
     this.setState(
@@ -52,7 +52,7 @@ class Main extends React.Component {
 
   run() {
     let d1 = Date.now()
-    let d2 = new Date(2021, 1, 15).getTime()
+    let d2 = new Date(2021,1,15,18,0,0).getTime()
     let duration = d2 - d1
     //console.log(d1 + ":d1\n" + d2 + " :d2\n" + duration + " :duration")
 
