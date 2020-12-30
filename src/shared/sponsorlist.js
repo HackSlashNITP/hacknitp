@@ -77,11 +77,11 @@ export const Patrons = [
   },
   {
     img: "images/sponsors/codingblocks.png",
-    link: "",
+    link: "https://codingblocks.com/",
   },
   {
     img: "images/sponsors/interview.png",
-    link: "",
+    link: "https://www.interviewcake.com/",
   },
   {
     link: "https://rosenfeldmedia.com/",
