@@ -1,24 +1,28 @@
 const tabData = [
   [
     {
-      imgsrc: "images/judges/Judge1.jpg",
-      head: "Angela Bee Chan",
-      link: "https://www.linkedin.com/in/angelabeechan/",
-    },
-    {
       imgsrc: "images/judges/Judge2.png",
       head: "Dominic Norton",
+      description: "Founder Hackathon Entertainment",
       link: "https://www.linkedin.com/in/dominiconorton",
+    },
+    {
+      imgsrc: "images/judges/Judge1.jpg",
+      head: "Angela Bee Chan",
+      description: "Co-Founder Hackathon International",
+      link: "https://www.linkedin.com/in/angelabeechan/",
     },
 
     {
       imgsrc: "images/judges/Judge3.jpg",
       head: "Niharika Arora",
+      description:"Google Developer Expert",
       link: "https://www.linkedin.com/in/thedroidlady/",
     },
     {
       imgsrc: "images/judges/Judge4.jpg",
       head: "Vinit Shahdeo",
+      description:"Software Engineer at Postman",
       link: "https://www.linkedin.com/in/vinitshahdeo/",
     },
   ],

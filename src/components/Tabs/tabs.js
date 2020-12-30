@@ -8,12 +8,15 @@ function Tab() {
 
   function Card(val) {
     return (
-      <CardTab
-        imgsrc={val.imgsrc}
-        name={val.head}
-        link={val.link}
-        description={val.description}
-      />
+      <div className="d-flex flex-column justify-content-center align-items-center">
+        <CardTab
+          imgsrc={val.imgsrc}
+          name={val.head}
+          link={val.link}
+          description={val.description}
+        />
+        <h4 className="title" style={{color:`#ffffff`}}>{val.head}</h4>
+      </div>
     )
   }
 
@@ -63,7 +66,7 @@ function Tab() {
           </button> */}
         </div>
 
-        <div className="row justify-content-center">
+        <div className="row d-flex justify-content-around">
           {tabData[count].map(Card)}
         </div>
       </div>
