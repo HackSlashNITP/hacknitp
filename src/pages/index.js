@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Main from "../components/main"
 import About from "../components/about"
-// import Stacks from "../components/stacks"
+import Themes from "../components/Theme/theme"
 import Sponsers from "../components/sponsers"
 import Organizers from "../components/organisers"
 // import Contact from "../components/contact"
@@ -17,7 +17,7 @@ const IndexPage = () => (
 
     <About />
     <Tabs />
-    {/* <Stacks /> */}
+    <Themes />
     <Sponsers />
     <Organizers />
     <Faq />
