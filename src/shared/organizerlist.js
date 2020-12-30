@@ -114,6 +114,24 @@ const Organizerlist = [
     linkedin: "https://www.linkedin.com/in/asmit-vimal-415719199/",
     facebook: "https://www.facebook.com/Vi.Asmit.001",
   },
+  {
+    name: "Nripendra Gupta",
+    desg: "Design Lead",
+    img: "images/nipendra.jpg",
+    linkedin: "https://www.linkedin.com/in/nri4u/",
+  },
+  {
+    name: "Uddeshya Kumar",
+    desg: "Design Lead",
+    img: "images/uddeshya.jpg",
+    linkedin: "https://www.linkedin.com/in/uddeshya-kumar-2aa853202/",
+  },
+  {
+    name: "Anamika Kumari",
+    desg: "Content Creator",
+    img: "images/anamika.jpg",
+    linkedin: "https://www.linkedin.com/in/anamika-kumari-8b9a6b1b2/",
+  },
 ]
 
 export default Organizerlist

@@ -23,7 +23,7 @@ const Navigation = props => {
 
   return (
     <div>
-      <Navbar expand="md" className="container-fluid fix-nav">
+      <Navbar expand="lg" className="container-fluid fix-nav">
         <NavbarBrand href="/" disabled className="ml-lg-5 ">
           <img
             src={logo}
