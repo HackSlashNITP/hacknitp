@@ -16,13 +16,13 @@ const tabData = [
     {
       imgsrc: "images/judges/Judge3.jpg",
       head: "Niharika Arora",
-      description:"Google Developer Expert",
+      description: "Google Developer Expert",
       link: "https://www.linkedin.com/in/thedroidlady/",
     },
     {
       imgsrc: "images/judges/Judge4.jpg",
       head: "Vinit Shahdeo",
-      description:"Software Engineer at Postman",
+      description: "Software Engineer at Postman",
       link: "https://www.linkedin.com/in/vinitshahdeo/",
     },
   ],
@@ -33,6 +33,32 @@ const tabData = [
       head: "Shivay Lamba",
       description: "Cloud Computing and Micro services Architecture",
       link: "https://www.linkedin.com/in/shivaylamba/",
+    },
+    {
+      imgsrc: "images/speakers/Speaker2.jpg",
+      head: "Miri Rodriguez",
+      description: "Personal Branding for Students",
+      link: "https://www.linkedin.com/in/mirirod/",
+    },
+    {
+      imgsrc: "images/speakers/Speaker3.jpg",
+      head: "Sambhav Jain",
+      description: "Scaling PostgreSQL",
+      link: "https://www.linkedin.com/in/sambhav2612/",
+    },
+    ,
+    {
+      imgsrc: "images/speakers/Speaker4.jpg",
+      head: "Alon Grinshpoon",
+      description: "Cloud-Connected AR/VR App in 15 Mins or Less",
+      link: "https://www.linkedin.com/in/alongrinshpoon/",
+    },
+    ,
+    {
+      imgsrc: "images/speakers/Speaker5.jpg",
+      head: "Usha Rengaraju",
+      description: "Kaggle 101",
+      link: "https://www.linkedin.com/in/usha-rengaraju-b570b7a2/",
     },
   ],
 
