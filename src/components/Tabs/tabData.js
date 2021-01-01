@@ -46,20 +46,18 @@ const tabData = [
       description: "Scaling PostgreSQL",
       link: "https://www.linkedin.com/in/sambhav2612/",
     },
-    ,
     {
       imgsrc: "images/speakers/Speaker4.jpg",
       head: "Alon Grinshpoon",
       description: "Cloud-Connected AR/VR App in 15 Mins or Less",
       link: "https://www.linkedin.com/in/alongrinshpoon/",
     },
-    ,
     {
       imgsrc: "images/speakers/Speaker5.jpg",
       head: "Usha Rengaraju",
       description: "Kaggle 101",
       link: "https://www.linkedin.com/in/usha-rengaraju-b570b7a2/",
-    },
+    }
   ],
 
   [
@@ -79,7 +77,7 @@ const tabData = [
       imgsrc: "https://thumbs.gfycat.com/FewScaryCoypu-size_restricted.gif",
       head: "Peter Pettigrew",
       link: "#",
-    },
+    }
   ],
 
   [
@@ -99,7 +97,7 @@ const tabData = [
         "https://i.pinimg.com/originals/e8/48/71/e84871d1be43ce586cf9b7fb26b88d96.jpg",
       head: "Hagrid",
       link: "#",
-    },
+    }
   ],
 ]
 export default tabData

@@ -8,7 +8,7 @@ const CardTab = props => {
     <>
       <div id="cardcol">
         <div className="box" style={{ minWidth: `225px` }}>
-          <img id="pic" src={props.imgsrc} className="img-fluid" />
+          <img id="pic" src={props.imgsrc} alt="img" className="img-fluid" />
           <div className="box-content">
             <p className="description">
               {props.description }

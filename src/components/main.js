@@ -8,41 +8,37 @@ class Main extends React.Component {
       time: {
         days: 0,
         hours: 0,
-        mintues: 0,
+        minutes: 0,
         seconds: 0,
       },
-      duration: 0,
     }
     this.startTimer = this.startTimer.bind(this)
     this.run = this.run.bind(this)
   }
   msToTime(duration) {
-    let seconds = Math.floor((duration / 1000) % 60)
-    let mintues = Math.floor((duration / (1000 * 60)) % 60)
-    let hours = Math.floor((duration / (1000 * 60 * 60)) % 24)
-    let days = Math.floor((duration / (1000 * 60 * 60 * 60)) % 24) - 1
-
-    days = days.toString().padStart(2, "0")
-    hours = hours.toString().padStart(2, "0")
-    mintues = mintues.toString().padStart(2, "0")
-    seconds = seconds.toString().padStart(2, "0")
+    const time = Date.parse(duration) - Date.parse(new Date())
+    const days = Math.floor(time / (1000 * 60 * 60 * 24)).toString().padStart(2,"0")
+    const hours = Math.floor((time / (1000 * 60 * 60)) % 24)
+      .toString()
+      .padStart(2, "0")
+    const minutes = Math.floor((time / 1000 / 60) % 60)
+      .toString()
+      .padStart(2, "0")
+    const seconds = Math.floor((time / 1000) % 60)
+      .toString()
+      .padStart(2, "0")
     return {
       days,
       hours,
-      mintues,
+      minutes,
       seconds,
     }
   }
   componentDidMount() {
-    let d1 = Date.now()
-    let d2 = new Date(2021, 1, 15,18,0,0).getTime()
-    let duration = d2 - d1
+    let d2 = "January 15,2021 18:00:00"
+    this.msToTime(d2)
     //console.log(d1 + ":d1\n" + d2 + " :d2\n" + duration + " :duration")
-    this.setState(
-      {
-        duration: duration,
-      }
-    )
+
     this.startTimer()
   }
 
@@ -51,17 +47,12 @@ class Main extends React.Component {
   }
 
   run() {
-    let d1 = Date.now()
-    let d2 = new Date(2021,1,15,18,0,0).getTime()
-    let duration = d2 - d1
+    let d2 = "January 15,2021 18:00:00"
     //console.log(d1 + ":d1\n" + d2 + " :d2\n" + duration + " :duration")
 
-    this.setState(
-      {
-        duration: duration,
-        time: this.msToTime(this.state.duration),
-      }
-    )
+    this.setState({
+      time: this.msToTime(d2),
+    })
     if (this.state.duration === 0) {
       window.clearInterval(this.timer)
     }
@@ -99,7 +90,7 @@ class Main extends React.Component {
                   <h7>Hours</h7>
                 </div>
                 <div className="timer-box">
-                  <h2>{this.state.time.mintues}</h2>
+                  <h2>{this.state.time.minutes}</h2>
                   <h7>Mintues</h7>
                 </div>
                 <div className="timer-box">
