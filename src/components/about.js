@@ -37,6 +37,42 @@ class About extends React.Component {
               </p>
             </div>
           </div>
+          <div className="container" style={{ marginTop: `5vh` }}>
+            <h1
+              style={{ marginTop: `5vh`, width: `100%` }}
+              className="abouthead"
+              data-aos="zoom-in"
+              data-aos-duration="300"
+            >
+              Perks for each participant:-
+            </h1>
+
+            <ul className="abouttxt" data-aos="zoom-in" data-aos-duration="300">
+              <li>
+                Free Taskade Pro upgrade (have to send email id to organizers)
+              </li>
+              <li>Developer Pass for DockShip (For ML tracks)</li>
+              <li>3 free months of hacker plan from Repl.it</li>
+              <li>Certificate from GiveMyCertificate</li>
+              <li>20% discount on ebooks from Rosenfeld Media</li>
+              <li>10% discount on any of the paid courses of UAceIt</li>
+              <li>
+                Access to Wolfram|One for all participants for thirty days
+              </li>
+              <li>Voiceflow’s Professional License subscription</li>
+              <li>Internship opportunity from NewsAurChai (NAC)</li>
+              <li>
+                30 days access to full coding interview prep course from
+                Interview cake
+              </li>
+              <li>
+                Free 1-year All Products Pack educational subscriptions of any
+                JetBrains IDE
+              </li>
+              <li>Github Student Pack</li>
+            </ul>
+          </div>
+
           <div className="container" style={{ marginTop: `2vh` }}>
             <a
               style={{
@@ -52,7 +88,6 @@ class About extends React.Component {
             </a>
           </div>
           <div className="container" style={{ marginTop: `5vh` }}>
-
             <h1
               style={{ marginTop: `5vh`, width: `100%` }}
               className="abouthead"
