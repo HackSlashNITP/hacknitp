@@ -15,7 +15,12 @@ function Tab() {
           link={val.link}
           description={val.description}
         />
-        <h4 className="title" style={{color:`#ffffff`}}>{val.head}</h4>
+        <h4 className="title" style={{ color: `#ffffff` }}>
+          {val.head}
+        </h4>
+        <h5 style={{ color: `#ffffff` }}>
+          {val.date} <span style={{ color: "#0c85da" }}>{val.time}</span>
+        </h5>
       </div>
     )
   }

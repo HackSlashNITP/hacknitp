@@ -29,35 +29,49 @@ const tabData = [
 
   [
     {
-      imgsrc: "images/speakers/Speaker1.jpg",
-      head: "Shivay Lamba",
-      description: "Cloud Computing and Micro services Architecture",
-      link: "https://www.linkedin.com/in/shivaylamba/",
-    },
-    {
       imgsrc: "images/speakers/Speaker2.jpg",
       head: "Miri Rodriguez",
+      date: "08-01-2021",
+      time: "6:30 PM ",
       description: "Personal Branding for Students",
       link: "https://www.linkedin.com/in/mirirod/",
     },
     {
-      imgsrc: "images/speakers/Speaker3.jpg",
-      head: "Sambhav Jain",
-      description: "Scaling PostgreSQL",
-      link: "https://www.linkedin.com/in/sambhav2612/",
-    },
-    {
       imgsrc: "images/speakers/Speaker4.jpg",
       head: "Alon Grinshpoon",
+      date: "09-01-2021",
+      time: "9:30 PM",
       description: "Cloud-Connected AR/VR App in 15 Mins or Less",
       link: "https://www.linkedin.com/in/alongrinshpoon/",
     },
     {
+      imgsrc: "images/speakers/Speaker1.jpg",
+      head: "Shivay Lamba",
+      description: "Cloud Computing and Micro services Architecture",
+
+      date: "10-01-2021",
+      time: "5:00 PM",
+      link: "https://www.linkedin.com/in/shivaylamba/",
+    },
+    {
       imgsrc: "images/speakers/Speaker5.jpg",
       head: "Usha Rengaraju",
+
+      date: "13-01-2021",
+      time: "5:00 PM",
       description: "Kaggle 101",
       link: "https://www.linkedin.com/in/usha-rengaraju-b570b7a2/",
-    }
+    },
+
+    {
+      imgsrc: "images/speakers/Speaker3.jpg",
+      head: "Sambhav Jain",
+
+      date: "14-01-2021",
+      time: "6:00 PM",
+      description: "Scaling PostgreSQL",
+      link: "https://www.linkedin.com/in/sambhav2612/",
+    },
   ],
 
   [
@@ -77,7 +91,7 @@ const tabData = [
       imgsrc: "https://thumbs.gfycat.com/FewScaryCoypu-size_restricted.gif",
       head: "Peter Pettigrew",
       link: "#",
-    }
+    },
   ],
 
   [
@@ -97,7 +111,7 @@ const tabData = [
         "https://i.pinimg.com/originals/e8/48/71/e84871d1be43ce586cf9b7fb26b88d96.jpg",
       head: "Hagrid",
       link: "#",
-    }
+    },
   ],
 ]
 export default tabData

@@ -5,17 +5,17 @@ import { ThemeData } from "./themeData"
 
 function ThemeImg(props) {
   return (
-    <div className="col-md-4 col-sm-12 d-flex justify-content-center theme">
-      <img
-        src={props.imgsrc}
-        data-aos="zoom-in"
-        className="img-fluid"
-        alt={props.text}
-      />
-      <div className="theme-content">
-        <p>{props.text}</p>
+    <>
+      <div className="col-md-4 col-sm-12 d-flex flex-column align-items-center theme">
+        <img
+          src={props.imgsrc}
+          data-aos="zoom-in"
+          className="img-fluid"
+          alt={props.text}
+        />
+        <h4 className="title">{props.text}</h4>
       </div>
-    </div>
+    </>
   )
 }
 
