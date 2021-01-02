@@ -91,7 +91,7 @@ class Main extends React.Component {
                 </div>
                 <div className="timer-box">
                   <h2>{this.state.time.minutes}</h2>
-                  <h7>Mintues</h7>
+                  <h7>Minutes</h7>
                 </div>
                 <div className="timer-box">
                   <h2>{this.state.time.seconds}</h2>
