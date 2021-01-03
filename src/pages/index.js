@@ -10,6 +10,7 @@ import Organizers from "../components/organisers"
 import Faq from "../components/faq"
 import Footer from "../components/footer"
 import Tabs from "../components/Tabs/tabs"
+import Timeline from "../components/Timeline"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -18,6 +19,7 @@ const IndexPage = () => (
     <About />
     <Tabs />
     <Themes />
+    <Timeline/>
     <Sponsers />
     <Organizers />
     <Faq />
