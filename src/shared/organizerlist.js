@@ -132,6 +132,12 @@ const Organizerlist = [
     img: "images/anamika.jpg",
     linkedin: "https://www.linkedin.com/in/anamika-kumari-8b9a6b1b2/",
   },
+  {
+    name: "Manvi Jha",
+    desg: "Event Manager",
+    img: "https://media-exp1.licdn.com/dms/image/C4E03AQHSxq8m_SSbXg/profile-displayphoto-shrink_200_200/0/1593540790424?e=1615420800&v=beta&t=oLMD314tQ1zePqrIubBzrYBb2iYlBw5Nz78mJ2cWClc",
+    linkedin: "https://www.linkedin.com/in/manvi-jha-2784711a7/",
+  },
 ]
 
 export default Organizerlist
