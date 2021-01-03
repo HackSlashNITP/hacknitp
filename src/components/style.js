@@ -23,6 +23,16 @@ export const Aboutdiv = styled.div`
     color: #fff8f8;
   }
 `
+export const Prizesdiv = styled.div`
+  background-color: #0f0000;
+  padding-bottom: 15vh;
+  padding-top: 15vh;
+  .prize-head {
+    font-family: "Poppins";
+    color: #fff8f8;
+    text-align: center;
+  }
+`
 
 export const Organiserdiv = styled.div`
   background-color: #0f0000;
@@ -140,23 +150,47 @@ export const Sponsorcarddiv = styled.div`
   }
 `
 
-export const PrizeSection = styled.div`
-  padding-left: 30px;
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 1.5;
-  /* or 23px */
+// export const PrizeSection = styled.div`
+//   padding-left: 30px;
+//   font-family: Noto Sans;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 20px;
+//   line-height: 1.5;
+//   /* or 23px */
 
-  text-align: justify;
+//   text-align: justify;
 
-  .title {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2.5rem;
-    line-height: 60px;
+//   .title {
+//     font-family: Poppins;
+//     font-style: normal;
+//     font-weight: 300;
+//     font-size: 2.5rem;
+//     line-height: 60px;
+//   }
+// `
+
+export const PrizeSec = styled.div`
+  background-color: #0f0000;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  min-height: 60vh;
+
+  .col-md-6 {
+    padding: 4%;
+    min-height: 40vh;
+
+    h1 {
+      color: ${props => props.color};
+    }
+    .prize-detail {
+      color: #fff;
+      font-size: 1.2rem;
+    }
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
   }
 `
 

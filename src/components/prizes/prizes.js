@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { prizeData } from "./prizeData"
-import { PrizeSection } from "./../style"
+import {PrizeSec,Prizesdiv} from "../style"
 import nextIc from "./controller/next.svg"
 import prevIc from "./controller/prev.svg"
 import {
@@ -73,48 +73,50 @@ const Prizes = props => {
 
   const slides = items.map(item => {
     return (
-      <>
-        <div className="row" style={{ backgroundColor: `#0f0000` }}>
+      <CarouselItem
+        onExiting={() => setAnimating(true)}
+        onExited={() => setAnimating(false)}
+        key={item.src}
+      >
+        <PrizeSec>
           <div
             className="col-md-6"
-            style={{
-              backgroundColor: `rgba(255,255,255,0.15)`,
-            }}
+            style={{ backgroundColor: `rgba(255, 255, 255, 0.15)`,borderBottom:`10px solid ${item.color}` }}
           >
-            <img
-              src={item.src}
-              className="img-fluid"
-              style={{ margin: `50px 0` }}
-            />
+            <img src={item.src} className="img-fluid" alt={item.name} />
           </div>
-
-          <PrizeSection className="col-md-6" style={{ color: `white` }}>
-            <h2 className="title" style={{ color: `${item.color}` }}>
-              {item.name}
-            </h2>
-            {item.text}
-          </PrizeSection>
-        </div>
-      </>
+          <div className="col-md-6">
+            <h1 style={{ color: `${item.color}` }}>{item.name}</h1>
+            <div className="prize-detail">{item.text}</div>
+          </div>
+        </PrizeSec>
+      </CarouselItem>
     )
   })
 
   return (
     <>
-      <h1
-        style={{
-          backgroundColor: "#0f0000",
-          color: `white`,
-          textAlign: `center`,
-          margin: 0,
-          padding: "50px",
-          fontFamily: `poppins`,
-          fontSize: "3rem",
-        }}
-      >
-        Prizes
-      </h1>
-      {slides}
+      <Prizesdiv>
+        <h1 className="prize-head">Prizes</h1>
+        <Carousel activeIndex={activeIndex} next={next} previous={previous}>
+          <CarouselIndicators
+            items={items}
+            activeIndex={activeIndex}
+            onClickHandler={goToIndex}
+          />
+          {slides}
+          <CarouselControl
+            direction="prev"
+            directionText="Previous"
+            onClickHandler={previous}
+          />
+          <CarouselControl
+            direction="next"
+            directionText="Next"
+            onClickHandler={next}
+          />
+        </Carousel>
+      </Prizesdiv>
     </>
   )
 }
