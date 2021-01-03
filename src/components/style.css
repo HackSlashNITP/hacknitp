@@ -165,3 +165,12 @@ label {
   justify-content: center;
   flex-direction: column;
 }
+.prize-head{
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #0f0000;
+  margin: 25px;
+}
