@@ -54,6 +54,22 @@ const tabData = [
       link: "https://www.linkedin.com/in/shivaylamba/",
     },
     {
+      imgsrc: "images/speakers/Speaker6.jpg",
+      head: "Mrinal Jain",
+      description: "Flutter 101",
+      date: "10-01-2021",
+      time: "08:30 PM",
+      link: "https://www.linkedin.com/in/mrinaljain/",
+    },
+    {
+      imgsrc: "images/speakers/Speaker7.jpeg",
+      head: "Aqib Ahmed",
+      description: "Intro to Computer Vision",
+      date: "12-01-2021",
+      time: "8:00 PM",
+      link: "https://www.linkedin.com/in/ahmed-aqib/",
+    },
+    {
       imgsrc: "images/speakers/Speaker5.jpg",
       head: "Usha Rengaraju",
 

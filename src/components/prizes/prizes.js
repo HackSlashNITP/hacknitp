@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import { prizeData } from "./prizeData"
-import {PrizeSec,Prizesdiv} from "../style"
-import nextIc from "./controller/next.svg"
-import prevIc from "./controller/prev.svg"
+import { PrizeSec, Prizesdiv } from "../style"
+// import nextIc from "./controller/next.svg"
+// import prevIc from "./controller/prev.svg"
 import {
   Carousel,
   CarouselItem,
@@ -81,7 +81,10 @@ const Prizes = props => {
         <PrizeSec>
           <div
             className="col-md-6"
-            style={{ backgroundColor: `rgba(255, 255, 255, 0.15)`,borderBottom:`10px solid ${item.color}` }}
+            style={{
+              backgroundColor: `rgba(255, 255, 255, 0.15)`,
+              borderBottom: `10px solid ${item.color}`,
+            }}
           >
             <img src={item.src} className="img-fluid" alt={item.name} />
           </div>
@@ -96,7 +99,7 @@ const Prizes = props => {
 
   return (
     <>
-      <Prizesdiv>
+      <Prizesdiv id="prizes">
         <h1 className="prize-head">Prizes</h1>
         <Carousel activeIndex={activeIndex} next={next} previous={previous}>
           <CarouselIndicators

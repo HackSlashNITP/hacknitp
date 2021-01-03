@@ -43,9 +43,11 @@ const Navigation = props => {
                 About Us
               </NavLink>
             </NavItem>
-            {/* <NavItem className="navlink">
-              <NavLink href="#stacks">Stacks</NavLink>
-            </NavItem> */}
+            <NavItem className="navlink">
+              <NavLink href="#prizes" className="text-right">
+                Prizes
+              </NavLink>
+            </NavItem>
             <NavItem className="navlink">
               <NavLink href="#sponsors" className="text-right">
                 Sponsors
