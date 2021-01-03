@@ -6,6 +6,7 @@ import About from "../components/about"
 import Themes from "../components/Theme/theme"
 import Sponsers from "../components/sponsers"
 import Organizers from "../components/organisers"
+import Prizes from "../components/prizes/prizes"
 // import Contact from "../components/contact"
 import Faq from "../components/faq"
 import Footer from "../components/footer"
@@ -18,6 +19,7 @@ const IndexPage = () => (
     <About />
     <Tabs />
     <Themes />
+    <Prizes />
     <Sponsers />
     <Organizers />
     <Faq />

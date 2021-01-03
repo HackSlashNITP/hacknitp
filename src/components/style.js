@@ -16,7 +16,7 @@ export const Aboutdiv = styled.div`
     font-style: normal;
     line-height: 1.7rem;
     letter-spacing: 0.02rem;
-    font-size:1.2rem;
+    font-size: 1.2rem;
     color: #e9c1c1;
   }
   h1 {
@@ -137,6 +137,26 @@ export const Sponsorcarddiv = styled.div`
     margin: 1vh;
     height: 125px;
     width: 125px;
+  }
+`
+
+export const PrizeSection = styled.div`
+  padding-left: 30px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.5;
+  /* or 23px */
+
+  text-align: justify;
+
+  .title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 60px;
   }
 `
 

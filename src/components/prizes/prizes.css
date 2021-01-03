@@ -1,0 +1,42 @@
+/* .prev-slide,
+.next-slide {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.5;
+  align-self: center;
+} */
+/* 
+.prev-slide:hover,
+.next-slide:hover {
+  opacity: 1;
+} */
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2666";
+  color: #2286e0;
+  width: 10.61px;
+  height: 10.61px;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+  background-color: #0f0000;
+  line-height: 50px;
+  color: white;
+}
+.next-slide {
+  right: 30px;
+}
+
+.prev-slide {
+  left: 30px;
+}
