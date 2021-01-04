@@ -76,16 +76,8 @@ const Organizerlist = [
     facebook: "https://www.facebook.com/starabhi10",
   },
   {
-    name: "Aditi Kumari",
-    desg: "Social Lead",
-    img:
-      "https://media-exp1.licdn.com/dms/image/C4D03AQES86Oj9jTgpg/profile-displayphoto-shrink_200_200/0?e=1611792000&v=beta&t=Iumv7i7LOaYqpiZ0WqjfM7B9V4JA1gRrGCrw1AIytl8",
-    linkedin: "https://www.linkedin.com/in/aditi-kumari-6219931a3/",
-    facebook: "https://www.facebook.com/profile.php?id=100037837506986",
-  },
-  {
     name: "Shagufta Iqbal",
-    desg: "PR Lead",
+    desg: "Content Lead",
     img:
       "https://media-exp1.licdn.com/dms/image/C4E03AQEa9x2PMj9vPA/profile-displayphoto-shrink_200_200/0/1608880928874?e=1614816000&v=beta&t=qtsi04XgO8F2yfkhUGL39GULIIHGxJ9-ffo2XeQiPNE",
     linkedin: "https://www.linkedin.com/in/shagufta-iqbal-6196451a6/",
@@ -99,6 +91,14 @@ const Organizerlist = [
     linkedin: "https://www.linkedin.com/in/neha-nk-1709/",
   },
   {
+    name: "Aditi Kumari",
+    desg: "Social Lead",
+    img:
+      "https://media-exp1.licdn.com/dms/image/C4D03AQES86Oj9jTgpg/profile-displayphoto-shrink_200_200/0?e=1611792000&v=beta&t=Iumv7i7LOaYqpiZ0WqjfM7B9V4JA1gRrGCrw1AIytl8",
+    linkedin: "https://www.linkedin.com/in/aditi-kumari-6219931a3/",
+    facebook: "https://www.facebook.com/profile.php?id=100037837506986",
+  },
+  {
     name: "Neeraj Patil",
     desg: "Web Lead",
     img:
@@ -106,7 +106,6 @@ const Organizerlist = [
     linkedin: "https://www.linkedin.com/in/neeraj-2212/",
     facebook: "https://www.facebook.com/profile.php?id=100009281599648",
   },
-
   {
     name: "Asmit Vimal",
     desg: "Web Developer",
