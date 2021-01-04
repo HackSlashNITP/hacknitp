@@ -59,7 +59,7 @@ class Sponsers extends React.Component {
                 className="row d-flex justify-content-center"
                 style={{ marginTop: `75px` }}
               >
-                <SponserHead color="floralwhite">Lead Organiser</SponserHead>
+                <SponserHead color="floralwhite">Lead Organizer</SponserHead>
               </div>
               <div className="row d-flex justify-content-around align-items-center">
                 <LeadOrganiser />
