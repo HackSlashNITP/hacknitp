@@ -1,8 +1,7 @@
 import React, { useState } from "react"
 import { prizeData } from "./prizeData"
 import { PrizeSec, Prizesdiv } from "../style"
-// import nextIc from "./controller/next.svg"
-// import prevIc from "./controller/prev.svg"
+
 import {
   Carousel,
   CarouselItem,
@@ -84,6 +83,7 @@ const Prizes = props => {
             style={{
               backgroundColor: `rgba(255, 255, 255, 0.15)`,
               borderBottom: `10px solid ${item.color}`,
+              height: `100%`,
             }}
           >
             <img src={item.src} className="img-fluid" alt={item.name} />

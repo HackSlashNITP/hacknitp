@@ -1,0 +1,43 @@
+/* import nextIc from "./controller/next.svg"
+import prevIc from "./controller/prev.svg" */
+
+.carousel-control-prev-icon {
+  background-image: url(./controller//prev.svg);
+  height: 50px;
+  width: 50px;
+}
+.carousel-control-next {
+  right: 50%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10%;
+}
+
+.carousel-indicators {
+  margin-right: 50%;
+  margin-left: 0%;
+  bottom: -60px;
+}
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+.carousel-control-next-icon {
+  background-image: url(./controller/next.svg);
+  height: 50px;
+  width: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: none;
+  }
+  .carousel-indicators {
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+}
