@@ -126,12 +126,6 @@ const Organizerlist = [
     linkedin: "https://www.linkedin.com/in/uddeshya-kumar-2aa853202/",
   },
   {
-    name: "Anamika Kumari",
-    desg: "Content Creator",
-    img: "images/anamika.jpg",
-    linkedin: "https://www.linkedin.com/in/anamika-kumari-8b9a6b1b2/",
-  },
-  {
     name: "Amrit Raj",
     desg: "Web Developer",
     img: "images/amrit.jpg",
