@@ -131,6 +131,12 @@ const Organizerlist = [
     img: "images/anamika.jpg",
     linkedin: "https://www.linkedin.com/in/anamika-kumari-8b9a6b1b2/",
   },
+  {
+    name: "Amrit Raj",
+    desg: "Web Developer",
+    img: "images/amrit.jpg",
+    linkedin: "https://www.linkedin.com/in/amrit-raj-ba2a15190/",
+  },
 ]
 
 export default Organizerlist

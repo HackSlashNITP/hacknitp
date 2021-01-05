@@ -25,6 +25,18 @@ const tabData = [
       description: "Software Engineer at Postman",
       link: "https://www.linkedin.com/in/vinitshahdeo/",
     },
+    {
+      imgsrc: "images/judges/Judge5.jpeg",
+      head: "Aqib Ahmed",
+      description: "Software Engineer at Colt Technolgies",
+      link: "https://www.linkedin.com/in/ahmed-aqib/",
+    },
+    {
+      imgsrc: "images/judges/Judge6.jpeg",
+      head: "Vrijraj Singh",
+      description: "Google Developers Expert for Firebase & Web Technologies",
+      link: "https://www.linkedin.com/in/vrijraj/",
+    },
   ],
 
   [
@@ -62,6 +74,14 @@ const tabData = [
       link: "https://www.linkedin.com/in/mrinaljain/",
     },
     {
+      imgsrc: "images/speakers/Speaker8.jpeg",
+      head: "Anuj Garg",
+      description: "Getting started with open source",
+      date: "11-01-2021",
+      time: "06:00 PM",
+      link: "https://www.linkedin.com/in/keenwarrior/",
+    },
+    {
       imgsrc: "images/speakers/Speaker7.jpeg",
       head: "Aqib Ahmed",
       description: "Intro to Computer Vision",
@@ -87,6 +107,15 @@ const tabData = [
       time: "6:00 PM",
       description: "Scaling PostgreSQL",
       link: "https://www.linkedin.com/in/sambhav2612/",
+    },
+    {
+      imgsrc: "images/speakers/Speaker9.jpeg",
+      head: "Charu Choudha ",
+
+      date: "14-01-2021",
+      time: "9:30 PM",
+      description: "Introduction to UX",
+      link: "https://www.linkedin.com/in/charu-choudha-11725047/",
     },
   ],
 
