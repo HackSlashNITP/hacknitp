@@ -174,7 +174,7 @@ export const PrizeSec = styled.div`
   background-color: #0f0000;
   display: flex;
   justify-content: space-around;
-  align-items:center;
+  align-items: center;
   min-height: 60vh;
 
   .col-md-6 {
@@ -186,7 +186,7 @@ export const PrizeSec = styled.div`
     }
     .prize-detail {
       color: #fff;
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
   @media (max-width: 768px) {
