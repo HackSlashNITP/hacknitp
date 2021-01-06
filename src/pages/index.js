@@ -7,6 +7,7 @@ import Themes from "../components/Theme/theme"
 import Sponsers from "../components/sponsers"
 import Organizers from "../components/organisers"
 import Prizes from "../components/prizes/prizes"
+import SpecialPrize from "../components/prizes/specialPrizes"
 // import Contact from "../components/contact"
 import Faq from "../components/faq"
 import Footer from "../components/footer"
@@ -20,6 +21,7 @@ const IndexPage = () => (
     <Tabs />
     <Themes />
     <Prizes />
+    <SpecialPrize />
     <Sponsers />
     <Organizers />
     <Faq />

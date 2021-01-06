@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { prizeData } from "./prizeData"
+
 import { PrizeSec, Prizesdiv } from "../style"
 
 import {
