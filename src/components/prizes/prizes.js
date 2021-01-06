@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { prizeData } from "./prizeData"
-import { PrizeSec, Prizesdiv } from "../style"
+import { PrizeCard } from "./prizeCard"
+import { PrizeSec, Prizesdiv, SponserHead } from "../style"
 
 import {
   Carousel,
@@ -119,6 +120,87 @@ const Prizes = props => {
             onClickHandler={next}
           />
         </Carousel>
+      <SponserHead color="floralwhite" style={{ marginTop: `75px` }}>
+          Special Track Prizes
+      </SponserHead>
+      <div id="cards_landscape_wrap-2">
+        <div className="container w-100">
+            <div class="row d-flex justify-content-around">
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                {/* <a href=""> */}
+                <div class="card-flyer">
+                  <div class="text-box">
+                    <div class="image-box">
+                      <img src="images/sponsors/matic3.png" alt=""/>
+                    </div>
+                    <div class="text-container">
+                      <h6>Challenge</h6>
+                      <p>The project must be built on Ethereum or Matic.</p><br/>
+                      <h6>Prizes</h6>
+                      <p>1. ₹10,000 for the best hack built on Ethereum</p>
+                      <p>2. ₹15,000 for the best hack built on Ethereum + Matic</p>
+                      <p>3. Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners!</p>
+                    </div>
+                  </div>
+                </div>
+                {/* </a> */}
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                {/* <a href=""> */}
+                <div class="card-flyer">
+                  <div class="text-box">
+                    <div class="image-box">
+                      <img src="images/sponsors/Tezos.png" alt="" />
+                    </div>
+                    <div class="text-container">
+                      <h6>Challenge</h6>
+                      <p>The project must be Dapp built on Tezos.</p><br/>
+                      <h6>Prizes</h6>
+                      <p>1. ₹10,000 for best Dapp built on Tezos</p>
+                      <p>2. ₹5000 for Runners-up Dapp built on Tezos</p>
+                    </div>
+                  </div>
+                </div>
+                {/* </a> */}
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                {/* <a href=""> */}
+                <div class="card-flyer">
+                  <div class="text-box">
+                    <div class="image-box">
+                      <img src="images/sponsors/dockship2.png" alt="" />
+                    </div>
+                    <div class="text-container">
+                      <h6>Challenge</h6>
+                      <p>The project must be Dapp built on Tezos.</p><br/>
+                      <h6>Prizes</h6>
+                      <p>1. ₹10,000 for best Dapp built on Tezos</p>
+                      <p>2. ₹5000 for Runners-up Dapp built on Tezos</p>
+                    </div>
+                  </div>
+                </div>
+                {/* </a> */}
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                {/* <a href=""> */}
+                <div class="card-flyer">
+                  <div class="text-box">
+                    <div class="image-box">
+                      <img src="images/sponsors/Portis2 .png" alt="" />
+                    </div>
+                    <div class="text-container">
+                      <h6>Challenge</h6>
+                      <p>The project must be Dapp built on Portis.</p><br/>
+                      <h6>Prizes</h6>
+                      <p>1. ₹15,000 (in crypto) for best Dapp built on Portis</p>
+                    </div>
+                  </div>
+                </div>
+                {/* </a> */}
+              </div>
+            </div>
+        </div>
+    </div>
       </Prizesdiv>
     </>
   )
