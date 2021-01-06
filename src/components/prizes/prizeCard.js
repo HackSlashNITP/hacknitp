@@ -1,24 +1,33 @@
 import React from "react"
+import {
+  Card,
+  CardImg,
+  CardTitle,
+  CardSubtitle,
+  CardText,
+  CardBody,
+} from "reactstrap"
 
 const PrizeCard = props => {
   return (
-    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-        {/* <a href=""> */}
-            <div class="card-flyer">
-                <div class="text-box">
-                    <div class="image-box">
-                        <img src="https://cdn.pixabay.com/photo/2018/03/30/15/11/deer-3275594_960_720.jpg" alt="" />
-                    </div>
-                    <div class="text-container">
-                        <h6>Challenge</h6>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br/>
-                        <h6>Prizes</h6>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                </div>
-            </div>
-        {/* </a> */}
-    </div>
+    <Card className=" text-center col-md-3 m-3 m-sm-5 ">
+      <div className="sp-img">
+        <CardImg top width="100%" src={props.src} alt={props.alt} />
+      </div>
+      <CardBody>
+        <CardTitle tag="h3">Challenge</CardTitle>
+
+        <CardText>{props.challenge}</CardText>
+        <CardTitle tag="h3" className="pt-2">
+          Prizes
+        </CardTitle>
+        <CardText>
+          {props.prizes.map(ent => {
+            return <p>{ent}</p>
+          })}
+        </CardText>
+      </CardBody>
+    </Card>
   )
 }
 

@@ -32,3 +32,53 @@ export const prizeData = [
     "1 t shirt to each member from GitHub",
   ],
 ]
+
+export const specialprizeData = [
+  {
+    src: "images/sponsors/matic.png",
+    challenge: "The project must be built on Ethereum or Ethereum and Matic.",
+    alt: "Matic",
+    prizes: [
+      "1. ₹10,000 for the best hack built on Ethereum ",
+      "2. ₹15,000 for the best hack built on Ethereum + Matic",
+      "3. Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners!",
+    ],
+  },
+  {
+    src: "images/sponsors/Portis.png",
+    challenge: "The project must be Dapp built on Portis.",
+    alt: "Portis",
+    prizes: ["1. ₹15,000 (in crypto) for best Dapp built on Portis."],
+  },
+  {
+    src: "images/sponsors/Tezos.png",
+    challenge: "The project must be Dapp built on Tezos.",
+    alt: "Tezos",
+    prizes: [
+      "1. ₹10,000 for best Dapp built on Tezos",
+      "2. ₹5000 for Runners-up Dapp built on Tezos",
+    ],
+  },
+  {
+    src: "images/sponsors/echoAR.png",
+    challenge:
+      "Winners MUST use the echoAR platform as part of their project to be eligible for a reward.",
+    alt: "echoAR",
+    prizes: [
+      "1. $50 Amazon gift card(per team)",
+      "2. 1-month free Business Tier access(per team member)",
+      "3. Selected projects will be featured on our “Inspiration” Page",
+    ],
+  },
+  {
+    src: "images/sponsors/dockship2.png",
+    challenge:
+      "The aim of this challenge is to read the audio files and detect their sentiment.",
+    alt: "Dockship",
+    prizes: [
+      "1. The Top 3 Teams will receive personalised T-shirts and Mugs.",
+      "2. Top 3 Rank holders will get permanent place in Dockship Hall of Fame.",
+      "3. Every participant with a successful submission will receive certificates from HackNITP.",
+    ],
+  },
+]
