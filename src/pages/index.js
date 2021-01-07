@@ -12,6 +12,7 @@ import SpecialPrize from "../components/prizes/specialPrizes"
 import Faq from "../components/faq"
 import Footer from "../components/footer"
 import Tabs from "../components/Tabs/tabs"
+import Timeline from "../components/Timeline"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -22,6 +23,7 @@ const IndexPage = () => (
     <Themes />
     <Prizes />
     <SpecialPrize />
+    <Timeline/>
     <Sponsers />
     <Organizers />
     <Faq />
