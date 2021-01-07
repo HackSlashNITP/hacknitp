@@ -11,22 +11,22 @@ const Timeline2 = () => {
             cardSubtitle:"Registrations Open Now !!!",
         },
         {
-            title: "8 Jan, 2020",
+            title: "8 Jan, 2021",
             cardTitle: "Workshops",
             cardSubtitle:"Workshops will be conducted to get you familiar with cutting-edge technologies...",
         },
         {
-            title: "15 Jan, 2020 6:00 PM",
+            title: "15 Jan, 2021 6:00 PM",
             cardTitle: "Hackathon Starts",
             cardSubtitle:"Get Ready for the 60-hours long Heat...",
         },
         {
-            title: "16 Jan, 2020 6:00 PM",
+            title: "16 Jan, 2021 6:00 PM",
             cardTitle: "Mid Evaluation",
             cardSubtitle:"Time to know about your power!!!",
         },
         {
-            title: "18 Jan, 2020 6:00 AM",
+            title: "18 Jan, 2021 6:00 AM",
             cardTitle: "Hackathon Ends",
             cardSubtitle:"END IS HERE...",
         },
