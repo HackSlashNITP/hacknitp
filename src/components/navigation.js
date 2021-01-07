@@ -49,6 +49,11 @@ const Navigation = props => {
               </NavLink>
             </NavItem>
             <NavItem className="navlink">
+              <NavLink href="#timeline" className="text-right">
+                Timeline
+              </NavLink>
+            </NavItem>
+            <NavItem className="navlink">
               <NavLink href="#sponsors" className="text-right">
                 Sponsors
               </NavLink>
