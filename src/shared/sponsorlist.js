@@ -15,10 +15,6 @@ export const GoldSponsors = [
     img: "images/sponsors/Tezos.png",
     link: "https://tezos.com/",
   },
-  {
-    link: "https://www.outsystems.com/",
-    img: "images/sponsors/outsystems.png",
-  },
 ]
 
 export const SilverSponsers = [
