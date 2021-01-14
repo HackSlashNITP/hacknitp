@@ -5,6 +5,7 @@ import {
   GoldSponsors,
   SilverSponsers,
   Patrons,
+  EventPartners,
   Communities,
 } from "../shared/sponsorlist"
 class Sponsers extends React.Component {
@@ -70,6 +71,20 @@ class Sponsers extends React.Component {
             </div>
             <div className="row d-flex justify-content-around align-items-center stackrow">
               {Communities.map(elem => {
+                return (
+                  <Sponsorcard
+                    url={elem.img}
+                    link={elem.link}
+                    type={`community`}
+                  />
+                )
+              })}
+            </div>
+            <SponserHead color="floralwhite" style={{ marginTop: `75px` }}>
+              Event Partner
+            </SponserHead>
+            <div className="row d-flex justify-content-around align-items-center stackrow">
+              {EventPartners.map(elem => {
                 return (
                   <Sponsorcard
                     url={elem.img}
