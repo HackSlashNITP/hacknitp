@@ -178,6 +178,12 @@ const tabData = [
       link: "https://www.linkedin.com/in/hdhitesh/",
     },
     {
+      imgsrc: "images/mentors/udit-rungta.jpg",
+      description: "Community Manager @ForeignAdmits ",
+      head: "Udit Rungta",
+      link: "https://www.linkedin.com/in/udit-rungta7/",
+    },
+    {
       imgsrc: "images/mentors/sahil-k.jpg",
       description: "MERN Stack Developer | Flutter Developer",
       head: "Sahil khandelwal",
