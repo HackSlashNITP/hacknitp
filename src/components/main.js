@@ -12,8 +12,8 @@ class Main extends React.Component {
         seconds: 0,
       },
     }
-    this.startTimer = this.startTimer.bind(this)
-    this.run = this.run.bind(this)
+    //this.startTimer = this.startTimer.bind(this)
+    //this.run = this.run.bind(this)
   }
   msToTime(duration) {
     const time = Date.parse(duration) - Date.parse(new Date())
@@ -34,7 +34,7 @@ class Main extends React.Component {
       seconds,
     }
   }
-  componentDidMount() {
+  /*componentDidMount() {
     let d2 = "January 15,2021 18:00:00"
     this.msToTime(d2)
     //console.log(d1 + ":d1\n" + d2 + " :d2\n" + duration + " :duration")
@@ -56,7 +56,7 @@ class Main extends React.Component {
     if (this.state.duration === 0) {
       window.clearInterval(this.timer)
     }
-  }
+  }*/
   render() {
     return (
       <>
