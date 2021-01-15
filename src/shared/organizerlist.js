@@ -37,7 +37,7 @@ const Organizerlist = [
     name: "Garima Singh",
     desg: "Lead Organizer",
     img:
-      "https://media-exp1.licdn.com/dms/image/C4D03AQFUOqlPZVVE_g/profile-displayphoto-shrink_200_200/0?e=1611792000&v=beta&t=1TkEdiKpMLBePLSlBo-EBmiWZFO2-dFz1OJTdcdOUXk",
+      "https://media-exp1.licdn.com/dms/image/C4D03AQF2kZWvcjrvTg/profile-displayphoto-shrink_800_800/0/1610624907978?e=1616025600&v=beta&t=NBONxCOVK4VF4MI1k_HHZRwjpELZlcGgYkm2Bt_SZIs",
     linkedin: "https://www.linkedin.com/in/garimasinghnitp/",
     facebook: "https://www.facebook.com/garima1208",
   },
@@ -98,12 +98,12 @@ const Organizerlist = [
       "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/neha_kumari_hh061DE.jpeg",
     linkedin: "https://www.linkedin.com/in/neha-nk-1709/",
   },
-  
+
   {
     name: "Neeraj Patil",
     desg: "Web Lead",
     img:
-      "https://media-exp1.licdn.com/dms/image/C5603AQHWTDxJ-pfsnQ/profile-displayphoto-shrink_200_200/0?e=1611792000&v=beta&t=RwU-46aZjNHmkigzMyMj4a59hhCLG6We1Ob69KTUhmY",
+      "https://media-exp1.licdn.com/dms/image/C5603AQElP6v95EBxQg/profile-displayphoto-shrink_800_800/0/1610110578975?e=1616025600&v=beta&t=e39z6r2HVhKp4Y5hwhtX07Xo87QRk7PK7WVyBReL978",
     linkedin: "https://www.linkedin.com/in/neeraj-2212/",
     facebook: "https://www.facebook.com/profile.php?id=100009281599648",
   },

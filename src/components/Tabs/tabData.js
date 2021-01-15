@@ -121,21 +121,143 @@ const tabData = [
 
   [
     {
-      imgsrc:
-        "https://vignette.wikia.nocookie.net/muggle-born/images/1/1c/Tomdh.jpg/revision/latest/scale-to-width-down/340?cb=20131201103704",
-      head: "Lord Voldemort",
-      link: "#",
+      imgsrc: "images/mentors/arnav-sir.jpg",
+      description: "Software Engineer at Amazon",
+      head: "Arnav Vats",
+      link: "https://www.linkedin.com/in/arnavvats/",
     },
     {
-      imgsrc:
-        "https://i.pinimg.com/736x/bc/ac/93/bcac9325797e203dcad2e8caf6e4211f.jpg",
-      head: "Bellatrix Lestrange",
-      link: "#",
+      imgsrc: "images/mentors/tushar-sir.jpg",
+      description: "Software Development Engineer at OYO",
+      head: "Tushar Anand",
+      link: "https://www.linkedin.com/in/anandtushar111/",
     },
     {
-      imgsrc: "https://thumbs.gfycat.com/FewScaryCoypu-size_restricted.gif",
-      head: "Peter Pettigrew",
-      link: "#",
+      imgsrc: "images/mentors/insha-mam.jpg",
+      description: "Machine Learning practitioner | Innovative Thinker",
+      head: "Insha Nadeem",
+      link: "https://www.linkedin.com/in/inshanadeem/",
+    },
+    {
+      imgsrc: "images/mentors/varun-n.jpg",
+      description:
+        "Digital Marketing & Web Dev Enthusiast | Personal Branding | Social Media Head @ CodeAsylums",
+      head: "Varun N.",
+      link: "https://www.linkedin.com/in/varun-narang/",
+    },
+    {
+      imgsrc: "images/mentors/chirag.jpg",
+      description:
+        "Community Growth Head CodeAsylums || Students President at CodeChef",
+      head: "Chirag Bansal",
+      link: "https://www.linkedin.com/in/chirag-bansal-04a48b16b/",
+    },
+    {
+      imgsrc: "images/mentors/madhvi.jpg",
+      description: "Community Growth Team Lead @ CodeAsylums|| DSC BVP Pune",
+      head: "Madhavi Gaikwad",
+      link: "https://www.linkedin.com/in/madhavi-gaikwad0701/",
+    },
+    {
+      imgsrc: "images/mentors/zaina.jpg",
+      description: "Aan Aspiring web developer || Vice president at ISTE-VIT",
+      head: "Zaina Nizar",
+      link: "https://www.linkedin.com/in/zaina-nizar-78229b1a5/",
+    },
+    {
+      imgsrc: "images/mentors/kajal.jpg",
+      description:
+        "Aspiring Mern stack developer | Community Moderator at CodeAsylums Network",
+      head: "Kajal Narang",
+      link: "https://www.linkedin.com/in/kajal-narang-896703195/",
+    },
+    {
+      imgsrc: "images/mentors/hitesh-sahu.jpg",
+      description: "Community Manager @ForeignAdmits ",
+      head: "Hitesh Sahu",
+      link: "https://www.linkedin.com/in/hdhitesh/",
+    },
+    {
+      imgsrc: "images/mentors/sahil-k.jpg",
+      description: "MERN Stack Developer | Flutter Developer",
+      head: "Sahil khandelwal",
+      link: "https://www.linkedin.com/in/sahil-khandelwal-91b350b7/",
+    },
+    {
+      imgsrc: "images/mentors/tejas.jpg",
+      description:
+        "Microsoft Learn Student Ambassador | Project Administrator at DWOC and SWOC",
+      head: "Tejas Tapas",
+      link: "https://www.linkedin.com/in/tejas-tapas-971847171/",
+    },
+    {
+      imgsrc: "images/mentors/gurtej.jpg",
+      description:
+        "21 U 21 Award | Program & Growth Evangelist @ Board Infinity | MLSA-Microsoft",
+      head: "Gurtej Singh",
+      link: "https://www.linkedin.com/in/gurtej-singh-cse",
+    },
+    {
+      imgsrc: "images/mentors/antaripa.jpg",
+      description: "ML Engineer at Omdena | DCo @eduAlgo",
+      head: "Antaripa Saha",
+      link: "https://www.linkedin.com/in/antaripa-saha/",
+    },
+    {
+      imgsrc: "images/mentors/nadeem-k.jpg",
+      description: "Full Stack Web Developer||Writer||Social Worker",
+      head: "Nadeem kaisar",
+      link: "https://www.linkedin.com/in/nadeem-kaisar/",
+    },
+
+    {
+      imgsrc: "images/mentors/anustup.jpg",
+      description:
+        "Former Lead ML Engineer @Omdena || AI -Medical Entrepreneur Founder CEO Mankibaat ",
+      head: "Anustup Mukherjee",
+      link: "https://www.linkedin.com/in/anustupmukherjee",
+    },
+    {
+      imgsrc: "images/mentors/rishabh.jpg",
+      description:
+        "Data Engineer | TCS Analytics & Insights | BITS Pilani | CCA175 | PySpark | Hive | Hadoop",
+      head: "Rishabh Agarwal",
+      link: "https://www.linkedin.com/in/rishabh-agarwal-9096074621/",
+    },
+    {
+      imgsrc: "images/mentors/srishti.jpg",
+      description:
+        "Intern at Viral Fission|| Public Speaker at Glue Labs|| Graphic Designer at CA",
+      head: "Srishti Maggo",
+      link: "https://www.linkedin.com/in/srishti-maggo-668b9218a/",
+    },
+    {
+      imgsrc: "images/mentors/kinit.jpg",
+      description:
+        "Full Stack Web and App Dev|AI practitioner| DSC Mobile dev departmental Lead",
+      head: "Kinit Kumar",
+      link: "https://www.linkedin.com/in/kinit-kumar-45a19b175/",
+    },
+    {
+      imgsrc: "images/mentors/rajswi.jpg",
+      description:
+        "Full Stack Developer||Machine Learning||NLP||Android Developer",
+      head: "Rajswi Lochan",
+      link: "https://www.linkedin.com/in/rajswi-lochan",
+    },
+    // {
+    //   imgsrc: "images/mentors/uday.jpg",
+    //   description: "",
+    //   head: "Uday Krishna",
+    //   link: "https://www.linkedin.com/in/uday-krishna-p",
+    // },
+
+    {
+      imgsrc: "images/mentors/sarthak.jpg",
+      description:
+        "MLH Fellow'20 | GSSoC'20 | PSoC'20 | Mentor at HakinCodes, SLoP | Instructor at CampK12",
+      head: "Sarthak Kundra",
+      link: "https://www.linkedin.com/in/sarthak-kundra-2b6247189/",
     },
   ],
 

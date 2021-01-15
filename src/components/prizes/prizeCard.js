@@ -1,12 +1,5 @@
 import React from "react"
-import {
-  Card,
-  CardImg,
-  CardTitle,
-  CardSubtitle,
-  CardText,
-  CardBody,
-} from "reactstrap"
+import { Card, CardImg, CardTitle, CardText, CardBody } from "reactstrap"
 
 const PrizeCard = props => {
   return (

@@ -53,14 +53,14 @@ function Tab() {
             Speakers
           </button>
 
-          {/* <button
+          <button
             id="button"
             type="button"
-            className="glow"
+            className={` ${count === 2 ? " active-glow" : "glow"}`}
             onClick={() => setCount(2)}
           >
             Mentors
-          </button> */}
+          </button>
           {/* <button
             id="button"
             type="button"
