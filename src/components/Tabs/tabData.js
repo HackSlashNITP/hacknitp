@@ -280,13 +280,6 @@ const tabData = [
       head: "Uday Krishna",
       link: "https://www.linkedin.com/in/uday-krishna-p",
     },
-    {
-      imgsrc: "images/mentors/user.png",
-      description:
-        "Mentor",
-      head: "Aahan Agarwal",
-      link: "https://www.aahan.ml/",
-    },
   ],
 
   [
