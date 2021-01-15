@@ -259,6 +259,34 @@ const tabData = [
       head: "Sarthak Kundra",
       link: "https://www.linkedin.com/in/sarthak-kundra-2b6247189/",
     },
+    {
+      imgsrc: "images/mentors/basudha.jpeg",
+      description:
+        "Student Partner @ CodeAsylum",
+      head: "Basudha Choudhury",
+      link: "https://www.linkedin.com/in/basudha-choudhury",
+    },
+    {
+      imgsrc: "images/mentors/avneesh.jpeg",
+      description:
+        "Microsoft Learn Student Ambassador | Android Developer",
+      head: "Avneesh Singh",
+      link: "https://www.linkedin.com/in/avneesh-singh/",
+    },
+    {
+      imgsrc: "images/mentors/uday.jpg",
+      description:
+        "Mentor",
+      head: "Uday Krishna",
+      link: "https://www.linkedin.com/in/uday-krishna-p",
+    },
+    {
+      imgsrc: "images/mentors/user.png",
+      description:
+        "Mentor",
+      head: "Aahan Agarwal",
+      link: "https://www.aahan.ml/",
+    },
   ],
 
   [
