@@ -3,7 +3,7 @@ const Organizerlist = [
     name: "Kumar Harsh",
     desg: "Lead Organizer",
     img:
-      "https://media-exp1.licdn.com/dms/image/C5603AQEMhDfGQs0p0Q/profile-displayphoto-shrink_200_200/0?e=1611792000&v=beta&t=5dOpNSrrBa5apt7h20qvoo4JugffboJAH-9nX-sDRIE",
+      "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/kumar_harsh.jpg",
     linkedin: "https://www.linkedin.com/in/krharsh17/",
     facebook: "https://www.facebook.com/krharsh17",
     instagram: "https://www.instagram.com/krharsh17/",
@@ -61,7 +61,7 @@ const Organizerlist = [
     name: "Divya Prakash",
     desg: "Lead Organizer",
     img:
-      "https://media-exp1.licdn.com/dms/image/C4E03AQGCIhsewexWJQ/profile-displayphoto-shrink_200_200/0/1599927402689?e=1611792000&v=beta&t=Y5YkD8XOj9iuEKRg8RowyrNV5ZN_75pAnVVhp4MPaWg",
+      "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/divya_prakash_l9pdhoU.jpg",
     linkedin: "https://www.linkedin.com/in/divyaprakashrx/",
     facebook: "https://www.facebook.com/profile.php?id=100011144353781",
     instagram: "https://www.instagram.com/divyaprakash.1/",
