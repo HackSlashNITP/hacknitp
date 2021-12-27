@@ -1,5 +1,73 @@
 import styled from "styled-components"
 
+export const Home = styled.div`
+    margin-top: 5.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 100;
+    margin-bottom: 7rem;
+    align-items: center;
+  .hack-old {
+    max-height: 5rem;
+  }
+  .home-date {
+    margin: 1rem 0 1rem 0;
+    color: #59db8a;
+  }
+  .home-para {
+    color: white;
+    margin-bottom: 2rem;
+  }
+  .home-left {
+    max-width: 25rem;
+  }
+  .btn-secondary {
+    height: 2.4rem;
+    padding: 0 1.2rem;
+    border-radius: 0.6rem;
+    border: none;
+    background-color: #0e0a1b;
+    margin-right: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #59db8a;
+    border: 2px solid #59db8a;
+  }
+  .game-on {
+    max-width: 35vw;
+  }
+  .home-btns {
+    display: flex;
+  }
+  .btn-primary {
+    height: 2.5rem;
+    padding: 0 1.2rem;
+    border-radius: 0.6rem;
+    border: none;
+    background-color: #59db8a;
+    margin-right: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 900px) {
+      margin-top: 3rem;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    .game-on {
+      max-width: 60vw;
+      margin-bottom: 3rem;
+    }
+    .home-left {
+      margin: 1rem;
+    }
+    .hack-old {
+      max-height: 4.5rem;
+    }
+  }
+`
+
 export const Maindiv = styled.div`
   background-color: #aa9090;
 `

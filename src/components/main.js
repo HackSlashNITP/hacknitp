@@ -1,6 +1,25 @@
 import React from "react"
 import logo from "../images/logo.svg"
 import Navigation from "./navigation"
+import gameon from "../images/game-on.svg"
+import { Home } from "./style"
+import { Button } from "@material-ui/core"
+import styled from "styled-components"
+import Timer from "./timer/timer"
+const RegButton = styled.button`
+  background-color: #59db8a;
+  border-radius: 10px;
+  border-width: 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  &:hover {
+    background-color: #ffffff;
+    color: green;
+  }
+`
+
 class Main extends React.Component {
   constructor(props) {
     super(props)
@@ -15,25 +34,27 @@ class Main extends React.Component {
     //this.startTimer = this.startTimer.bind(this)
     //this.run = this.run.bind(this)
   }
-  msToTime(duration) {
-    const time = Date.parse(duration) - Date.parse(new Date())
-    const days = Math.floor(time / (1000 * 60 * 60 * 24)).toString().padStart(2,"0")
-    const hours = Math.floor((time / (1000 * 60 * 60)) % 24)
-      .toString()
-      .padStart(2, "0")
-    const minutes = Math.floor((time / 1000 / 60) % 60)
-      .toString()
-      .padStart(2, "0")
-    const seconds = Math.floor((time / 1000) % 60)
-      .toString()
-      .padStart(2, "0")
-    return {
-      days,
-      hours,
-      minutes,
-      seconds,
-    }
-  }
+  // msToTime(duration) {
+  //   const time = Date.parse(duration) - Date.parse(new Date())
+  //   const days = Math.floor(time / (1000 * 60 * 60 * 24))
+  //     .toString()
+  //     .padStart(2, "0")
+  //   const hours = Math.floor((time / (1000 * 60 * 60)) % 24)
+  //     .toString()
+  //     .padStart(2, "0")
+  //   const minutes = Math.floor((time / 1000 / 60) % 60)
+  //     .toString()
+  //     .padStart(2, "0")
+  //   const seconds = Math.floor((time / 1000) % 60)
+  //     .toString()
+  //     .padStart(2, "0")
+  //   return {
+  //     days,
+  //     hours,
+  //     minutes,
+  //     seconds,
+  //   }
+  // }
   /*componentDidMount() {
     let d2 = "January 15,2021 18:00:00"
     this.msToTime(d2)
@@ -62,7 +83,34 @@ class Main extends React.Component {
       <>
         <div className="wrap">
           <Navigation />
-          <div className="logowrap d-flex justify-content-center align-items-center">
+          <Home>
+            <div className="home-left">
+              <img src={logo} alt="hacknitp 2022" className="hack-old" />
+              <h5 className="home-date">November 20,2021 - February 19,2022</h5>
+              <p className="home-para">
+                The hack is only a small part of the competition. The real
+                spirit lies in building your network in the growing tech
+                community and collaborating with some of the finest minds of the
+                nation. Just remember, taking the Hackathons too seriously
+                defeats the purpose. Save the seriousness for pitching to
+                investors. Keeping an open mind will open new doors, help build
+                new relationships and acquire new skills.This is hackNITP.
+              </p>
+              <div className="home-btns">
+                <RegButton>Register Now</RegButton>
+                {/* ToDO update Discord BTN */}
+                <Button variant="outlined" color="primary">
+                  Discord
+                </Button>
+              </div>
+            </div>
+            <div className="home-right">
+              <img src={gameon} alt="" className="game-on" />
+            </div>
+
+          </Home>
+          <Timer/>
+          {/* <div className="logowrap d-flex justify-content-center align-items-center">
             <div style={{ width: `100%` }}>
               <div style={{ textAlign: `center` }}>
                 <img
@@ -99,7 +147,7 @@ class Main extends React.Component {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </>
     )

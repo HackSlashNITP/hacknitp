@@ -40,7 +40,7 @@ function Tab() {
               clicked(0)
             }}
           >
-            Judges
+           Previous Judges
           </button>
           <button
             id="button"
@@ -50,7 +50,7 @@ function Tab() {
               clicked(1)
             }}
           >
-            Speakers
+           Previous Speakers
           </button>
 
           <button
@@ -59,7 +59,7 @@ function Tab() {
             className={` ${count === 2 ? " active-glow" : "glow"}`}
             onClick={() => setCount(2)}
           >
-            Mentors
+          Previous  Mentors
           </button>
           {/* <button
             id="button"

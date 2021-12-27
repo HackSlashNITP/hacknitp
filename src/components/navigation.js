@@ -1,82 +1,81 @@
 import React, { useState } from "react"
 import logo from "../images/logo.svg"
-// import { NavDiv } from "./style"
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  // UncontrolledDropdown,
-  // DropdownToggle,
-  // DropdownMenu,
-  // DropdownItem,
-  // NavbarText,
-} from "reactstrap"
-import menu from "../images/menu.svg"
-const Navigation = props => {
-  const [isOpen, setIsOpen] = useState(false)
 
-  const toggle = () => setIsOpen(!isOpen)
-
+const Navigation = () => {
+  function handleMenu(e) {
+    e.preventDefault()
+    document.querySelector(".popup").classList.toggle("popup-open")
+  }
   return (
-    <div>
-      <Navbar expand="lg" className="container-fluid fix-nav">
-        <NavbarBrand href="/" disabled className="ml-lg-5 ">
-          <img
-            src={logo}
-            style={{ maxHeight: `50px` }}
-            className="img-fluid "
-            alt=" "
-          />
-        </NavbarBrand>
-        <span style={{ flex: `4 1 auto` }} />
-        <NavbarToggler color="white" onClick={toggle}>
-          <img src={menu} width="60px" alt="toggle" />
-        </NavbarToggler>
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className=" navvvy pt-4" navbar>
-            <NavItem className="navlink">
-              <NavLink href="#about" className="text-right">
-                About Us
-              </NavLink>
-            </NavItem>
-            <NavItem className="navlink">
-              <NavLink href="#prizes" className="text-right">
-                Prizes
-              </NavLink>
-            </NavItem>
-            <NavItem className="navlink">
-              <NavLink href="#timeline" className="text-right">
-                Timeline
-              </NavLink>
-            </NavItem>
-            <NavItem className="navlink">
-              <NavLink href="#sponsors" className="text-right">
-                Sponsors
-              </NavLink>
-            </NavItem>
-            <NavItem className="navlink">
-              <NavLink href="#organizer" className="text-right">
-                Organizers
-              </NavLink>
-            </NavItem>
-            <NavItem className="navlink">
-              <NavLink href="#FAQ" className="text-right">
-                FAQs
-              </NavLink>
-            </NavItem>
-            <NavItem className="navlink">
-              <NavLink href="#contact" className="text-right">
-                Contact Us
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
-    </div>
+    <>
+      <div className="popup">
+        <div className="cut-btn-flex" onClick={handleMenu}>
+          <i class="fas fa-times popup-cut-btn"></i>
+        </div>
+        <nav class="stroke">
+          <ul className="nav-mob">
+            <li onClick={handleMenu}>
+              <a href="#about">About Us</a>
+            </li>
+            <li onClick={handleMenu}>
+              <a href="#prizes">Prizes</a>
+            </li>
+            <li onClick={handleMenu}>
+              <a href="#timeline">Timeline</a>
+            </li>
+            <li onClick={handleMenu}>
+              <a href="#sponsors">Sponsors</a>
+            </li>
+            <li onClick={handleMenu}>
+              <a href="#organizer">Organizers</a>
+            </li>
+            <li onClick={handleMenu}>
+              <a href="#FAQ">FAQs</a>
+            </li>
+            <li onClick={handleMenu}>
+              <a href="#contact">Contact Us</a>
+            </li>
+          </ul>
+          <div className="disc-btn">
+            <button className="btn btn-primary" onClick={handleMenu}>
+              Join us on Discord
+            </button>
+          </div>
+        </nav>
+      </div>
+      <div class="navbar2">
+        <div className="nav-jack">
+          <img src={logo} alt="" class="njack-logo" />
+        </div>
+        <div className="right">
+          <nav class="stroke">
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Downloads</a>
+              </li>
+              <li>
+                <a href="#">More</a>
+              </li>
+              <li>
+                <a href="#">Nice staff</a>
+              </li>
+            </ul>
+            <div className="disc-btn">
+              <button className="btn btn-primary">Join us on Discord</button>
+            </div>
+          </nav>
+        </div>
+        <div className="right-alt">
+          <i class="fas fa-bars" onClick={handleMenu}></i>
+        </div>
+      </div>
+    </>
   )
 }
 
