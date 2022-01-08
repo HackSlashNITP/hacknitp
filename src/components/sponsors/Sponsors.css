@@ -1,0 +1,78 @@
+.level2-heading{
+    text-align: center;
+    color: white;
+    margin: 1rem 0;
+}
+.sponsor-bp{
+    height: 6.5rem;
+    width: 12rem;
+    border-radius: 1rem;
+    background-color: #1C172F;
+    margin: 2rem;
+}
+.platinum-cont{
+    display:flex ;
+    flex-wrap: wrap;
+    margin: 0 8rem;
+    justify-content:space-evenly;
+}
+.platinum{
+ margin-top: 2rem;
+}
+.gold{
+    color:gold;
+}
+.silver{
+    color: silver;
+}
+.enquire-sponsors-cont{
+    background-color: #1C172F;
+    margin: 2rem 16rem;
+    border-radius: 2rem;
+    padding: 2rem 0;
+    text-align: center;
+}
+.last-yr-sponsors{
+    color: rgb(56, 199, 99);
+    font-size: 1.2rem;
+    margin: 1.2rem 0;
+}
+.sponsor-brochure-btn{
+    margin-top:2rem;
+}
+.mail-id{
+    color: rgb(43, 116, 226);
+}
+.dnld-sponsor-broc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 17rem;
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and ( max-width:1000px){
+    .enquire-sponsors-cont{
+    margin: 2rem 2rem;
+}
+.platinum-cont{
+    margin: 0 2rem;
+}
+}
+
+@media screen and ( max-width:900px){
+    .enquire-sponsors-cont{
+    margin: 2rem 0.1rem;
+}
+.platinum-cont{
+    margin: 0 2rem;
+}
+.sponsor-bp{
+    height: 5rem;
+    width: 8rem;
+    border-radius: 1rem;
+    background-color: #1C172F;
+    margin: 1rem 0.3rem 1rem 0.3rem;
+}
+}
