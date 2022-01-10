@@ -11,39 +11,55 @@ const Timeline = () => {
         <div class="outer">
           <div class="card" data-aos="fade-up">
             <div class="info">
-              <h3 class="title">10 January</h3>
+              <h3 class="title">13 January, 18:00 IST</h3>
               <p className='timeline-des'>
-                Registration Starts for the hackathon.
+                Hackathon registration starts.
               </p>
             </div>
           </div>
           <div class="card" data-aos="fade-up">
             <div class="info">
-              <h3 class="title">6 February</h3>
+              <h3 class="title">3 February, 18:00 IST</h3>
               <p className='timeline-des'>
-                Sessions by various speakers from around the globe will be conducted to get you familiar with the cutting edge technologies.
+                Info Session
               </p>
             </div>
           </div>
           <div class="card" data-aos="fade-up">
             <div class="info">
-              <h3 class="title">10 February</h3>
+              <h3 class="title">4 February 18:00 IST</h3>
               <p className='timeline-des'>
-                Registration for hackathon ends.
+                Workshop series ends.
               </p>
             </div>
           </div>
           <div class="card" data-aos="fade-up">
             <div class="info">
-              <h3 class="title">11 February</h3>
+              <h3 class="title">10 February, 18:00 IST</h3>
               <p className='timeline-des'>
-                Get ready for the 48 hours long heat!!
+                Hackathon registration ends.
               </p>
             </div>
           </div>
           <div class="card" data-aos="fade-up">
             <div class="info">
-              <h3 class="title">13 January</h3>
+              <h3 class="title">11 Febraury, 16:00 IST</h3>
+              <p className='timeline-des'>
+                Opening Ceremony.
+              </p>
+            </div>
+          </div>
+          <div class="card" data-aos="fade-up">
+            <div class="info">
+              <h3 class="title">11 Febraury, 18:00 IST</h3>
+              <p className='timeline-des'>
+                Hackathon Starts.
+              </p>
+            </div>
+          </div>
+          <div class="card" data-aos="fade-up">
+            <div class="info">
+              <h3 class="title">13 Febraury, 18:00 IST</h3>
               <p className='timeline-des'>
                 Hackathon Ends.
               </p>
@@ -51,9 +67,9 @@ const Timeline = () => {
           </div>
           <div class="card" data-aos="fade-up">
             <div class="info">
-              <h3 class="title">15 January</h3>
+              <h3 class="title">20 Febraury, 18:00 IST</h3>
               <p className='timeline-des'>
-                Winners are announced.
+                Closing Ceremony.
               </p>
             </div>
           </div>
