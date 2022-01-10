@@ -34,7 +34,7 @@ const HomePage = () => {
                             February 11,2022 - February 13,2022
                         </h3>
                         <p className="home-para">
-                            The hack is only a small part of the competition. The real spirit lies in building your network in the growing tech community and collaborating with some of the finest minds of the nation. Just remember, taking the Hackathons too seriously defeats the purpose. Save the seriousness for pitching to investors. Keeping an open mind will open new doors, help build new relationships and acquire new skills.This is hackNITP.
+                        A Hackathon is not merely a competition but is a place where people learn the art of solving problems, make friends, build their network, and have fun. You learn how to work collaboratively in a team to build a hack. Let the innovation inside you flourish in HackNITP 4.0 and turn the craziest of your ideas into a reality.
                         </p>
                         <div className="home-btns headline">
                             <button className='btn-secondary' >Registration Soon</button>
