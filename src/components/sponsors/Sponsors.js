@@ -6,6 +6,7 @@ import logo from '../../images/hacknitp.png';
 import logo1 from '../../images/gdsc.png'
 
 const Sponsors = () => {
+
     const data=[
         {
             name:'HackSlash Club',
@@ -31,14 +32,14 @@ const Sponsors = () => {
             </h1>
 
             <h2 className="level2-heading platinum">
-                Platinum Sponsors
+            Title Sponsor
             </h2>
             <div className="platinum-cont">
                 <SponsorBP />
                 <SponsorBP />
             </div>
             <h2 className="level2-heading gold">
-                Gold Sponsors
+            Associate Sponsor
             </h2>
             <div className="platinum-cont">
                 <SponsorBP />
@@ -46,7 +47,7 @@ const Sponsors = () => {
                 <SponsorBP />
             </div>
             <h2 className="level2-heading silver">
-                Silver Sponsors
+                Sub-Event Sponsor
             </h2>
             <div className="platinum-cont">
                 <SponsorBP />

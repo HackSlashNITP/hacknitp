@@ -13,7 +13,7 @@
 .platinum-cont{
     display:flex ;
     flex-wrap: wrap;
-    margin: 0 8rem;
+    margin: 0 8rem; 
     justify-content:space-evenly;
 }
 .platinum{
