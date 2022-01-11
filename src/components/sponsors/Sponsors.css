@@ -46,8 +46,12 @@
     font-size: 1.2rem;
     margin: 1.2rem 0;
 }
-.last-yr-sponsors a:link, .last-yr-sponsors a:visited, .last-yr-sponsors a:hover, .last-yr-sponsors a:active {
+.last-yr-sponsors a:link, .last-yr-sponsors a:visited {
     color: rgb(56, 199, 99);
+    text-decoration: none;
+}
+.last-yr-sponsors a:hover, .last-yr-sponsors a:active {
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 .sponsor-brochure-btn{
