@@ -17,7 +17,7 @@ const NavB = () => {
                     <ul className='nav-mob'>
                         <li><a href="/" rel="noreferrer">Home</a></li>
                         <li><a href="#about" rel="noreferrer">About</a></li>
-                        <li><a href="#tracks" rel="noreferrer">Tracks</a></li>
+                        <li><a href="#tracks" rel="noreferrer">Themes</a></li>
                         <li><a href="#contact" rel="noreferrer">Contact</a></li>
                         <li><a href="#faq" rel="noreferrer">FAQ</a></li>
                     </ul>
@@ -40,7 +40,7 @@ const NavB = () => {
                         <ul>
                             <li><a href="/" rel='noreferrer'>Home</a></li>
                             <li><a href="#about" rel='noreferrer'>About</a></li>
-                            <li><a href="#tracks" rel='noreferrer'>Tracks</a></li>
+                            <li><a href="#tracks" rel='noreferrer'>Themes</a></li>
                             <li><a href="#contact" rel='noreferrer'>Contact</a></li>
                             <li><a href="#faq" rel='noreferrer'>FAQ</a></li>
                         </ul>

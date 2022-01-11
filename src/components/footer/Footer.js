@@ -14,7 +14,7 @@ const Footer = () => {
                     <a href="https://rebrand.ly/hacknitp-4/rules" target='_blank' className="termNc" rel='noreferrer'>
                         Rulebook
                     </a>
-                    <a href="https://rebrand.ly/hacknitp-4/community-guidelines" target='_blank' className="cnc" rel='noreferrer'>
+                    <a href="https://rebrand.ly/hackslash/community-guidelines" target='_blank' className="cnc" rel='noreferrer'>
                         Code of conduct
                     </a>
                     <button className="btn-primary btn-last">
