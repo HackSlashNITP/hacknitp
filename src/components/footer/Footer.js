@@ -11,18 +11,12 @@ const Footer = () => {
                     <img src={logo} alt="" className='foot-logo' />
                 </div>
                 <div className="footer-up-right">
-//                     <a href="/" className="termNc">
-//                         Rulebook
-//                     </a>
-//                     <a href="/" className="cnc">
-//                         Code of conduct
-//                     </a>
-                    <Link to={{ pathname: "https://rebrand.ly/hacknitp-4/rules" }} target='_blank'>
-                            Rulebook
-                    </Link>
-                    <Link to={{ pathname: "https://rebrand.ly/hacknitp-4/community-guidelines" }} target='_blank'>
-                            Code of Conduct
-                    </Link>
+                    <a href="https://rebrand.ly/hacknitp-4/rules" target='_blank' className="termNc">
+                        Rulebook
+                    </a>
+                    <a href="https://rebrand.ly/hacknitp-4/community-guidelines" target='_blank' className="cnc">
+                        Code of conduct
+                    </a>
                     <button className="btn-primary btn-last">
                         <Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtnf'>
                             Join Our Discord
