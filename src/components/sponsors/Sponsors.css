@@ -52,6 +52,7 @@
 }
 .mail-id{
     color: rgb(43, 116, 226);
+    text-decoration: none;
 }
 .dnld-sponsor-broc{
     display: flex;

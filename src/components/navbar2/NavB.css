@@ -8,13 +8,15 @@
   background-color: #231d3b;
   top: 0;
   left: 0;
-  height: 5rem;
+  height: 4rem;
   box-shadow: 0px 1px 5px 0px rgb(17, 17, 17);
   z-index: 998;
 }
 .nav-bar{
   position: fixed;
+  top:0;
   z-index: 999;
+  height: 4rem;
 }
 .njack-logo{
     max-height: 4rem;
@@ -104,7 +106,6 @@ nav.fill ul li a:hover:after {
  }
  .popup{
    display: none;
-   z-index: 999;
    position: fixed;
  }
 @media screen  and (max-width:900px){
@@ -123,13 +124,14 @@ nav.fill ul li a:hover:after {
   }
   .popup{
    display: block;
+   z-index: 999;
    height: 28rem;
    width:100vw;
    background-color:#1C172F ;
    position: relative;
    transform: translateY(-58rem);
    transition: 0.4s ease-out;
-   z-index: 999;
+   
  }
  .popup-open{
    transform: translateY(-16rem);

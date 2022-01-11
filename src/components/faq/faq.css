@@ -99,20 +99,40 @@
   margin: 10px 0 10px 0;
   background-color: #dae1f5;
 }
+.regbtn{
+  display: flex;
+  text-decoration: none;
+  height: fit-content;
+  width: fit-content;
+}
+.devf{
+  height: 20px;
+  padding-right: 0.3rem;
+  margin-left: -0.7rem !important;
+}
 button {
-  display: block;
   margin-top: 1.2em;
   padding: 0.6em 1.8em;
   border-radius: 30px;
-  color: var(--primary-text-color);
+  color: white;
   background: none;
   font-weight: 700;
   border: 2px solid #dae1f5;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 button:hover {
-  background-color: #dae1f5;
+  background-color: #59DB8A;
+}
+.faq-foot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 1rem;
 }
 .register-faq{
   margin: auto;

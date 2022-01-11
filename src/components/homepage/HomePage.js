@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import './Homepage.css'
 import hacknitpold from '../../images/hacknitp-old.svg'
 import gameon from '../../images/game-on.svg'
@@ -38,13 +38,13 @@ const HomePage = () => {
                         A Hackathon is not merely a competition but is a place where people learn the art of solving problems, make friends, build their network, and have fun. You learn how to work collaboratively in a team to build a hack. Let the innovation inside you flourish in HackNITP 4.0 and turn the craziest of your ideas into a reality.
                         </p>
                         <div className="home-btns headline">
-                        <Link to={{ pathname: "https://hacknitp-4.devfolio.co/" }} target='_blank' className='discordbtn'>
-                        <button className='btn-secondary' > <img src={apply} alt='devfolio' className='dev'/>Apply with Devfolio</button>
-                            </Link>
+                        <a href="https://hacknitp-4.devfolio.co/" target='_blank' className='discordbtn' rel='noreferrer'>
+                        <button className='btn-secondary' > <img src={apply} alt='devfolio' className='dev'/><span>Apply with Devfolio</span></button>
+                            </a>
                            
-                            <button className='btn-secondary'><Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtn'>
-                                <span>Join Discord</span>
-                            </Link></button>
+                            <a href="https://bit.ly/hacknitp-4-discord" target='_blank' className='discordbtn' rel='noreferrer'><button className='btn-secondary' id="fix">
+                                <span>Join Discord</span></button>
+                            </a>
                         </div>
                     </div>
                     <div className="home-right">
