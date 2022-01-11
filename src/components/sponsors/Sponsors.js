@@ -4,8 +4,45 @@ import './Sponsors.css';
 import Organiser from '../organiser/Organiser';
 import logo from '../../images/hacknitp.png';
 import logo1 from '../../images/gdsc.png'
+import digital from '../../images/DIGITAL_OCEAN.png';
+import devfolio from '../../images/devfolio.png';
+import tezos from '../../images/tezos.png';
+import filecoin from '../../images/filecoin.png';
+import polygon from '../../images/polygon.png';
+import celo from '../../images/celo.png';
+import echo from '../../images/echo.png';
+import interview from '../../images/interview-cake.jpg';
+import voiceflow from '../../images/Voiceflow.png';
+import clerky from '../../images/Clerky.png';
+import Axure from '../../images/axure.jpg';
+import Taskade from '../../images/taskade.png';
+import gfg from '../../images/gfg.png';
+import gmc from '../../images/gmc.png';
 
 const Sponsors = () => {
+    const title=[
+        `${digital}`,
+    ]
+    const associate=[
+        `${devfolio}`,
+        `${tezos}`,
+        `${filecoin}`,
+        `${polygon}`,
+        `${celo}`,
+    ]
+    const subEvent=[
+        `${echo}`,
+        `${interview}`,
+        `${voiceflow}`,
+        `${clerky}`,
+        `${Axure}`,
+        `${Taskade}`,
+        `${gfg}`,
+    ]
+    const certifications=[
+        `${gmc}`,
+    ]
+    
 
     const data=[
         {
@@ -35,34 +72,38 @@ const Sponsors = () => {
             Title Sponsor
             </h2>
             <div className="platinum-cont">
-                <SponsorBP />
-                <SponsorBP />
+                <SponsorBP link={title[0]} key="69"/>
             </div>
             <h2 className="level2-heading gold">
             Associate Sponsor
             </h2>
             <div className="platinum-cont">
-                <SponsorBP />
-                <SponsorBP />
-                <SponsorBP />
+                {associate.map((link,index) =>{
+                    return(
+                        <SponsorBP link={link} key={index}/>
+                    )
+                })}
             </div>
             <h2 className="level2-heading silver">
                 Sub-Event Sponsor
             </h2>
             <div className="platinum-cont">
-                <SponsorBP />
-                <SponsorBP />
-                <SponsorBP />
-                <SponsorBP />
-                <SponsorBP />
-                <SponsorBP />
-                <SponsorBP />
-                <SponsorBP />
-                <SponsorBP />
-                <SponsorBP />
-                <SponsorBP />
-                <SponsorBP />
+            {subEvent.map((link,index) =>{
+                    return(
+                        <SponsorBP link={link} key={index}/>
+                    )
+                })}
+            </div>
+            <h2 className="level2-heading silver">
+                Certificate Sponsor
+            </h2> 
+            <div className="platinum-cont">
 
+            {certifications.map((link,index) =>{
+                    return(
+                        <SponsorBP link={link} key={index}/>
+                    )
+                })}
             </div>
             <br></br>
             <br></br>
