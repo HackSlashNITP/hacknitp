@@ -15,11 +15,11 @@ const NavB = () => {
                 </div>
                 <nav class="stroke">
                     <ul className='nav-mob'>
-                        <li onClick={handleMenu}><a href="/">Home</a></li>
-                        <li onClick={handleMenu}><a href="#about">About</a></li>
-                        <li onClick={handleMenu}><a href="#tracks">Tracks</a></li>
-                        <li onClick={handleMenu}><a href="#contact">Contact</a></li>
-                        <li onClick={handleMenu}><a href="#faq">FAQ</a></li>
+                        <li><a href="/" rel="noreferrer">Home</a></li>
+                        <li><a href="#about" rel="noreferrer">About</a></li>
+                        <li><a href="#tracks" rel="noreferrer">Tracks</a></li>
+                        <li><a href="#contact" rel="noreferrer">Contact</a></li>
+                        <li><a href="#faq" rel="noreferrer">FAQ</a></li>
                     </ul>
                     <div className="disc-btn">
                         <button className='btn btn-primary'>
@@ -38,11 +38,11 @@ const NavB = () => {
                     <nav class="stroke">
 
                         <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#tracks">Tracks</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="/" rel='noreferrer'>Home</a></li>
+                            <li><a href="#about" rel='noreferrer'>About</a></li>
+                            <li><a href="#tracks" rel='noreferrer'>Tracks</a></li>
+                            <li><a href="#contact" rel='noreferrer'>Contact</a></li>
+                            <li><a href="#faq" rel='noreferrer'>FAQ</a></li>
                         </ul>
                         <div className="disc-btn">
                             <button className='btn btn-primary'>
