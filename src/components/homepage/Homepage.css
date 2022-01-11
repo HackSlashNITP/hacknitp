@@ -8,9 +8,15 @@
   height: fit-content;
   scroll-behavior: smooth;
 }
+.dev{
+  height: 50%;
+  padding-right: 0.3rem;
+  margin-left: -0.7rem !important;
+}
 .discordbtn{
   text-decoration: none !important;
-  color:rgb(97, 221, 144);
+  /* color:rgb(97, 221, 144); */
+  color:white;
 }
 .home-body{
   height: 100vh;
@@ -39,17 +45,30 @@
 .home-left{
   max-width: 25rem;
 }
+.headline{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 .btn-secondary{
     height: 2.4rem;
     padding: 0 1.2rem;
     border-radius: 0.6rem;
     border: none;
     background-color: #0E0A1B;
+    width: fit-content;
     margin-right: 1.2rem;
     font-weight: 600;
     cursor: pointer;
-    color:#59DB8A;
-    border: 2px solid #59DB8A;
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-secondary:hover{
+    background-color: #59DB8A;
 }
 .game-on{
   max-width: 35vw;
