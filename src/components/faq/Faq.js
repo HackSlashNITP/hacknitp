@@ -121,7 +121,7 @@ const Faq = () => {
           </div>
         </div>
         <div className="divider"></div>
-        
+
       </div>
 
       <div className="faq-foot" data-aos="fade-up">
