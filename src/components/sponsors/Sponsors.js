@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import SponsorBP from './SponsorBP';
 import './Sponsors.css';
 import Organiser from '../organiser/Organiser';
@@ -125,7 +125,7 @@ const Sponsors = () => {
             <div className="enquire-sponsors-cont" data-aos="fade-up">
                 <h1 className="heading"><span className='white'>Want to Sponsor us?</span></h1>
                 <p className="last-yr-sponsors">
-                    <a href="https://hacknitp.netlify.app" target='_blank'>
+                    <a href="https://hacknitp.netlify.app" target='_blank' rel='noreferrer'>
                             Click here to see our last year sponsors
                     </a>
                     <i class="fab fa-send"></i>
@@ -135,9 +135,9 @@ const Sponsors = () => {
                         Contact us at <a href="mailto:hackslashclub@nitp.ac.in" className='mail-id'> hackslashclub@nitp.ac.in</a>
                     </span>
                 </h3>
-//                 <div className="sponsor-brochure-btn dnld-sponsor-broc">
-//                     <button className='btn-primary'>Download Sponsor Brochure</button>
-//                 </div>
+               {/* <div className="sponsor-brochure-btn dnld-sponsor-broc">
+                     <button className='btn-primary'>Download Sponsor Brochure</button>
+                 </div> */}
 
             </div>
 
