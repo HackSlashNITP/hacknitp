@@ -127,11 +127,11 @@ const Sponsors = () => {
                     Click here to see our last year sponsors
                     <i class="fab fa-send"></i>
                 </p>
-                <h2 className="heading">
+                <h3 className="heading">
                     <span className="white">
                         Contact us at <a href="mailto:hackslash@nitp.ac.in" className='mail-id'> hackslash@nitp.ac.in</a>
                     </span>
-                </h2>
+                </h3>
                 <div className="sponsor-brochure-btn dnld-sponsor-broc">
                     <button className='btn-primary'>Download Sponsor Brochure</button>
                 </div>

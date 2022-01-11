@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import './faq.css'
+import apply from '../../images/apply.png'
 // import FaqBluePrint from './FaqBluePrint'
 const Faq = () => {
-    const [faq, setFaq] = useState(false);
-    const [cnt, setCnt] = useState("");
+  const [faq, setFaq] = useState(false);
+  const [cnt, setCnt] = useState("");
   // const accordionItemHeaders = document.querySelectorAll(
   //   ".accordion-item-header"
   // );
@@ -21,7 +22,7 @@ const Faq = () => {
   //       currentlyActiveAccordionItemHeader.classList.toggle("active");
   //       currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
   //     }
-      
+
 
   //     accordionItemHeader.classList.toggle("active");
   //     const accordionItemBody = accordionItemHeader.nextElementSibling;
@@ -51,7 +52,7 @@ const Faq = () => {
       <div className="faqs" data-aos="fade-up">
 
         <div className="accordion-item">
-          <div id="test" className="accordion-item-header" onClick={()=>{setFaq(!faq);setCnt(1)}}>
+          <div id="test" className="accordion-item-header" onClick={() => { setFaq(!faq); setCnt(1) }}>
             <div className="accordion-item-title">Do you have a particular theme for the Hackathon ?</div>
             <span className={`icon b1${cnt}${faq}`}></span>
           </div>
@@ -69,7 +70,7 @@ const Faq = () => {
         <div className="divider"></div>
 
         <div className="accordion-item">
-          <div id="test" className="accordion-item-header" onClick={()=>{setFaq(!faq);setCnt(2)}}>
+          <div id="test" className="accordion-item-header" onClick={() => { setFaq(!faq); setCnt(2) }}>
             <div className="accordion-item-title">What can be the size of Team ?</div>
             <span className={`icon b2${cnt}${faq}`}></span>
           </div>
@@ -82,7 +83,7 @@ const Faq = () => {
         <div className="divider"></div>
 
         <div className="accordion-item">
-          <div id="test" className="accordion-item-header" onClick={()=>{setFaq(!faq);setCnt(3)}}>
+          <div id="test" className="accordion-item-header" onClick={() => { setFaq(!faq); setCnt(3) }}>
             <div className="accordion-item-title">Are there any registration charges ? </div>
             <span className={`icon b3${cnt}${faq}`}></span>
           </div>
@@ -95,7 +96,7 @@ const Faq = () => {
         <div className="divider"></div>
 
         <div className="accordion-item">
-          <div id="test" className="accordion-item-header" onClick={()=>{setFaq(!faq);setCnt(4)}}>
+          <div id="test" className="accordion-item-header" onClick={() => { setFaq(!faq); setCnt(4) }}>
             <div className="accordion-item-title">Do we get any certificate for participation ?</div>
             <span className={`icon b4${cnt}${faq}`}></span>
           </div>
@@ -107,7 +108,7 @@ const Faq = () => {
         </div>
         <div className="divider"></div>
         <div className="accordion-item">
-          <div id="test" className="accordion-item-header" onClick={()=>{setFaq(!faq);setCnt(5)}}>
+          <div id="test" className="accordion-item-header" onClick={() => { setFaq(!faq); setCnt(5) }}>
             <div className="accordion-item-title">I don't have a CSE background. Can I still participate ? </div>
             <span className={`icon b5${cnt}${faq}`}></span>
           </div>
@@ -127,9 +128,9 @@ const Faq = () => {
           </span>
         </h2>
         <div className="register-btn-faq">
-          <button className="btn-primary register-faq">
-            Register Now
-          </button>
+          <a href="https://hacknitp-4.devfolio.co/" target='_blank' className='regbtn' rel='noreferrer'>
+            <button className='register'> <img src={apply} alt='devfolio' className='devf' /><span>Apply with Devfolio</span></button>
+          </a>
         </div>
       </div>
     </div>
