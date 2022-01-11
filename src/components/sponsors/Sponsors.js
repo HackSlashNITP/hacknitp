@@ -125,9 +125,9 @@ const Sponsors = () => {
             <div className="enquire-sponsors-cont" data-aos="fade-up">
                 <h1 className="heading"><span className='white'>Want to Sponsor us?</span></h1>
                 <p className="last-yr-sponsors">
-                    <Link to={{ pathname: "https://hacknitp.netlify.app" }} target='_blank'>
+                    <a href="https://hacknitp.netlify.app" target='_blank'>
                             Click here to see our last year sponsors
-                    </Link>
+                    </a>
                     <i class="fab fa-send"></i>
                 </p>
                 <h3 className="heading">
