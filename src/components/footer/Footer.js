@@ -17,10 +17,10 @@ const Footer = () => {
 //                     <a href="/" className="cnc">
 //                         Code of conduct
 //                     </a>
-                    <Link to={{ pathname: "https://rebrand.ly/hacknitp-4/rules" }} target='_blank' className='discordbtnf'>
+                    <Link to={{ pathname: "https://rebrand.ly/hacknitp-4/rules" }} target='_blank'>
                             Rulebook
                     </Link>
-                    <Link to={{ pathname: "https://rebrand.ly/hacknitp-4/community-guidelines" }} target='_blank' className='discordbtnf'>
+                    <Link to={{ pathname: "https://rebrand.ly/hacknitp-4/community-guidelines" }} target='_blank'>
                             Code of Conduct
                     </Link>
                     <button className="btn-primary btn-last">
