@@ -121,19 +121,7 @@ const Faq = () => {
           </div>
         </div>
         <div className="divider"></div>
-        
-//         <div className="accordion-item">
-//           <div id="test" className="accordion-item-header" onClick={() => { setFaq(!faq); setCnt(6) }}>
-//             <div className="accordion-item-title">I don't have a CSE background. Can I still participate ? </div>
-//             <span className={`icon b6${cnt}${faq}`}></span>
-//           </div>
-//           <div className="accordion-item-body">
-//             <div className={`accordion-item-body-content a6${cnt}${faq}`}>
-//  //           Yes. Creativity is independent of your technical skills. You can learn the tools and technologies anytime.
-//             </div>
-//           </div>
-//         </div>
-//         <div className="divider"></div>
+    
       </div>
 
       <div className="faq-foot" data-aos="fade-up">
