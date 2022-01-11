@@ -58,12 +58,13 @@ const Faq = () => {
           </div>
           <div className="accordion-item-body">
             <div className={`accordion-item-body-content a1${cnt}${faq}`}>
-              Open innovation
-              Employability
-              Sustainable development
-              Education
-              Social security and awareness
-              Food
+              Education<br />
+              Employability<br />
+              Food<br />
+              Healthcare<br />
+              Social Security and Awareness<br />
+              Sustainable Development<br />
+              Open Innovation
             </div>
           </div>
         </div>
@@ -84,12 +85,12 @@ const Faq = () => {
 
         <div className="accordion-item">
           <div id="test" className="accordion-item-header" onClick={() => { setFaq(!faq); setCnt(3) }}>
-            <div className="accordion-item-title">Are there any registration charges ? </div>
+            <div className="accordion-item-title">What do I need to do to participate?</div>
             <span className={`icon b3${cnt}${faq}`}></span>
           </div>
           <div className="accordion-item-body">
             <div className={`accordion-item-body-content a3${cnt}${faq}`}>
-              Nope! None at all.
+              Apply using Devfolio and join HackSlash Discord server.
             </div>
           </div>
         </div>
@@ -97,23 +98,37 @@ const Faq = () => {
 
         <div className="accordion-item">
           <div id="test" className="accordion-item-header" onClick={() => { setFaq(!faq); setCnt(4) }}>
-            <div className="accordion-item-title">Do we get any certificate for participation ?</div>
+            <div className="accordion-item-title">Are there any registration charges ? </div>
             <span className={`icon b4${cnt}${faq}`}></span>
           </div>
           <div className="accordion-item-body">
             <div className={`accordion-item-body-content a4${cnt}${faq}`}>
-              Yes, you do get a certificate of participation if you qualify for the finals after the initial shortlisting.
+              Nope! None at all.
             </div>
           </div>
         </div>
         <div className="divider"></div>
+
         <div className="accordion-item">
           <div id="test" className="accordion-item-header" onClick={() => { setFaq(!faq); setCnt(5) }}>
-            <div className="accordion-item-title">I don't have a CSE background. Can I still participate ? </div>
+            <div className="accordion-item-title">Do we get any certificate for participation ?</div>
             <span className={`icon b5${cnt}${faq}`}></span>
           </div>
           <div className="accordion-item-body">
             <div className={`accordion-item-body-content a5${cnt}${faq}`}>
+              Yes, you do get a Certificate of Participation if your hack is submitted successfully.
+            </div>
+          </div>
+        </div>
+        <div className="divider"></div>
+        
+        <div className="accordion-item">
+          <div id="test" className="accordion-item-header" onClick={() => { setFaq(!faq); setCnt(6) }}>
+            <div className="accordion-item-title">I don't have a CSE background. Can I still participate ? </div>
+            <span className={`icon b6${cnt}${faq}`}></span>
+          </div>
+          <div className="accordion-item-body">
+            <div className={`accordion-item-body-content a6${cnt}${faq}`}>
               Yes. Creativity is independent of your technical skills. You can learn the tools and technologies anytime.
             </div>
           </div>

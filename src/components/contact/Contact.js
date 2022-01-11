@@ -13,7 +13,6 @@ const Contact = () => {
             </h1>
             <p className="grey">
                 For any query contact us
-                  riuhuewr iiuy4 itiut3ut 
             </p>
             </div>
             <div className="contact-flex" data-aos="fade-up">
@@ -21,10 +20,10 @@ const Contact = () => {
                     <h3 className="form-head">
                         Fill the Details
                     </h3>
-                    <form action="mailto:hackslash@nitp.ac.in" method="post">
-                        <input type="text" placeholder='Full name' required/>
+                    <form action="mailto:hackslashclub@nitp.ac.in" method="post">
+                        <input type="text" placeholder='Name' required/>
                         <input type="email" name="email" id="" placeholder='E-mail' required/>
-                        <input type="number" name="" id="" placeholder='Mobile Number' required/>
+                        <input type="number" name="" id="" placeholder='Contact Number' required/>
                         <textarea name="message" id="text-area" cols="30" rows="10" placeholder='Enter your messege...'></textarea>
                         <button type="submit" className='btn-primary'>Send</button>
                     </form>
