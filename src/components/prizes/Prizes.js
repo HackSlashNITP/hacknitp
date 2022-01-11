@@ -30,7 +30,7 @@ const Prizes = () => {
                </h2>
                <ul>
                    
-                      { list.map(item => <li className='list-item'>{item}</li>)}
+                      { list.map((item,index) => <li key={index} className='list-item'>{item}</li>)}
                    
 
                </ul>

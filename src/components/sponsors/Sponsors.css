@@ -4,11 +4,21 @@
     margin: 1rem 0;
 }
 .sponsor-bp{
-    height: 6.5rem;
-    width: 12rem;
-    border-radius: 1rem;
-    background-color: #1C172F;
+    height: 6rem;
+    width: 13rem;
+    border-radius: 0.75rem;
+    background-color: white;
     margin: 2rem;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponsor-bp img{
+    max-height: 100%;
+    width: 100%;
+    object-fit:cover;
+    z-index: 2;
 }
 .platinum-cont{
     display:flex ;
@@ -72,7 +82,7 @@
     height: 5rem;
     width: 8rem;
     border-radius: 1rem;
-    background-color: #1C172F;
+    background-color: white;
     margin: 1rem 0.3rem 1rem 0.3rem;
 }
 }
