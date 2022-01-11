@@ -11,13 +11,18 @@ const Footer = () => {
                     <img src={logo} alt="" className='foot-logo' />
                 </div>
                 <div className="footer-up-right">
-                    <a href="/" className="termNc">
-                        Terms and conditions
-                    </a>
-                    <a href="/" className="cnc">
-                        Code of conduct
-                    </a>
-
+//                     <a href="/" className="termNc">
+//                         Rulebook
+//                     </a>
+//                     <a href="/" className="cnc">
+//                         Code of conduct
+//                     </a>
+                    <Link to={{ pathname: "https://rebrand.ly/hacknitp-4/rules" }} target='_blank' className='discordbtnf'>
+                            Rulebook
+                    </Link>
+                    <Link to={{ pathname: "https://rebrand.ly/hacknitp-4/community-guidelines" }} target='_blank' className='discordbtnf'>
+                            Code of Conduct
+                    </Link>
                     <button className="btn-primary btn-last">
                         <Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtnf'>
                             Join Our Discord
@@ -34,20 +39,20 @@ const Footer = () => {
                     ©2022 HACKSLASH | All rights reserved
                 </h4>
                 <div className="foot-bottom-right">
-                    <Link to={{ pathname: "https://twitter.com/hackslash_nitp/" }} target='_blank' className='discordbtnf'>
-                        <i class="fab fa-twitter socialm"></i>
-                    </Link>
                     <Link to={{ pathname: "https://www.linkedin.com/company/hackslash" }} target='_blank' className='discordbtnf'>
                         <i class="fab fa-linkedin socialm"></i>
+                    </Link>
+                    <Link to={{ pathname: "https://twitter.com/hackslash_nitp/" }} target='_blank' className='discordbtnf'>
+                        <i class="fab fa-twitter socialm"></i>
                     </Link>
                     <Link to={{ pathname: "https://www.instagram.com/hackslash.nitp/?hl=en" }} target='_blank' className='discordbtnf'>
                         <i class="fab fa-instagram socialm"></i>
                     </Link>
-                    <Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtnf'>
-                        <i class="fab fa-discord socialm"></i>
-                    </Link>
                     <Link to={{ pathname: "https://www.youtube.com/c/HackSlashDevelopersClub/" }} target='_blank' className='discordbtnf'>
                         <i class="fab fa-youtube socialm"></i>
+                    </Link>
+                    <Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtnf'>
+                        <i class="fab fa-discord socialm"></i>
                     </Link>
                 </div>
             </div>
