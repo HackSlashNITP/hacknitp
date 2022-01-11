@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import SponsorBP from './SponsorBP';
 import './Sponsors.css';
 import Organiser from '../organiser/Organiser';
@@ -49,16 +50,16 @@ const Sponsors = () => {
             name:'HackSlash Club',
             logo:`${logo}`,
             facebook:'https://www.facebook.com/hackSlash.nitp',
-            insta:'https://www.instagram.com/hackslash.nitp/',
+            insta:'https://www.instagram.com/hackslash.nitp',
             linkedin:'https://www.linkedin.com/company/hackslash',
-            desc:'Hackslash Developers\' Club, NIT Patna is a community intended to provide a room for college students to learn and collaborate on a plethora of projects among themselves as well as with mentors. It is open for every student, ranging from novice developers who are just starting, to advanced developers who want to further enhance their skills.'
+            desc:'HackSlash Developer Club, NIT Patna is a community intended to provide a room for college students to learn and collaborate on a plethora of projects among themselves as well as with mentors. It is open for every student, ranging from novice developers who are just starting, to advanced developers who want to further enhance their skills.'
         },
         {
-            name:'GDSC NITP',
+            name:'GDSC NIT Patna',
             logo:`${logo1}`,
-            facebook:'',
-            insta:'',
-            linkedin:'',
+            facebook:'https://www.facebook.com/gdscnitp',
+            insta:'https://www.instagram.com/gdscnitp',
+            linkedin:'https://www.linkedin.com/company/gdscnitp',
             desc:'Google Developer Student Clubs NIT Patna is local community group of NIT Patna college students interested in Google developer technologies. The GDSC organizes numerous events ranging from small meetups for working on projects to large-scale hackathons.'
         },
     ]
@@ -124,17 +125,19 @@ const Sponsors = () => {
             <div className="enquire-sponsors-cont" data-aos="fade-up">
                 <h1 className="heading"><span className='white'>Want to Sponsor us?</span></h1>
                 <p className="last-yr-sponsors">
-                    Click here to see our last year sponsors
+                    <a href="https://hacknitp.netlify.app" target='_blank'>
+                            Click here to see our last year sponsors
+                    </a>
                     <i class="fab fa-send"></i>
                 </p>
                 <h3 className="heading">
                     <span className="white">
-                        Contact us at <a href="mailto:hackslash@nitp.ac.in" className='mail-id'> hackslash@nitp.ac.in</a>
+                        Contact us at <a href="mailto:hackslashclub@nitp.ac.in" className='mail-id'> hackslashclub@nitp.ac.in</a>
                     </span>
                 </h3>
-                <div className="sponsor-brochure-btn dnld-sponsor-broc">
-                    <button className='btn-primary'>Download Sponsor Brochure</button>
-                </div>
+//                 <div className="sponsor-brochure-btn dnld-sponsor-broc">
+//                     <button className='btn-primary'>Download Sponsor Brochure</button>
+//                 </div>
 
             </div>
 

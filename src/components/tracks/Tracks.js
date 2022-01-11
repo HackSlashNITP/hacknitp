@@ -4,14 +4,15 @@ import './Tracks.css'
 const Tracks = () => {
     return (
         <div id="tracks">
-            <h1 className="heading">TRACKS</h1>
+            <h1 className="heading">THEMES</h1>
             <div className="track-grid">
-                <TrackCard title="Open Innovation" description="LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum "/>
-            <TrackCard title="Employability" />
-            <TrackCard title="Education"/>
-            <TrackCard title="Food"/>
-            <TrackCard title="Sustainable Development"/>
-            <TrackCard title="Social Security"/>
+                <TrackCard title="Education"/>
+                <TrackCard title="Employability" />
+                <TrackCard title="Food"/>
+                <TrackCard title="Healthcare"/>
+                <TrackCard title="Social Security and Awareness"/>
+                <TrackCard title="Sustainable Development"/>
+                <TrackCard title="Open Innovation" description="LoremIpsum LoremIpsum"/>
             </div>
         </div>
     )
