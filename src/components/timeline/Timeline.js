@@ -11,7 +11,7 @@ const Timeline = () => {
         <div class="outer">
           <div class="card" data-aos="fade-up">
             <div class="info">
-              <h3 class="title">13 January, 18:00 IST</h3>
+              <h3 class="title">15 January, 21:00 IST</h3>
               <p className='timeline-des'>
                 Hackathon registration starts.
               </p>
@@ -27,7 +27,15 @@ const Timeline = () => {
           </div>
           <div class="card" data-aos="fade-up">
             <div class="info">
-              <h3 class="title">4 February 18:00 IST</h3>
+              <h3 class="title">4 February</h3>
+              <p className='timeline-des'>
+                Workshop series starts.
+              </p>
+            </div>
+          </div>
+          <div class="card" data-aos="fade-up">
+            <div class="info">
+              <h3 class="title">10 February</h3>
               <p className='timeline-des'>
                 Workshop series ends.
               </p>
@@ -35,7 +43,7 @@ const Timeline = () => {
           </div>
           <div class="card" data-aos="fade-up">
             <div class="info">
-              <h3 class="title">10 February, 18:00 IST</h3>
+              <h3 class="title">10 February, 21:00 IST</h3>
               <p className='timeline-des'>
                 Hackathon registration ends.
               </p>
