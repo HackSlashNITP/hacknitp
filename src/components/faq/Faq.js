@@ -129,7 +129,7 @@ const Faq = () => {
 //           </div>
 //           <div className="accordion-item-body">
 //             <div className={`accordion-item-body-content a6${cnt}${faq}`}>
-//               Yes. Creativity is independent of your technical skills. You can learn the tools and technologies anytime.
+//  //           Yes. Creativity is independent of your technical skills. You can learn the tools and technologies anytime.
 //             </div>
 //           </div>
 //         </div>
