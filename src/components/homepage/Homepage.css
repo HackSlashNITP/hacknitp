@@ -7,10 +7,11 @@
   background-color: #0E0A1B;
   height: fit-content;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 .dev{
   height: 50%;
-  padding-right: 0.3rem;
+  padding-right: 0.2rem;
   margin-left: -0.7rem !important;
 }
 .discordbtn{
@@ -59,6 +60,7 @@
 .btn-secondary{
     height: 2.4rem;
     padding: 0 1.2rem;
+    margin-top: 0;
     border-radius: 0.6rem;
     border: none;
     background-color: #0E0A1B;
