@@ -132,7 +132,7 @@ const Sponsors = () => {
                 </p>
                 <h3 className="heading">
                     <span className="white">
-                        Contact us at <a href="mailto:hackslash@nitp.ac.in" className='mail-id'> hackslash@nitp.ac.in</a>
+                        Contact us at <a href="mailto:hackslashclub@nitp.ac.in" className='mail-id'> hackslashclub@nitp.ac.in</a>
                     </span>
                 </h3>
 //                 <div className="sponsor-brochure-btn dnld-sponsor-broc">
