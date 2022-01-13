@@ -38,8 +38,8 @@ const Faq = () => {
   // });
 
   const btnstyle = {
-      height: "38px",
-      width: "201px"
+      height: "44px",
+      width: "312px"
   }
 
   return (
