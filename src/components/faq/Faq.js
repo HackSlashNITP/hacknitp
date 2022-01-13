@@ -136,12 +136,12 @@ const Faq = () => {
         </h2>
         <div className="register-btn-faq">
           <br/>
-          <div
+          {/* <div
             className="apply-button"
             data-hackathon-slug="hacknitp-4"
             data-button-theme="dark"
             style={btnstyle}
-          ></div>
+          ></div> */}
         </div>
       </div>
     </div>
