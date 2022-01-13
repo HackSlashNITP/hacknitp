@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './faq.css'
-import apply from '../../images/apply.png'
+// import apply from '../../images/apply.png'
 // import FaqBluePrint from './FaqBluePrint'
 const Faq = () => {
   const [faq, setFaq] = useState(false);
@@ -37,10 +37,10 @@ const Faq = () => {
   //   });
   // });
 
-  const btnstyle = {
-    height: "44px",
-    width: "312px"
-  }
+  // const btnstyle = {
+  //   height: "44px",
+  //   width: "312px"
+  // }
 
   return (
     <div className='faq-container' id='faq'>

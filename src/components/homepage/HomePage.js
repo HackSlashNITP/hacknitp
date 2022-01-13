@@ -34,10 +34,10 @@ const HomePage = () => {
             document.body.removeChild(script);
         }
     }, []);
-    const btnstyle = {
-        height: "38px",
-        width: "201px"
-    }
+    // const btnstyle = {
+    //     height: "38px",
+    //     width: "201px"
+    // }
     return (
         <div className='body'>
             <div className="home-body">
