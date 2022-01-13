@@ -37,10 +37,10 @@ const Faq = () => {
   //   });
   // });
 
-  // const btnstyle = {
-  //   height: "44px",
-  //   width: "312px"
-  // }
+  const btnstyle = {
+    height: "44px",
+    width: "312px"
+  }
 
   return (
     <div className='faq-container' id='faq'>
@@ -136,12 +136,12 @@ const Faq = () => {
         </h2>
         <div className="register-btn-faq">
           <br/>
-          {/* <div
+          <div
             className="apply-button"
             data-hackathon-slug="hacknitp-4"
             data-button-theme="dark"
             style={btnstyle}
-          ></div> */}
+          ></div>
         </div>
       </div>
     </div>

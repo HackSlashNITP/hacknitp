@@ -34,10 +34,10 @@ const HomePage = () => {
             document.body.removeChild(script);
         }
     }, []);
-    // const btnstyle = {
-    //     height: "38px",
-    //     width: "201px"
-    // }
+    const btnstyle = {
+        height: "38px",
+        width: "201px"
+    }
     return (
         <div className='body'>
             <div className="home-body">
@@ -52,12 +52,12 @@ const HomePage = () => {
                             A Hackathon is not merely a competition but is a place where people learn the art of solving problems, make friends, build their network, and have fun. You learn how to work collaboratively in a team to build a hack. Let the innovation inside you flourish in HackNITP 4.0 and turn the craziest of your ideas into a reality.
                         </p>
                         <div className="home-btns headline">
-                            {/* <div
+                            <div
                                 className="apply-button"
                                 data-hackathon-slug="hacknitp-4"
                                 data-button-theme="dark"
                                 style={btnstyle}
-                            ></div> */}
+                            ></div>
                             <div>
                             <a href="https://bit.ly/hacknitp-4-discord" target='_blank' className='discordbtn' rel='noreferrer'><button className='btn-secondary' id="fix">
                                 <span>Join Discord</span></button>
