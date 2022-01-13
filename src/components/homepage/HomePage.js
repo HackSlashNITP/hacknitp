@@ -58,9 +58,10 @@ const HomePage = () => {
                                 data-button-theme="dark"
                                 style={btnstyle}
                             ></div>
+                            <div>
                             <a href="https://bit.ly/hacknitp-4-discord" target='_blank' className='discordbtn' rel='noreferrer'><button className='btn-secondary' id="fix">
                                 <span>Join Discord</span></button>
-                            </a>
+                            </a></div>
                         </div>
                     </div>
                     <div className="home-right">
