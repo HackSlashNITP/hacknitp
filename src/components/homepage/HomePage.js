@@ -72,8 +72,8 @@ const HomePage = () => {
             </div>
             <Intro />
             <Timer />
-            <Prizes />
             <Timeline />
+            <Prizes />
             <Tracks />
             <Instructions />
             <Organizers />
