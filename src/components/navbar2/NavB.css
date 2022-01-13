@@ -166,6 +166,9 @@ nav.fill ul li a:hover:after {
   margin: 2rem;
   margin-right: 2.5rem;
  }
+  .navbar2 button {
+    margin-top: 0;
+}
 }
 @media screen  and (max-width:500px){
   .popup-open{
