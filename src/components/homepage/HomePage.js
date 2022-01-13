@@ -31,27 +31,33 @@ const HomePage = () => {
         script.defer = true;
         document.body.appendChild(script);
         return () => {
-          document.body.removeChild(script);
+            document.body.removeChild(script);
         }
     }, []);
+    const btnstyle = {
+        height: "38px",
+        width: "201px"
+    }
     return (
         <div className='body'>
             <div className="home-body">
                 <NavB />
                 <div className="home-body-bg" data-aos="fade-up">
                     <div className="home-left">
-                        <img src={hacknitpold} className='hack-old' alt="hacknitp"/>
+                        <img src={hacknitpold} className='hack-old' alt="hacknitp" />
                         <h3 className="home-date">
                             February 11,2022 - February 13,2022
                         </h3>
                         <p className="home-para">
-                        A Hackathon is not merely a competition but is a place where people learn the art of solving problems, make friends, build their network, and have fun. You learn how to work collaboratively in a team to build a hack. Let the innovation inside you flourish in HackNITP 4.0 and turn the craziest of your ideas into a reality.
+                            A Hackathon is not merely a competition but is a place where people learn the art of solving problems, make friends, build their network, and have fun. You learn how to work collaboratively in a team to build a hack. Let the innovation inside you flourish in HackNITP 4.0 and turn the craziest of your ideas into a reality.
                         </p>
                         <div className="home-btns headline">
-                        <a href="https://hacknitp-4.devfolio.co/" target='_blank' className='discordbtn' rel='noreferrer'>
-                        <button className='btn-secondary' > <img src={apply} alt='devfolio' className='dev'/><span>Apply with Devfolio</span></button>
-                            </a>
-                           
+                            <div
+                                class="apply-button"
+                                data-hackathon-slug="Hacknitp"
+                                data-button-theme="dark"
+                                style={btnstyle}
+                            ></div>
                             <a href="https://bit.ly/hacknitp-4-discord" target='_blank' className='discordbtn' rel='noreferrer'><button className='btn-secondary' id="fix">
                                 <span>Join Discord</span></button>
                             </a>
