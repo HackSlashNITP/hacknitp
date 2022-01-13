@@ -53,7 +53,7 @@ const HomePage = () => {
                         </p>
                         <div className="home-btns headline">
                             <div
-                                class="apply-button"
+                                className="apply-button"
                                 data-hackathon-slug="hacknitp-4"
                                 data-button-theme="dark"
                                 style={btnstyle}
