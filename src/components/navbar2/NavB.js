@@ -20,7 +20,7 @@ const NavB = () => {
                         <li><a href="#tracks" rel="noreferrer">Themes</a></li>
                         <li><a href="#contact" rel="noreferrer">Contact</a></li>
                         <li><a href="#faq" rel="noreferrer">FAQ</a></li>
-                        <li><a href="https://bit.ly/hacknitp-4-discord" rel="noreferrer">HackSlash Discord</a></li>
+                        <li><a href="https://bit.ly/hacknitp-4-discord" target='_blank' rel="noreferrer">HackSlash Discord</a></li>
                     </ul>
                     <div className="disc-btn">
                         <button className='btn btn-primary'>
@@ -44,7 +44,7 @@ const NavB = () => {
                             <li><a href="#tracks" rel='noreferrer'>Themes</a></li>
                             <li><a href="#contact" rel='noreferrer'>Contact</a></li>
                             <li><a href="#faq" rel='noreferrer'>FAQ</a></li>
-                            <li><a href="https://bit.ly/hacknitp-4-discord" rel='noreferrer'>HackSlash Discord</a></li>
+                            <li><a href="https://bit.ly/hacknitp-4-discord" target='_blank' rel='noreferrer'>HackSlash Discord</a></li>
                         </ul>
                         <div className="disc-btn">
                             <button className='btn btn-primary'>
