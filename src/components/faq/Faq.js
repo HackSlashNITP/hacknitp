@@ -38,8 +38,8 @@ const Faq = () => {
   // });
 
   const btnstyle = {
-      height: "44px",
-      width: "312px"
+    height: "44px",
+    width: "312px"
   }
 
   return (
@@ -135,11 +135,12 @@ const Faq = () => {
           </span>
         </h2>
         <div className="register-btn-faq">
+          <br/>
           <div
-              className="apply-button"
-              data-hackathon-slug="hacknitp-4"
-              data-button-theme="dark"
-              style={btnstyle}
+            className="apply-button"
+            data-hackathon-slug="hacknitp-4"
+            data-button-theme="dark"
+            style={btnstyle}
           ></div>
         </div>
       </div>
