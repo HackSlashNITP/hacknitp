@@ -19,7 +19,7 @@ const Footer = () => {
                     </a>
                     <button className="btn-primary btn-last">
                         <Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtnf'>
-                            Join Our Discord
+                            Join our Discord server
                         </Link>
                     </button>
 

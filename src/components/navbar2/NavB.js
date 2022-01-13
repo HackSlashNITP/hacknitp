@@ -20,11 +20,12 @@ const NavB = () => {
                         <li><a href="#tracks" rel="noreferrer">Themes</a></li>
                         <li><a href="#contact" rel="noreferrer">Contact</a></li>
                         <li><a href="#faq" rel="noreferrer">FAQ</a></li>
+                        <li><a href="https://bit.ly/hacknitp-4-discord" target='_blank' rel="noreferrer">HackSlash Discord</a></li>
                     </ul>
                     <div className="disc-btn">
                         <button className='btn btn-primary'>
-                            <Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtnf'>
-                                Join Our Discord
+                            <Link to={{ pathname: "https://hacknitp-4.devfolio.co" }} target='_blank' className='discordbtnf'>
+                                Register
                             </Link>
                         </button>
                     </div>
@@ -43,13 +44,14 @@ const NavB = () => {
                             <li><a href="#tracks" rel='noreferrer'>Themes</a></li>
                             <li><a href="#contact" rel='noreferrer'>Contact</a></li>
                             <li><a href="#faq" rel='noreferrer'>FAQ</a></li>
+                            <li><a href="https://bit.ly/hacknitp-4-discord" target='_blank' rel='noreferrer'>HackSlash Discord</a></li>
                         </ul>
                         <div className="disc-btn">
                             <button className='btn btn-primary'>
-                                <Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtnf'>
-                                    Join Our Discord
+                                <Link to={{ pathname: "https://hacknitp-4.devfolio.co" }} target='_blank' className='discordbtnf'>
+                                    Register
                                 </Link>
-                                </button>
+                            </button>
                         </div>
                     </nav>
                 </div>
