@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './faq.css'
-import apply from '../../images/apply.png'
+// import apply from '../../images/apply.png'
 // import FaqBluePrint from './FaqBluePrint'
 const Faq = () => {
   const [faq, setFaq] = useState(false);

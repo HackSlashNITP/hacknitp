@@ -17,7 +17,7 @@ import Footer from '../footer/Footer'
 import Intro from '../intro/Intro'
 import AOS from 'aos';
 import "aos/dist/aos.css";
-import apply from '../../images/apply.png'
+// import apply from '../../images/apply.png'
 
 const HomePage = () => {
     useEffect(() => {
