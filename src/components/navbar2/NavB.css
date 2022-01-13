@@ -109,10 +109,13 @@ nav.fill ul li a:hover:after {
    position: fixed;
  }
 @media screen  and (max-width:900px){
+  .navbar2 .btn{
+    margin-top: 0px;
+  }
   .njack-logo{
     max-height: 3.5rem;
     margin-left: 1rem;
-}
+  }
   .right-alt{
     display: block;
     color: white;
@@ -166,9 +169,7 @@ nav.fill ul li a:hover:after {
   margin: 2rem;
   margin-right: 2.5rem;
  }
-  .navbar2 button {
-    margin-top: 0;
-}
+
 }
 @media screen  and (max-width:500px){
   .popup-open{
