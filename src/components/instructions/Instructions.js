@@ -13,7 +13,7 @@ const Instructions = () => {
                    The registration for the event is absolutely free of cost, implying there is no registration fee.   
                    </li>
                    <li className="list-item">
-                   To participate in the hackathon, register through <a href ="https://hacknitp-4.devfolio.co/." >Devfolio.</a>
+                   To participate in the hackathon, register through <a className='devt' href ="https://hacknitp-4.devfolio.co/." target="_blank" rel='noreferrer' > Devfolio.</a>
                    </li>
                    <li className="list-item">
                    The competition is open for teams comprising of students currently enrolled in any educational institution.

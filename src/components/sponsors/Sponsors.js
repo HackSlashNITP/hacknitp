@@ -87,7 +87,7 @@ const Sponsors = () => {
 
         {
             logo: `${gmc}`,
-            link: "https://www.geeksforgeeks.org/",
+            link: "https://givemycertificate.com/",
         },
 
     ]
