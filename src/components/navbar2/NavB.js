@@ -21,12 +21,12 @@ const NavB = () => {
                         <li><a href="#faq" rel="noreferrer">FAQ</a></li>
                         <li><a href="https://bit.ly/hacknitp-4-discord" target='_blank' rel="noreferrer">HackSlash Discord</a></li>
                     </ul>
-                    <div><a target="_blank" class="discordbtnf" href="https://hacknitp-4.devfolio.co" rel='noreferrer'><div class="disc-btn"><button class="btn btn-primary">Register</button></div></a></div>
+                    <div><a target="_blank" className="discordbtnf" href="https://hacknitp-4.devfolio.co" rel='noreferrer'><div className="disc-btn"><button className="btn btn-primary">Register</button></div></a></div>
                 </nav>
             </div>
             <div class="navbar2">
                 <div className="nav-jack">
-                    <img src={logo} alt="" class="njack-logo" />
+                    <img src={logo} alt="" className="njack-logo" />
                 </div>
                 <div className="right">
                     <nav class="stroke">
@@ -39,7 +39,7 @@ const NavB = () => {
                             <li><a href="#faq" rel='noreferrer'>FAQ</a></li>
                             <li><a href="https://bit.ly/hacknitp-4-discord" target='_blank' rel='noreferrer'>HackSlash Discord</a></li>
                         </ul>
-                        <div><a target="_blank" class="discordbtnf" href="https://hacknitp-4.devfolio.co" rel='noreferrer'><div class="disc-btn"><button class="btn btn-primary">Register</button></div></a></div>
+                        <div><a target="_blank" className="discordbtnf" href="https://hacknitp-4.devfolio.co" rel='noreferrer'><div className="disc-btn"><button className="btn btn-primary">Register</button></div></a></div>
                 
                     </nav>
                 </div>
