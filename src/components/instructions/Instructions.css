@@ -4,3 +4,6 @@
 .instructions{
     margin: auto;
 }
+.fullInst{
+    text-decoration: none;
+}

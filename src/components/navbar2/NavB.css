@@ -112,7 +112,7 @@ nav.fill ul li a:hover:after {
   .njack-logo{
     max-height: 3.5rem;
     margin-left: 1rem;
-}
+  }
   .right-alt{
     display: block;
     color: white;
@@ -125,7 +125,7 @@ nav.fill ul li a:hover:after {
   .popup{
    display: block;
    z-index: 999;
-   height: 28rem;
+   height: 31rem;
    width:100vw;
    background-color:#1C172F ;
    position: relative;
@@ -166,6 +166,7 @@ nav.fill ul li a:hover:after {
   margin: 2rem;
   margin-right: 2.5rem;
  }
+
 }
 @media screen  and (max-width:500px){
   .popup-open{

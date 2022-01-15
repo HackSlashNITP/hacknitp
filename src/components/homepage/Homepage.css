@@ -8,7 +8,12 @@
   height: fit-content;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  width: 100vw;
+  width: 100%;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+.body::-webkit-scrollbar {
+  display: none;
 }
 .dev{
   height: 50%;
@@ -25,9 +30,11 @@
 .home-body{
   height: 100vh;
   z-index: 100;
+  width: 100%;
   background: linear-gradient(rgba(28, 23, 47, 0.8), rgba(14, 12, 32, 0.8)), url(../../images/coders.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: hidden;
 }
 .home-body-bg{
   display: flex;
@@ -59,20 +66,23 @@
   width: 125px;
 }
 .btn-secondary{
-    height: 2.4rem;
-    padding: 0 1.2rem;
-    margin-top: 0;
-    border-radius: 0.6rem;
+    height: 44px;
+    padding: 0 32px;
+    margin-top: 0.75rem;
+    border-radius: 4px;
     border: none;
-    background-color: #0E0A1B;
-    width: 181px;
-    margin-right: 1.2rem;
-    font-weight: 600;
-    cursor: pointer;
+    /* background-color: #0E0A1B; */
+    background-color: #27333f;
+    width: max-content !important;
+    font-size: 20px;
+    font-weight: 500 !important;
+    cursor: pointer !important;
     color: white;
-    border: 2px solid white;
+    /* border: 1px solid white; */
+    
+    letter-spacing: 1px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .btn-secondary:hover{
@@ -85,6 +95,8 @@
   display: flex;
   width: 100%;
   /* z-index: 999; */
+  flex-direction: column;
+  align-items: flex-start;
 }
 .btn-primary{
     height: 2.5rem;

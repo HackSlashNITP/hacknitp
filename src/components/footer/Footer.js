@@ -17,12 +17,7 @@ const Footer = () => {
                     <a href="https://rebrand.ly/hackslash/community-guidelines" target='_blank' className="cnc" rel='noreferrer'>
                         Code of conduct
                     </a>
-                    <button className="btn-primary btn-last">
-                        <Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtnf'>
-                            Join Our Discord
-                        </Link>
-                    </button>
-
+                    <div><a target="_blank" class="discordbtnf" href="https://bit.ly/hacknitp-4-discord" rel='noreferrer'><button className="btn-primary btn-last">Join our Discord server</button></a></div>
                 </div>
             </div>
             <div className="hr">

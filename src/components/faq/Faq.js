@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './faq.css'
-import apply from '../../images/apply.png'
+// import apply from '../../images/apply.png'
 // import FaqBluePrint from './FaqBluePrint'
 const Faq = () => {
   const [faq, setFaq] = useState(false);
@@ -37,6 +37,10 @@ const Faq = () => {
   //   });
   // });
 
+  const btnstyle = {
+    height: "44px",
+    width: "312px"
+  }
 
   return (
     <div className='faq-container' id='faq'>
@@ -131,9 +135,13 @@ const Faq = () => {
           </span>
         </h2>
         <div className="register-btn-faq">
-          <a href="https://hacknitp-4.devfolio.co/" target='_blank' className='regbtn' rel='noreferrer'>
-            <button className='register'> <img src={apply} alt='devfolio' className='devf' /><span>Apply with Devfolio</span></button>
-          </a>
+          <br/>
+          <div
+            className="apply-button"
+            data-hackathon-slug="hacknitp-4"
+            data-button-theme="dark"
+            style={btnstyle}
+          ></div>
         </div>
       </div>
     </div>
