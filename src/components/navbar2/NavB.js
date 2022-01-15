@@ -23,11 +23,7 @@ const NavB = () => {
                         <li><a href="https://bit.ly/hacknitp-4-discord" target='_blank' rel="noreferrer">HackSlash Discord</a></li>
                     </ul>
                     <div className="disc-btn">
-                        <button className='btn btn-primary'>
-                            <Link to={{ pathname: "https://hacknitp-4.devfolio.co" }} target='_blank' className='discordbtnf'>
-                                Register
-                            </Link>
-                        </button>
+                        <a href="https://hacknitp-4.devfolio.co" target='_blank' className='discordbtnf' rel='noreferrer'><button className='btn btn-primary'>Register</button></a>
                     </div>
                 </nav>
             </div>
