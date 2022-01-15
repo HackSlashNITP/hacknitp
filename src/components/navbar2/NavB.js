@@ -22,9 +22,7 @@ const NavB = () => {
                         <li><a href="#faq" rel="noreferrer">FAQ</a></li>
                         <li><a href="https://bit.ly/hacknitp-4-discord" target='_blank' rel="noreferrer">HackSlash Discord</a></li>
                     </ul>
-                    <div className="disc-btn">
-                        <a href="https://hacknitp-4.devfolio.co" target='_blank' className='discordbtnf' rel='noreferrer'><button className='btn btn-primary'>Register</button></a>
-                    </div>
+                    <div><a target="_blank" class="discordbtnf" href="https://hacknitp-4.devfolio.co" rel='noreferrer'><div class="disc-btn"><button class="btn btn-primary">Register</button></div></a></div>
                 </nav>
             </div>
             <div class="navbar2">
@@ -42,13 +40,8 @@ const NavB = () => {
                             <li><a href="#faq" rel='noreferrer'>FAQ</a></li>
                             <li><a href="https://bit.ly/hacknitp-4-discord" target='_blank' rel='noreferrer'>HackSlash Discord</a></li>
                         </ul>
-                        <div className="disc-btn">
-                            <button className='btn btn-primary'>
-                                <Link to={{ pathname: "https://hacknitp-4.devfolio.co" }} target='_blank' className='discordbtnf'>
-                                    Register
-                                </Link>
-                            </button>
-                        </div>
+                        <div><a target="_blank" class="discordbtnf" href="https://hacknitp-4.devfolio.co" rel='noreferrer'><div class="disc-btn"><button class="btn btn-primary">Register</button></div></a></div>
+                
                     </nav>
                 </div>
                 <div className="right-alt">
