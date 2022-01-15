@@ -1,5 +1,4 @@
 import React from "react"
-import {Link} from "react-router-dom"
 import './NavB.css'
 import logo from '../../images/hacknitplogo.svg'
 const NavB = () => {
