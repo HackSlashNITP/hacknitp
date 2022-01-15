@@ -1,5 +1,4 @@
 import React from "react"
-import {Link} from "react-router-dom"
 import './NavB.css'
 import logo from '../../images/hacknitplogo.svg'
 const NavB = () => {
@@ -22,18 +21,12 @@ const NavB = () => {
                         <li><a href="#faq" rel="noreferrer">FAQ</a></li>
                         <li><a href="https://bit.ly/hacknitp-4-discord" target='_blank' rel="noreferrer">HackSlash Discord</a></li>
                     </ul>
-                    <div className="disc-btn">
-                        <button className='btn btn-primary'>
-                            <Link to={{ pathname: "https://hacknitp-4.devfolio.co" }} target='_blank' className='discordbtnf'>
-                                Register
-                            </Link>
-                        </button>
-                    </div>
+                    <div><a target="_blank" className="discordbtnf" href="https://hacknitp-4.devfolio.co" rel='noreferrer'><div className="disc-btn"><button className="btn btn-primary">Register</button></div></a></div>
                 </nav>
             </div>
             <div class="navbar2">
                 <div className="nav-jack">
-                    <img src={logo} alt="" class="njack-logo" />
+                    <img src={logo} alt="" className="njack-logo" />
                 </div>
                 <div className="right">
                     <nav class="stroke">
@@ -46,13 +39,8 @@ const NavB = () => {
                             <li><a href="#faq" rel='noreferrer'>FAQ</a></li>
                             <li><a href="https://bit.ly/hacknitp-4-discord" target='_blank' rel='noreferrer'>HackSlash Discord</a></li>
                         </ul>
-                        <div className="disc-btn">
-                            <button className='btn btn-primary'>
-                                <Link to={{ pathname: "https://hacknitp-4.devfolio.co" }} target='_blank' className='discordbtnf'>
-                                    Register
-                                </Link>
-                            </button>
-                        </div>
+                        <div><a target="_blank" className="discordbtnf" href="https://hacknitp-4.devfolio.co" rel='noreferrer'><div className="disc-btn"><button className="btn btn-primary">Register</button></div></a></div>
+                
                     </nav>
                 </div>
                 <div className="right-alt">
