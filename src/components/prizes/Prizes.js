@@ -20,7 +20,6 @@ const Prizes = () => {
         "Swags to all members of the team."
     ]
     const secondPrize = [
-        "Devfolio Swag Pack to all members of the team.",
         "225$ Digital Ocean Credits to all members of the winning team. (100$ 60-day free trial + 125$ DO Credits.)",
         "800/- INR GFG-discount coupon to winner team's members.",
         "Lifetime Taskade workspace ugrade to the team.",
