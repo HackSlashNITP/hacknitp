@@ -12,8 +12,8 @@ const Prizes = () => {
     const firstPrize = [
         "350$ Digital Ocean Credits to all members of the winning team. (100$ 60-day free trial + 250$ DO Credits.)",
         "1200/- INR GFG-discount coupon to winner team's members.",
-        "Clerky Lifetime package to winning team (as a whole).The idea behind offering this prize is to help the winning team start a company around the project that won the hackathon.",
-        "Lifetime Taskade workspace ugrade to the team.",
+        "Clerky Lifetime package to winning team (as a whole). The idea behind offering this prize is to help the winning team start a company around the project that won the hackathon.",
+        "Lifetime Taskade workspace upgrade to the team.",
         "1 year License of Axure-RP Team Plan.",
         "1-month FREE access to all Business Plan features of the echo3D platform. ($89 each)",
         "1-month access to all courses on Interview Cake.",
@@ -45,26 +45,28 @@ const Prizes = () => {
 
     const trackPrize = [
         [
-            "Polygon (previously Matic) will be giving away a cash prize for the best hack built on top of Ethereum (Rs.10000) during the hackathon.",
-            "For teams that integrate Polygon in their hacks as well the prize money will be higher (Rs.15000) along with eligibility for internship/full-time role interviews and a chance to land seed funding of upto 5000 USD!",
+            "₹10,000 for the best hack built on Ethereum, or ₹15,000 for the best hack built on Ethereum + Polygon",
+            "Eligibility to apply for internship/full-time roles",
+            "Seed funding of up to 5,000 USD for winners!",
         ],
         [
-            "20000 INR for best Dapp built on Tezos.",
-            "Continuity grant opportunity up to 5,000 USD for an outstanding project.",
-
+            "₹20,000 for best Dapp built on Tezos",
+            "Continuity grant opportunity up to 5,000 USD for outstanding projects",
+            "Every valid submission will be rewarded with exclusive Schwag Kits.",
         ],
         [
-            "20000 INR for best use of IPFS and/or Filecoin.",
+            "₹20000 for best use of IPFS and/or Filecoin",
         ],
         [
-            "20000 INR for best Dapp built on Celo.",
+            "₹20,000 for best Dapp built on Celo",
+            "Continuity Support",
         ],
 
     ]
 
     const allparticpant = [
         "Digital Ocean $100, 60-day free trial for all attendees who register using this link https://try.digitalocean.com/developer-cloud.",
-        "300/- INR GFG-discount coupon to all participants.",
+        "₹300/- GFG-discount coupon to all participants.",
         "1-month FREE access to all Business Plan features of the echo3D platform. ($89 each)",
         "1-month access to all courses on Interview Cake.",
         "Voiceflow Professional License coupon for all participants valued at $49 per month.",
@@ -88,10 +90,10 @@ const Prizes = () => {
             <div className="prize-container">
                 <div data-aos="fade-up">
                     <h2 className="prizes-head">
-                        1st Position
+                        Winner
                     </h2>
                     <ul>
-                        <li className='list-item'><b>INR 10,000/- Cash Prize.</b></li>
+                        <li className='list-item'><b>₹ 10,000/- Cash Prize.</b></li>
                         {firstPrize.map((item, index) => <li key={index} className='list-item'>{item}</li>)}
                     </ul>
                 </div>
@@ -99,10 +101,10 @@ const Prizes = () => {
             <div className="prize-container">
                 <div data-aos="fade-up">
                     <h2 className="prizes-head">
-                        2nd Position
+                        1st Runner Up
                     </h2>
                     <ul>
-                        <li className='list-item'><b>INR 8,000/- Cash Prize.</b></li>
+                        <li className='list-item'><b>₹ 8,000/- Cash Prize.</b></li>
                         {secondPrize.map((item, index) => <li key={index} className='list-item'>{item}</li>)}
                     </ul>
                 </div>
@@ -110,10 +112,10 @@ const Prizes = () => {
             <div className="prize-container">
                 <div data-aos="fade-up">
                     <h2 className="prizes-head">
-                        3rd Position
+                        2nd Runner Up
                     </h2>
                     <ul>
-                        <li className='list-item'><b>INR 5,000/- Cash Prize.</b></li>
+                        <li className='list-item'><b>₹ 5,000/- Cash Prize.</b></li>
                         {thirdPrize.map((item, index) => <li key={index} className='list-item'>{item}</li>)}
                     </ul>
                 </div>
@@ -132,8 +134,7 @@ const Prizes = () => {
                         Track Prize (Tezos)
                     </h2>
                     <ul>
-                        {trackPrize[1].map((item, index) => <li key={index} className='list-item'>{item}</li>)}
-                        <li className='list-item'>Every [valid submission] <a href='https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff' target="_blank" rel='noreferrer'>(https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff)</a> made in the Tezos track will be rewarded with **exclusive Schwag Kits</li>
+                        {trackPrize[1].map((item, index) => <li key={index} className='list-item'>{item}</li>)}  
                     </ul>
                 </div>
                 <div data-aos="fade-up">
