@@ -19,6 +19,7 @@ import Axure from '../../images/axure.jpg';
 import Taskade from '../../images/taskade.png';
 import gfg from '../../images/gfg.png';
 import gmc from '../../images/gmc.png';
+import postman from '../../images/postman.png';
 
 const Sponsors = () => {
 
@@ -50,6 +51,10 @@ const Sponsors = () => {
             logo: `${celo}`,
             link: "https://celo.org/",
         },
+        {
+            logo: `${postman}`,
+            link: "https://www.postman.com/",
+        }
     ]
 
     const subEvent = [
