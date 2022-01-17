@@ -65,7 +65,6 @@ const Prizes = () => {
     ]
 
     const allparticpant = [
-        "Digital Ocean $100, 60-day free trial for all attendees who register using this link https://try.digitalocean.com/developer-cloud.",
         "₹300/- GFG-discount coupon to all participants.",
         "1-month FREE access to all Business Plan features of the echo3D platform. ($89 each)",
         "1-month access to all courses on Interview Cake.",
@@ -160,7 +159,7 @@ const Prizes = () => {
                         For All Participants
                     </h2>
                     <ul>
-                        <li className='list-item'>Digital Ocean $100, 60-day free trial for all attendees who register using this link <a href=' https://try.digitalocean.com/developer-cloud ' target="_blank" rel='noreferrer'> https://try.digitalocean.com/developer-cloud </a>.</li>
+                        <li className='list-item'>Digital Ocean $100, 60-day free trial for all attendees who register using this <a href=' https://try.digitalocean.com/developer-cloud ' target="_blank" rel='noreferrer'>link</a>.</li>
                         {allparticpant.map((item, index) => <li key={index} className='list-item'>{item}</li>)}
                     </ul>
                 </div>
