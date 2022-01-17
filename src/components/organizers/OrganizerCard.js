@@ -1,27 +1,24 @@
 import React from 'react'
 import './Organizers.css'
-import img17 from '../../images/avatar.gif'
 
-const OrganizerCard = () => {
+const OrganizerCard = (props) => {
     return (
         <div className='organizer-card' data-aos="fade-up">
             <div className="animation-circle">
-
             </div>
             <div className="org-img">
-                <img src={img17} alt="not-available" className='person-img'/>
+                <img src={props.logo} alt={props.name} className='person-img'/>
             </div>
             <p className="person-name">
-              Lorem Ipsum
+                {props.name}
             </p>
             <h4 className="person-post">
-                Organizer
+                {props.role}
             </h4>
             <div className="socials">
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-github"></i>
+                <a href={props.linkedin} target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href={props.twitter} target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                <a href={props.github} target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
             </div>
         </div>
     )
