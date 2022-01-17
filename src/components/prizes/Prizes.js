@@ -11,7 +11,7 @@ const Prizes = () => {
     
     const firstPrize = [
         "350$ Digital Ocean Credits to all members of the winning team. (100$ 60-day free trial + 250$ DO Credits.)",
-        "1200/- INR GFG-discount coupon to winner team's members.",
+        "₹1200/- GFG-discount coupon to winner team's members.",
         "Clerky Lifetime package to winning team (as a whole). The idea behind offering this prize is to help the winning team start a company around the project that won the hackathon.",
         "Lifetime Taskade workspace upgrade to the team.",
         "1 year License of Axure-RP Team Plan.",
@@ -23,7 +23,7 @@ const Prizes = () => {
 
     const secondPrize = [
         "225$ Digital Ocean Credits to all members of the winning team. (100$ 60-day free trial + 125$ DO Credits.)",
-        "800/- INR GFG-discount coupon to winner team's members.",
+        "₹800/- GFG-discount coupon to winner team's members.",
         "Lifetime Taskade workspace ugrade to the team.",
         "1 year License of Axure-RP Team Plan.",
         "1-month FREE access to all Business Plan features of the echo3D platform. ($89 each)",
@@ -34,7 +34,7 @@ const Prizes = () => {
 
     const thirdPrize = [
         "225$ Digital Ocean Credits to all members of the winning team. (100$ 60-day free trial + 125$ DO Credits.)",
-        "500/- INR GFG-discount coupon to winner team's members.",
+        "₹500/- GFG-discount coupon to winner team's members.",
         "Lifetime Taskade workspace ugrade to the team.",
         "1 year License of Axure-RP Team Plan.",
         "1-month FREE access to all Business Plan features of the echo3D platform. ($89 each)",
