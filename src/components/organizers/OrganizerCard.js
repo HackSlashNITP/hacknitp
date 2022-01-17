@@ -1,6 +1,5 @@
 import React from 'react'
 import './Organizers.css'
-import img17 from '../../images/avatar.gif'
 
 const OrganizerCard = (props) => {
     return (
