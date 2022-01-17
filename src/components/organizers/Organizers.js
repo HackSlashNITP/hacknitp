@@ -9,7 +9,7 @@ const Organizers = () => {
     const leads = [
         {
             name: 'Lorem Ipsum',
-            role: 'Lead Organizer'
+            role: 'Lead Organizer',
             logo: `${pic}`,
             linkedin: 'https://www.linkedin.com/company/hackslash',
             twitter: 'https://www.facebook.com/hackSlash.nitp',
@@ -17,7 +17,7 @@ const Organizers = () => {
         },
         {
             name: 'Lorem Ipsum',
-            role: 'Organizer'
+            role: 'Organizer',
             logo: `${pic}`,
             linkedin: 'https://www.linkedin.com/company/hackslash',
             twitter: 'https://www.facebook.com/hackSlash.nitp',
