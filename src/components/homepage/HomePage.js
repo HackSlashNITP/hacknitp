@@ -4,6 +4,7 @@ import './Homepage.css'
 import hacknitpold from '../../images/hacknitp-old.svg'
 import gameon from '../../images/game-on.svg'
 import Timer from '../timer/Timer'
+import discord from "../../images/discord.svg";
 import NavB from '../navbar2/NavB'
 import Prizes from '../prizes/Prizes'
 import Tracks from '../tracks/Tracks'
@@ -39,50 +40,68 @@ const HomePage = () => {
         width: "201px"
     }
     return (
-        <div className='body'>
-            <div className="home-body">
-                <NavB />
-                <div className="home-body-bg" data-aos="fade-up">
-                    <div className="home-left">
-                        <img src={hacknitpold} className='hack-old' alt="hacknitp" />
-                        <h3 className="home-date">
-                            February 11,2022 - February 13,2022
-                        </h3>
-                        <p className="home-para">
-                            A Hackathon is not merely a competition but is a place where people learn the art of solving problems, make friends, build their network, and have fun. You learn how to work collaboratively in a team to build a hack. Let the innovation inside you flourish in HackNITP 4.0 and turn the craziest of your ideas into a reality.
-                        </p>
-                        <div className="home-btns headline">
-                            <div
-                                className="apply-button"
-                                data-hackathon-slug="hacknitp-4"
-                                data-button-theme="dark"
-                                style={btnstyle}
-                            ></div>
-                            <div>
-                            <a href="https://bit.ly/hacknitp-4-discord" target='_blank' className='discordbtn' rel='noreferrer'><button className='btn-secondary' id="fix">
-                                <span>Join Discord</span></button>
-                            </a></div>
-                        </div>
-                    </div>
-                    <div className="home-right">
-                        <img src={gameon} alt="game-on" className='game-on' />
-                    </div>
-
+      <div className="body">
+        <div className="home-body">
+          <NavB />
+          <div className="home-body-bg" data-aos="fade-up">
+            <div className="home-left">
+              <img src={hacknitpold} className="hack-old" alt="hacknitp" />
+              <h3 className="home-date">February 11,2022 - February 13,2022</h3>
+              <p className="home-para">
+                A Hackathon is not merely a competition but is a place where
+                people learn the art of solving problems, make friends, build
+                their network, and have fun. You learn how to work
+                collaboratively in a team to build a hack. Let the innovation
+                inside you flourish in HackNITP 4.0 and turn the craziest of
+                your ideas into a reality.
+              </p>
+              <div className="home-btns headline">
+                <div
+                  className="apply-button"
+                  data-hackathon-slug="hacknitp-4"
+                  data-button-theme="dark"
+                  style={btnstyle}
+                ></div>
+                <div>
+                  <a
+                    href="https://bit.ly/hacknitp-4-discord"
+                    target="_blank"
+                    className="discordbtn"
+                    rel="noreferrer"
+                  >
+                    <button className="btn-secondary" id="fix">
+                      <span>Join Discord</span>
+                    </button>
+                  </a>
                 </div>
+              </div>
             </div>
-            <Intro />
-            <Timer />
-            <Timeline />
-            <Prizes />
-            <Tracks />
-            <Instructions />
-            <Organizers />
-            <Sponsors />
-            <Contact />
-            <Faq />
-            <Footer />
-        </div >
-    )
+            <div className="home-right">
+              <img src={gameon} alt="game-on" className="game-on" />
+            </div>
+          </div>
+        </div>
+        <Intro />
+        <Timer />
+        <Timeline />
+        <Prizes />
+        <Tracks />
+        <Instructions />
+        <Organizers />
+        <Sponsors />
+        <Contact />
+        <Faq />
+        <Footer />
+        <a
+          href="https://bit.ly/hacknitp-4-discord"
+          rel="noreferrer"
+                style={{ position: `fixed`, bottom: 0, right: 0, zIndex: 10 }}
+                target="_blank"
+        >
+          <img src={discord} alt="join discord" />
+        </a>
+      </div>
+    );
 }
 
 export default HomePage

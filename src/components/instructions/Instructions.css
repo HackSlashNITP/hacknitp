@@ -3,6 +3,8 @@
 }
 .instructions{
     margin: auto;
+    text-decoration: none;
+    color: white;
 }
 .fullInst{
     text-decoration: none;
