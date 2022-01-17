@@ -13,6 +13,7 @@
     color: white;
     margin: 1rem 2rem;
     font-size: 1.1rem;
+    word-wrap: break-word;
 }
 .list-item a{
     color: #59DB8A;
@@ -29,6 +30,6 @@ ul{
      background-color: #1C172F;
      margin: 3rem 1rem 4rem 1rem ;
      border-radius: 2rem;
-     padding: 2rem 1rem 2rem 2rem;
+     padding: 2rem 1rem 2rem 1rem;
 }
 }
