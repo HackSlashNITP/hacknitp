@@ -10,9 +10,6 @@ const Prizes = () => {
     }, []);
     const firstPrize = [
         "350$ Digital Ocean Credits to all members of the winning team. (100$ 60-day free trial + 250$ DO Credits.)",
-        "Devfolio Swag Pack to all members of the team.",
-        "Github Swag Pack to all members of the team.",
-        "Postman Swags to all members of the team.",
         "1200/- INR GFG-discount coupon to winner team's members.",
         "Clerky Lifetime package to winning team (as a whole).The idea behind offering this prize is to help the winning team start a company around the project that won the hackathon.",
         "Lifetime Taskade workspace ugrade to the team.",
@@ -20,29 +17,28 @@ const Prizes = () => {
         "1-month FREE access to all Business Plan features of the echo3D platform. ($89 each)",
         "1-month access to all courses on Interview Cake.",
         "Voiceflow Professional License coupon for all participants valued at $49 per month.",
+        "Swags to all members of the team."
     ]
     const secondPrize = [
         "Devfolio Swag Pack to all members of the team.",
         "225$ Digital Ocean Credits to all members of the winning team. (100$ 60-day free trial + 125$ DO Credits.)",
-        "Github Swag Pack to all members of the team.",
-        "Postman Swags to all members of the team.",
         "800/- INR GFG-discount coupon to winner team's members.",
         "Lifetime Taskade workspace ugrade to the team.",
         "1 year License of Axure-RP Team Plan.",
         "1-month FREE access to all Business Plan features of the echo3D platform. ($89 each)",
         "1-month access to all courses on Interview Cake.",
-        "Voiceflow Professional License coupon for all participants valued at $49 per month.",
+        "Voiceflow Professional License coupon for all participants valued at $49 per month."
+        "Swags to all members of the team."
     ]
     const thirdPrize = [
         "225$ Digital Ocean Credits to all members of the winning team. (100$ 60-day free trial + 125$ DO Credits.)",
-        "Github Swag Pack to all members of the team.",
-        "Postman Swags to all members of the team.",
         "500/- INR GFG-discount coupon to winner team's members.",
         "Lifetime Taskade workspace ugrade to the team.",
         "1 year License of Axure-RP Team Plan.",
         "1-month FREE access to all Business Plan features of the echo3D platform. ($89 each)",
         "1-month access to all courses on Interview Cake.",
         "Voiceflow Professional License coupon for all participants valued at $49 per month.",
+        "Swags to all members of the team.",
     ]
     const trackPrize = [
         [
