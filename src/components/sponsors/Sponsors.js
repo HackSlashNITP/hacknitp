@@ -177,7 +177,7 @@ const Sponsors = () => {
             <div className="enquire-sponsors-cont" data-aos="fade-up">
                 <h1 className="heading"><span className='white'>Want to Sponsor us?</span></h1>
                 <p className="last-yr-sponsors">
-                    <a href="https://hacknitp.netlify.app" target='_blank' rel='noreferrer'>
+                    <a href="https://hacknitp.netlify.app/#sponsors" target='_blank' rel='noreferrer'>
                         Click here to see our last year sponsors
                     </a>
                     <i class="fab fa-send"></i>
