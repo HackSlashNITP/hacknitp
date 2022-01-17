@@ -26,7 +26,7 @@ const Prizes = () => {
         "1 year License of Axure-RP Team Plan.",
         "1-month FREE access to all Business Plan features of the echo3D platform. ($89 each)",
         "1-month access to all courses on Interview Cake.",
-        "Voiceflow Professional License coupon for all participants valued at $49 per month."
+        "Voiceflow Professional License coupon for all participants valued at $49 per month.",
         "Swags to all members of the team."
     ]
     const thirdPrize = [
