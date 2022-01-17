@@ -2,7 +2,7 @@ import React from 'react'
 import OrganizerCard from './OrganizerCard'
 import './Organizers.css'
 
-import pic from '../../images/hacknitp.png';
+import img17 from '../../images/avatar.gif'
 
 const Organizers = () => {
     
@@ -10,7 +10,7 @@ const Organizers = () => {
         {
             name: 'Lorem Ipsum',
             role: 'Lead Organizer',
-            logo: `${pic}`,
+            logo: `${img17}`,
             linkedin: 'https://www.linkedin.com/company/hackslash',
             twitter: 'https://www.facebook.com/hackSlash.nitp',
             github: 'https://www.linkedin.com/company/hackslash'
@@ -18,7 +18,7 @@ const Organizers = () => {
         {
             name: 'Lorem Ipsum',
             role: 'Organizer',
-            logo: `${pic}`,
+            logo: `${img17}`,
             linkedin: 'https://www.linkedin.com/company/hackslash',
             twitter: 'https://www.facebook.com/hackSlash.nitp',
             github: 'https://www.linkedin.com/company/hackslash'
