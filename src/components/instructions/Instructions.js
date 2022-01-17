@@ -43,7 +43,7 @@ const Instructions = () => {
         <div className="instructions-btn">
           <a
             className="button btn-secondary instructions"
-            href="https://github.com/hackslash-nitp/hacknitp-4-rules"
+            href="https://rebrand.ly/hacknitp-4/rulebook"
             target="_blank"
             rel="noreferrer"
           >
