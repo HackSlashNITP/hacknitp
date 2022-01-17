@@ -12,7 +12,7 @@ const Footer = () => {
           </div>
           <div className="footer-up-right">
             <a
-              href="https://rebrand.ly/hacknitp-4/rules"
+              href="https://rebrand.ly/hacknitp-4/rulebook"
               target="_blank"
               className="termNc"
               rel="noreferrer"
