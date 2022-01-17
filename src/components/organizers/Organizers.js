@@ -56,6 +56,22 @@ const Organizers = () => {
             github: 'https://github.com/Tejas3772'
         },
         {
+            name: 'Shagufta Iqbal',
+            role: 'PR Lead',
+            logo: `${img17}`,
+            linkedin: '/',
+            twitter: '/',
+            github: 'https://github.com/Shagufta08'
+        },
+        {
+            name: 'Suraj Kumar',
+            role: 'PR Co-Lead',
+            logo: `${img17}`,
+            linkedin: 'https://www.linkedin.com/in/kumarsuraj23/',
+            twitter: 'https://twitter.com/kumar_suraj_bit',
+            github: 'https://github.com/kumarSuraj-bit'
+        },
+        {
             name: 'Shivam Jha',
             role: 'Sponsors Lead',
             logo: `${img17}`,
@@ -73,7 +89,7 @@ const Organizers = () => {
         },
         {
             name: 'Raj More',
-            role: 'Designer',
+            role: 'Design Manager',
             logo: `${img17}`,
             linkedin: 'https://linkedin.com/in/raj-more-50b543202',
             twitter: 'https://twitter.com/RajMore92073482?s=09',
@@ -160,48 +176,32 @@ const Organizers = () => {
             github: 'https://github.com/VikasKrGond'
         },
         {
-            name: 'Suraj Kumar',
-            role: 'Organizer',
-            logo: `${img17}`,
-            linkedin: 'https://www.linkedin.com/in/kumarsuraj23/',
-            twitter: 'https://twitter.com/kumar_suraj_bit',
-            github: 'https://github.com/kumarSuraj-bit'
-        },
-        {
-            name: 'Shagufta Iqbal',
-            role: 'Organizer',
-            logo: `${img17}`,
-            linkedin: '/',
-            twitter: '/',
-            github: 'https://github.com/Shagufta08'
-        },
-        {
             name: 'Samriddhi Ambashta',
-            role: 'Organizer',
+            role: 'Volunteer',
             logo: `${img17}`,
             linkedin: '/',
             twitter: '/',
             github: 'https://github.com/samriddhiambashta'
         },
+        {
+            name: 'Aditi Kumari',
+            role: 'Volunteer',
+            logo: `${img17}`,
+            linkedin: 'https://www.linkedin.com/in/aditi-kumari-6219931a3/',
+            twitter: '/',
+            github: 'https://github.com/aditikr257'
+        },
        {
             name: 'Ayushmaan Sharma',
-            role: 'Organizer',
+            role: 'Volunteer',
             logo: `${img17}`,
             linkedin: '/',
             twitter: '/',
             github: 'https://github.com/ayushman999'
         },
         {
-            name: 'Aditi Kumari',
-            role: 'Organizer',
-            logo: `${img17}`,
-            linkedin: 'https://www.linkedin.com/in/aditi-kumari-6219931a3/',
-            twitter: '/',
-            github: 'https://github.com/orgs/hackslash-nitp/people/aditikr257'
-        },
-        {
             name: 'Archana',
-            role: 'Organizer',
+            role: 'Volunteer',
             logo: `${img17}`,
             linkedin: '/',
             twitter: '/',
@@ -209,7 +209,7 @@ const Organizers = () => {
         },
        {
             name: 'Mayank Kumar',
-            role: 'Organizer',
+            role: 'Volunteer',
             logo: `${img17}`,
             linkedin: '/',
             twitter: '/',
@@ -217,7 +217,7 @@ const Organizers = () => {
         },       
        {
             name: 'Srijan Shovit',
-            role: 'Organizer',
+            role: 'Volunteer',
             logo: `${img17}`,
             linkedin: 'https://linkedin.com/in/linkedin.com/in/srijan-shovit-6b3b131ba',
             twitter: '/',
@@ -225,15 +225,15 @@ const Organizers = () => {
         },        
        {
             name: 'Rachit Suneja',
-            role: 'Organizer',
+            role: 'Volunteer',
             logo: `${img17}`,
             linkedin: '/',
             twitter: '/',
             github: 'https://github.com/RachitSuneja'
         },    
        {
-            name: 'Pulkit Kumar Agarwal',
-            role: 'Organizer',
+            name: 'Pulkit Kr Agarwal',
+            role: 'Volunteer',
             logo: `${img17}`,
             linkedin: '/',
             twitter: '/',
@@ -241,28 +241,19 @@ const Organizers = () => {
         },
        {
             name: 'Harsh Anand',
-            role: 'Organizer',
+            role: 'Volunteer',
             logo: `${img17}`,
-            linkedin: 'https://www.linkedin.com/company/hackslash',
-            twitter: 'https://twitter.com/hackslash_nitp/',
+            linkedin: '#',
+            twitter: '#',
             github: 'https://github.com/its-me-Harsh-Anand'
         },
        {
             name: 'Ayush Gautam',
-            role: 'Organizer',
+            role: 'Volunteer',
             logo: `${img17}`,
             linkedin: '/',
             twitter: '/',
             github: 'https://github.com/ayushgautam7'
-        },
-        
-       {
-            name: 'Lorem Ipsum',
-            role: 'Organizer',
-            logo: `${img17}`,
-            linkedin: 'https://www.linkedin.com/company/hackslash',
-            twitter: 'https://twitter.com/hackslash_nitp/',
-            github: 'https://github.com/orgs/hackslash-nitp'
         },
     ]
     
