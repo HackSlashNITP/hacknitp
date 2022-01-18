@@ -3,6 +3,13 @@ import OrganizerCard from './OrganizerCard'
 import './Organizers.css'
 
 import img17 from '../../images/avatar.gif'
+import img1 from '../../../public/images/organizer/divyaprakash.jpg'
+import img2 from '../../../public/images/organizer/paritosh.jpg'
+import img3 from '../../../public/images/organizer/amritraj.jpg'
+import img4 from '../../../public/images/organizer/neerajpatil.jpg'
+import img5 from '../../../public/images/organizer/samriddhi.jpg'
+import img6 from '../../../public/images/organizer/surajkumar.jpg'
+import img7 from '../../../public/images/organizer/digvijay.jpg'
 
 const Organizers = () => {
     
@@ -10,7 +17,7 @@ const Organizers = () => {
         {
             name: 'Divya Prakash',
             role: 'Lead Organizer',
-            logo: `${img17}`,
+            logo: `${img1}`,
             linkedin: 'https://www.linkedin.com/in/divyaprakashrx/',
             twitter: 'https://twitter.com/divyaprakashrx',
             github: 'https://github.com/divyaprakashrx'
@@ -18,7 +25,7 @@ const Organizers = () => {
         {
             name: 'Paritosh Kumar',
             role: 'Lead Organizer',
-            logo: `${img17}`,
+            logo: `${img2}`,
             linkedin: 'https://www.linkedin.com/in/paritoshkr/',
             twitter: 'https://twitter.com/heyparitosh',
             github: 'https://github.com/paritoshkr'
@@ -26,7 +33,7 @@ const Organizers = () => {
         {
             name: 'Amrit Raj',
             role: 'Lead Organizer',
-            logo: `${img17}`,
+            logo: `${img3}`,
             linkedin: 'https://www.linkedin.com/in/amrit-raj-ba2a15190/',
             twitter: '/',
             github: 'https://github.com/dev-amrit460'
@@ -34,7 +41,7 @@ const Organizers = () => {
         {
             name: 'Neeraj Patil',
             role: 'Lead Organizer',
-            logo: `${img17}`,
+            logo: `${img4}`,
             linkedin: 'https://www.linkedin.com/in/neeraj-2212/',
             twitter: '/',
             github: 'https://github.com/Neeraj2212'
@@ -66,7 +73,7 @@ const Organizers = () => {
         {
             name: 'Suraj Kumar',
             role: 'PR Co-Lead',
-            logo: `${img17}`,
+            logo: `${img6}`,
             linkedin: 'https://www.linkedin.com/in/kumarsuraj23/',
             twitter: 'https://twitter.com/kumar_suraj_bit',
             github: 'https://github.com/kumarSuraj-bit'
@@ -162,7 +169,7 @@ const Organizers = () => {
         {
             name: 'Digvijay Srivastava',
             role: 'Outreach Lead',
-            logo: `${img17}`,
+            logo: `${img7}`,
             linkedin: 'https://www.linkedin.com/in/dig9074vijay/',
             twitter: 'https://twitter.com/dig9074vijay',
             github: 'https://github.com/dig9074vijay'
@@ -178,8 +185,8 @@ const Organizers = () => {
         {
             name: 'Samriddhi Ambashta',
             role: 'Volunteer',
-            logo: `${img17}`,
-            linkedin: '/',
+            logo: `${img5}`,
+            linkedin: 'https://www.linkedin.com/in/samriddhi-ambashta-8528a91ab/',
             twitter: '/',
             github: 'https://github.com/samriddhiambashta'
         },
