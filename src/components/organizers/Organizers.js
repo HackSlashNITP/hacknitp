@@ -35,7 +35,7 @@ const Organizers = () => {
             role: 'Lead Organizer',
             logo: `${img3}`,
             linkedin: 'https://www.linkedin.com/in/amrit-raj-ba2a15190/',
-            twitter: '/',
+            twitter: '',
             github: 'https://github.com/dev-amrit460'
         },
         {
@@ -43,31 +43,15 @@ const Organizers = () => {
             role: 'Lead Organizer',
             logo: `${img4}`,
             linkedin: 'https://www.linkedin.com/in/neeraj-2212/',
-            twitter: '/',
+            twitter: '',
             github: 'https://github.com/Neeraj2212'
         }, 
-        {
-            name: 'Saizal Sinha',
-            role: 'Event Management Lead',
-            logo: `${img17}`,
-            linkedin: 'https://www.linkedin.com/company/hackslash',
-            twitter: 'https://twitter.com/hackslash_nitp/',
-            github: 'https://github.com/Saizalsinha'
-        },
-        {
-            name: 'Tejas Manhas',
-            role: 'Event Management Lead',
-            logo: `${img17}`,
-            linkedin: 'https://www.linkedin.com/company/hackslash',
-            twitter: 'https://twitter.com/hackslash_nitp/',
-            github: 'https://github.com/Tejas3772'
-        },
         {
             name: 'Shagufta Iqbal',
             role: 'PR Lead',
             logo: `${img17}`,
-            linkedin: '/',
-            twitter: '/',
+            linkedin: '',
+            twitter: '',
             github: 'https://github.com/Shagufta08'
         },
         {
@@ -79,11 +63,68 @@ const Organizers = () => {
             github: 'https://github.com/kumarSuraj-bit'
         },
         {
+            name: 'Samriddhi Ambashta',
+            role: 'Community Moderator',
+            logo: `${img5}`,
+            linkedin: 'https://www.linkedin.com/in/samriddhi-ambashta-8528a91ab/',
+            twitter: '',
+            github: 'https://github.com/samriddhiambashta'
+        },
+        {
+            name: 'Aditi Kumari',
+            role: 'Community Moderator',
+            logo: `${img17}`,
+            linkedin: 'https://www.linkedin.com/in/aditi-kumari-6219931a3/',
+            twitter: '',
+            github: 'https://github.com/aditikr257'
+        },
+       {
+            name: 'Ayushmaan Sharma',
+            role: 'Community Moderator',
+            logo: `${img17}`,
+            linkedin: '',
+            twitter: '',
+            github: 'https://github.com/ayushman999'
+        },
+       {
+            name: 'Mayank Kumar',
+            role: 'Community Moderator',
+            logo: `${img17}`,
+            linkedin: '',
+            twitter: '',
+            github: 'https://github.com/Sonunayan48'
+        }, 
+        {
+            name: 'Archana',
+            role: 'Community Moderator',
+            logo: `${img17}`,
+            linkedin: '',
+            twitter: '',
+            github: 'https://github.com/archana3001'
+        },
+
+        {
+            name: 'Saizal Sinha',
+            role: 'Event Management Lead',
+            logo: `${img17}`,
+            linkedin: '',
+            twitter: '',
+            github: 'https://github.com/Saizalsinha'
+        },
+        {
+            name: 'Tejas Manhas',
+            role: 'Event Management Lead',
+            logo: `${img17}`,
+            linkedin: '',
+            twitter: '',
+            github: 'https://github.com/Tejas3772'
+        },
+        {
             name: 'Shivam Jha',
             role: 'Sponsors Lead',
             logo: `${img17}`,
             linkedin: 'http://www.linkedin.com/in/shivam-jha-78421592',
-            twitter: '/',
+            twitter: '',
             github: 'https://github.com/jhashivam-2001'
         },
         {
@@ -103,68 +144,68 @@ const Organizers = () => {
             github: 'https://github.com/Raj82862'
         },
         {
-            name: 'Pratik Anand',
-            role: 'Web Lead',
-            logo: `${img17}`,
-            linkedin: 'https://www.linkedin.com/in/pratik-anand-/',
-            twitter: '/',
-            github: 'https://github.com/pratik8696'
-        },
-        {
-            name: 'Pragati Priya',
-            role: 'Web Developer',
-            logo: `${img17}`,
-            linkedin: '/',
-            twitter: '/',
-            github: 'https://github.com/pragatipriya20'
-        },
-        {
             name: 'Pragati Verma',
             role: 'Content Creator',
             logo: `${img17}`,
-            linkedin: '/',
-            twitter: '/',
+            linkedin: '',
+            twitter: '',
             github: 'https://github.com/Pragati1122'
         },
         {
             name: 'Avinash Kumar',
             role: 'Content Creator',
             logo: `${img17}`,
-            linkedin: '/',
-            twitter: '/',
-            github: '/'
+            linkedin: '',
+            twitter: '',
+            github: ''
         },
        {
             name: 'Tanvi Tanya',
             role: 'Content Creator',
             logo: `${img17}`,
-            linkedin: '/',
-            twitter: '/',
+            linkedin: '',
+            twitter: '',
             github: 'https://github.com/tanvitanyaa'
         },       
        {
             name: 'Animesh Maru',
             role: 'Content Creator',
             logo: `${img17}`,
-            linkedin: '/',
-            twitter: '/',
-            github: '/'
+            linkedin: '',
+            twitter: '',
+            github: ''
+        },
+        {
+            name: 'Pratik Anand',
+            role: 'Web Lead',
+            logo: `${img17}`,
+            linkedin: 'https://www.linkedin.com/in/pratik-anand-/',
+            twitter: '',
+            github: 'https://github.com/pratik8696'
+        },
+        {
+            name: 'Pragati Priya',
+            role: 'Web Co-Lead',
+            logo: `${img17}`,
+            linkedin: '',
+            twitter: '',
+            github: 'https://github.com/pragatipriya20'
         },
         {
             name: 'Mohit Kumar',
             role: 'Social Media Lead',
             logo: `${img17}`,
-            linkedin: '/',
-            twitter: '/',
+            linkedin: '',
+            twitter: '',
             github: 'https://github.com/mohit-kumar-b2'
         },
         {
             name: 'Firdaus Jawed',
             role: 'Social Media Manager',
             logo: `${img17}`,
-            linkedin: '/',
-            twitter: '/',
-            github: '/'
+            linkedin: '',
+            twitter: '',
+            github: ''
         },
         {
             name: 'Digvijay Srivastava',
@@ -174,93 +215,53 @@ const Organizers = () => {
             twitter: 'https://twitter.com/dig9074vijay',
             github: 'https://github.com/dig9074vijay'
         },
-        {
-            name: 'Vikas Kumar Gond',
-            role: 'Outreach Co-Lead',
-            logo: `${img17}`,
-            linkedin: '/',
-            twitter: '/',
-            github: 'https://github.com/VikasKrGond'
-        },
-        {
-            name: 'Samriddhi Ambashta',
-            role: 'Volunteer',
-            logo: `${img5}`,
-            linkedin: 'https://www.linkedin.com/in/samriddhi-ambashta-8528a91ab/',
-            twitter: '/',
-            github: 'https://github.com/samriddhiambashta'
-        },
-        {
-            name: 'Aditi Kumari',
-            role: 'Volunteer',
-            logo: `${img17}`,
-            linkedin: 'https://www.linkedin.com/in/aditi-kumari-6219931a3/',
-            twitter: '/',
-            github: 'https://github.com/aditikr257'
-        },
-       {
-            name: 'Ayushmaan Sharma',
-            role: 'Volunteer',
-            logo: `${img17}`,
-            linkedin: '/',
-            twitter: '/',
-            github: 'https://github.com/ayushman999'
-        },
-        {
-            name: 'Archana',
-            role: 'Volunteer',
-            logo: `${img17}`,
-            linkedin: '/',
-            twitter: '/',
-            github: 'https://github.com/archana3001'
-        },
-       {
-            name: 'Mayank Kumar',
-            role: 'Volunteer',
-            logo: `${img17}`,
-            linkedin: '/',
-            twitter: '/',
-            github: 'https://github.com/Sonunayan48'
-        },       
        {
             name: 'Srijan Shovit',
-            role: 'Volunteer',
+            role: 'Outreach Co-Lead',
             logo: `${img17}`,
-            linkedin: 'https://linkedin.com/in/linkedin.com/in/srijan-shovit-6b3b131ba',
-            twitter: '/',
+            linkedin: 'https://linkedin.com/in/srijan-shovit-6b3b131ba',
+            twitter: '',
             github: 'https://github.com/SrijanShovit'
-        },        
-       {
-            name: 'Rachit Suneja',
-            role: 'Volunteer',
-            logo: `${img17}`,
-            linkedin: '/',
-            twitter: '/',
-            github: 'https://github.com/RachitSuneja'
-        },    
+        },  
        {
             name: 'Pulkit Kr Agarwal',
-            role: 'Volunteer',
+            role: 'Outreach Co-Lead',
             logo: `${img17}`,
-            linkedin: '/',
-            twitter: '/',
+            linkedin: '',
+            twitter: '',
             github: 'https://github.com/pka5667'
         },
        {
-            name: 'Harsh Anand',
-            role: 'Volunteer',
+            name: 'Rachit Suneja',
+            role: 'Outreach Co-Lead',
             logo: `${img17}`,
-            linkedin: '#',
-            twitter: '#',
+            linkedin: '',
+            twitter: '',
+            github: 'https://github.com/RachitSuneja'
+        },  
+       {
+            name: 'Harsh Anand',
+            role: 'Outreach Co-Lead',
+            logo: `${img17}`,
+            linkedin: '',
+            twitter: '',
             github: 'https://github.com/its-me-Harsh-Anand'
         },
        {
             name: 'Ayush Gautam',
-            role: 'Volunteer',
+            role: 'Outreach Co-Lead',
             logo: `${img17}`,
-            linkedin: '/',
-            twitter: '/',
+            linkedin: '',
+            twitter: '',
             github: 'https://github.com/ayushgautam7'
+        },
+        {
+            name: 'Vikas Kumar Gond',
+            role: 'Outreach Co-Lead',
+            logo: `${img17}`,
+            linkedin: '',
+            twitter: '',
+            github: 'https://github.com/VikasKrGond'
         },
     ]
     
