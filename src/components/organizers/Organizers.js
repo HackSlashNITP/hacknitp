@@ -144,22 +144,6 @@ const Organizers = () => {
             github: 'https://github.com/Raj82862'
         },
         {
-            name: 'Pratik Anand',
-            role: 'Web Lead',
-            logo: `${img17}`,
-            linkedin: 'https://www.linkedin.com/in/pratik-anand-/',
-            twitter: '',
-            github: 'https://github.com/pratik8696'
-        },
-        {
-            name: 'Pragati Priya',
-            role: 'Web Co-Lead',
-            logo: `${img17}`,
-            linkedin: '',
-            twitter: '',
-            github: 'https://github.com/pragatipriya20'
-        },
-        {
             name: 'Pragati Verma',
             role: 'Content Creator',
             logo: `${img17}`,
@@ -190,6 +174,22 @@ const Organizers = () => {
             linkedin: '',
             twitter: '',
             github: ''
+        },
+        {
+            name: 'Pratik Anand',
+            role: 'Web Lead',
+            logo: `${img17}`,
+            linkedin: 'https://www.linkedin.com/in/pratik-anand-/',
+            twitter: '',
+            github: 'https://github.com/pratik8696'
+        },
+        {
+            name: 'Pragati Priya',
+            role: 'Web Co-Lead',
+            logo: `${img17}`,
+            linkedin: '',
+            twitter: '',
+            github: 'https://github.com/pragatipriya20'
         },
         {
             name: 'Mohit Kumar',
