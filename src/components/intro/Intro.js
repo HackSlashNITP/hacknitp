@@ -6,7 +6,7 @@ import "aos/dist/aos.css"
 const Intro = () => {
   useEffect(() => {
     AOS.init()
-    AOS.refresh()
+    // AOS.refresh()
   }, [])
 
   return (

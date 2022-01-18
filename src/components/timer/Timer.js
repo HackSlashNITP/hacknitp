@@ -21,7 +21,7 @@ const Timer = () => {
 
   useEffect(() => {
     AOS.init()
-    AOS.refresh()
+    // AOS.refresh()
   }, [])
 
   return (

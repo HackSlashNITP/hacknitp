@@ -5,7 +5,7 @@ import "aos/dist/aos.css"
 const TrackCard = (props) => {
   useEffect(() => {
     AOS.init()
-    AOS.refresh()
+    // AOS.refresh()
   }, [])
   return (
     <div className="track-card" data-aos="fade-up">
