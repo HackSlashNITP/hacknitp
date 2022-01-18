@@ -47,22 +47,6 @@ const Organizers = () => {
             github: 'https://github.com/Neeraj2212'
         }, 
         {
-            name: 'Saizal Sinha',
-            role: 'Event Management Lead',
-            logo: `${img17}`,
-            linkedin: 'https://www.linkedin.com/company/hackslash',
-            twitter: 'https://twitter.com/hackslash_nitp/',
-            github: 'https://github.com/Saizalsinha'
-        },
-        {
-            name: 'Tejas Manhas',
-            role: 'Event Management Lead',
-            logo: `${img17}`,
-            linkedin: 'https://www.linkedin.com/company/hackslash',
-            twitter: 'https://twitter.com/hackslash_nitp/',
-            github: 'https://github.com/Tejas3772'
-        },
-        {
             name: 'Shagufta Iqbal',
             role: 'PR Lead',
             logo: `${img17}`,
@@ -77,6 +61,22 @@ const Organizers = () => {
             linkedin: 'https://www.linkedin.com/in/kumarsuraj23/',
             twitter: 'https://twitter.com/kumar_suraj_bit',
             github: 'https://github.com/kumarSuraj-bit'
+        },
+        {
+            name: 'Saizal Sinha',
+            role: 'Event Management Lead',
+            logo: `${img17}`,
+            linkedin: '',
+            twitter: '',
+            github: 'https://github.com/Saizalsinha'
+        },
+        {
+            name: 'Tejas Manhas',
+            role: 'Event Management Lead',
+            logo: `${img17}`,
+            linkedin: 'https://www.linkedin.com/company/hackslash',
+            twitter: 'https://twitter.com/hackslash_nitp/',
+            github: 'https://github.com/Tejas3772'
         },
         {
             name: 'Shivam Jha',
