@@ -3,13 +3,13 @@ import OrganizerCard from './OrganizerCard'
 import './Organizers.css'
 
 import img17 from '../../images/avatar.gif'
-import img1 from '../../../public/images/organizer/divyaprakash.jpg'
-import img2 from '../../../public/images/organizer/paritosh.jpg'
-import img3 from '../../../public/images/organizer/amritraj.jpg'
-import img4 from '../../../public/images/organizer/neerajpatil.jpg'
-import img5 from '../../../public/images/organizer/samriddhi.jpg'
-import img6 from '../../../public/images/organizer/surajkumar.jpg'
-import img7 from '../../../public/images/organizer/digvijay.jpg'
+import img1 from '../../images/organizer/divyaprakash.jpg'
+import img2 from '../../images/organizer/paritosh.jpg'
+import img3 from '../../images/organizer/amritraj.jpg'
+import img4 from '../../images/organizer/neerajpatil.jpg'
+import img5 from '../../images/organizer/samriddhi.jpg'
+import img6 from '../../images/organizer/surajkumar.jpg'
+import img7 from '../../images/organizer/digvijay.jpg'
 
 const Organizers = () => {
     
