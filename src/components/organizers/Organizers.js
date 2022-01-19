@@ -1,7 +1,6 @@
 import React from 'react'
 import OrganizerCard from './OrganizerCard'
 import './Organizers.css'
-
 import img17 from '../../images/avatar.gif'
 import img1 from '../../images/organizer/divyaprakash.jpg'
 import img2 from '../../images/organizer/paritosh.jpg'
