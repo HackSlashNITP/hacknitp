@@ -12,7 +12,7 @@ const Tracks = () => {
                 <TrackCard title="Healthcare"/>
                 <TrackCard title="Social Security and Awareness"/>
                 <TrackCard title="Sustainable Development"/>
-                <TrackCard title="Open Innovation" description="LoremIpsum LoremIpsum"/>
+                <TrackCard title="Open Innovation" description=""/>
             </div>
         </div>
     )

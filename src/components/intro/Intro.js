@@ -29,8 +29,8 @@ const Intro = () => {
           <p className="text-small">where</p>
         </div>
       </div>
-      <div className="intro-cont-child" data-aos="fade-up">
-        <div className="event-intro">
+      {/* <div className="intro-cont-child" data-aos="fade-up"> */}
+        {/* <div className="event-intro">
           <div className="event-title">
             <div className="event-emoji">
               <i className="fas fa-tools"></i>
@@ -43,9 +43,9 @@ const Intro = () => {
               styles.
             </p>
           </div>
-        </div>
+        </div> */}
 
-        <div className="event-intro">
+        {/* <div className="event-intro">
           <div className="event-title">
             <div className="event-emoji">
               <i className="fas fa-tools"></i>
@@ -58,9 +58,9 @@ const Intro = () => {
               styles.
             </p>
           </div>
-        </div>
+        </div> */}
 
-        <div className="event-intro">
+        {/* <div className="event-intro">
           <div className="event-title">
             <div className="event-emoji">
               <i className="fas fa-tools"></i>
@@ -73,8 +73,8 @@ const Intro = () => {
               styles.
             </p>
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </div>
   )
 }

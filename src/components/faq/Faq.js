@@ -62,6 +62,13 @@ const Faq = () => {
           </div>
           <div className="accordion-item-body">
             <div className={`accordion-item-body-content a1${cnt}${faq}`}>
+              {/* Education<br />
+              Employability<br />
+              Food<br />
+              Healthcare<br />
+              Social Security and Awareness<br />
+              Sustainable Development<br />
+              Open Innovation */}
               Education<br />
               Employability<br />
               Food<br />

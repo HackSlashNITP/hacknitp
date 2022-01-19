@@ -75,7 +75,6 @@
     justify-content: space-evenly;
     margin: 3rem 8rem;
 }
-
 @media screen and (max-width:900px) {
     .organizers-grid{
     margin: 3rem 1rem;
