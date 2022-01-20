@@ -12,7 +12,7 @@ const TrackCard = (props) => {
       <div className="track-icon">
         {/* <i className="fas fa-robot trac-icon"></i>
          */}
-         <img src={props.img} className="imgtheme"></img>
+        <img src={props.img} className="imgtheme" alt={props.title}></img>
       </div>
       <div className="track-description">
         <h2 className="trach-head">{props.title}</h2>
