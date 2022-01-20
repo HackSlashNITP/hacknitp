@@ -33,6 +33,7 @@ import img29 from '../../images/organizer/VikasKGond.jpeg'
 import img30 from '../../images/organizer/FirdausJaved.jpeg'
 import img31 from '../../images/organizer/MohitKumar.jpeg'
 import img32 from '../../images/organizer/SudhanshuRanjan.jpeg'
+import img33 from '../../images/organizer/ArchanaKumari.jpeg'
 
 const Organizers = () => {
     
@@ -120,8 +121,8 @@ const Organizers = () => {
         {
             name: 'Archana',
             role: 'Community Moderator',
-            logo: `${img17}`,
-            linkedin: '',
+            logo: `${img33}`,
+            linkedin: 'https://www.linkedin.com/in/archana-kumari-284091193/',
             twitter: '',
             github: 'https://github.com/archana3001'
         },
