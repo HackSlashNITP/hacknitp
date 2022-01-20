@@ -1,24 +1,30 @@
-.track-grid{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    margin: 2rem;
+.track-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2rem;
 }
-.imgtheme{
-    margin-top:1.4rem;
+.imgtheme {
+  /* margin-top:1.4rem; */
+  box-sizing: border-box;
+  transition: 0.3s all ease-in-out;
+  padding: 1rem;
+  height: 100%;
+  position: relative;
 }
-.track-card{
-    height: 14rem;
-    width:20rem;
-    background-color:#1C172F;
-    text-align: center;
-    border-radius: 1.5rem;
-    color:white;
-    overflow: hidden;
-    cursor: pointer;
-    margin: 1.5rem;
+.track-card {
+  height: 14rem;
+  width: 20rem;
+  background-color: #1c172f;
+  text-align: center;
+  border-radius: 1.5rem;
+  color: white;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 1.5rem;
 }
-.trac-icon{
+
+/* .trac-icon{
    z-index: 999; 
    background-color:rgb(69, 202, 125);
    padding: 6rem 8.8rem;
@@ -31,18 +37,36 @@
  border-radius:50%;
  margin:1rem  0;
  font-size: 1rem;
-}
-.track-description{
-    transform: scale(0);
-    transition: 0.3s all;
-    margin: 0 1rem;
-}
-.track-card:hover .track-description{
-    transform: scale(1)
+} */
+
+.track-icon {
+  height: 100%;
 }
 
-@media screen and ( max-width:900px){
-    .track-grid{
-    margin: 0.5rem;
+.track-description {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  transform: scale(0);
+  transition: 0.3s all;
+  /* margin: 0 1rem; */
 }
+
+.track-description h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.track-icon:hover .imgtheme {
+  transform: translateY(-1.5rem) scale(0.8);
+}
+
+.track-icon:hover .track-description {
+  transform: scale(1);
+}
+
+@media screen and (max-width: 900px) {
+  .track-grid {
+    margin: 0.5rem;
+  }
 }
