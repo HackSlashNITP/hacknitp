@@ -10,7 +10,9 @@ const TrackCard = (props) => {
   return (
     <div className="track-card" data-aos="fade-up">
       <div className="track-icon">
-        <i className="fas fa-robot trac-icon"></i>
+        {/* <i className="fas fa-robot trac-icon"></i>
+         */}
+         <img src={props.img} className="imgtheme"></img>
       </div>
       <div className="track-description">
         <h2 className="trach-head">{props.title}</h2>

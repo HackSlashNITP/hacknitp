@@ -4,6 +4,9 @@
     justify-content:space-evenly;
     margin: 2rem;
 }
+.imgtheme{
+    margin-top:1.4rem;
+}
 .track-card{
     height: 14rem;
     width:20rem;
