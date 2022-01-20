@@ -17,9 +17,9 @@ const Contact = () => {
             </div>
             <div className="contact-flex" data-aos="fade-up">
                 <div className="contact-form">
-                    <h3 className="form-head">
+                    <h2 className="form-head">
                         Fill the Details
-                    </h3>
+                    </h2>
                     <form action="mailto:hackslashclub@nitp.ac.in" method="post">
                         <input type="text" placeholder='Name' required/>
                         <input type="email" name="email" id="" placeholder='E-mail' required/>
