@@ -3,7 +3,7 @@ import OrganizerCard from './OrganizerCard'
 import './Organizers.css'
 // import img17 from '../../images/avatar.gif'
 import img1 from '../../images/organizer/divyaprakash.jpg'
-import img2 from '../../images/organizer/paritosh.jpg'
+import img2 from '../../images/organizer/paritosh-2.jpg'
 import img3 from '../../images/organizer/amritraj.jpg'
 import img4 from '../../images/organizer/neerajpatil.jpg'
 import img5 from '../../images/organizer/samriddhi.jpg'
@@ -80,7 +80,7 @@ const Organizers = () => {
         },
         {
             name: 'Suraj Kumar',
-            role: 'PR Co-Lead',
+            role: 'PR Lead',
             logo: `${img6}`,
             linkedin: 'https://www.linkedin.com/in/kumarsuraj23/',
             twitter: 'https://twitter.com/kumar_suraj_bit',
