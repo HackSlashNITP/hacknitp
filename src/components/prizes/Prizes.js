@@ -19,6 +19,7 @@ const Prizes = () => {
     "1-month access to all courses on Interview Cake.",
     "Voiceflow Professional License coupon for all participants valued at $49 per month.",
     "Swags to all members of the team.",
+    "Wolfram Award Letter to all members of the team comprising of a One Year subscription to Wolfram | One Personal Edition and a One Year subscription to Wolfram | Alpha Pro worth $375 each.",
   ]
 
   const secondPrize = [
@@ -30,6 +31,7 @@ const Prizes = () => {
     "1-month access to all courses on Interview Cake.",
     "Voiceflow Professional License coupon for all participants valued at $49 per month.",
     "Swags to all members of the team.",
+    "Wolfram Award Letter to all members of the team comprising of a One Year subscription to Wolfram | One Personal Edition and a One Year subscription to Wolfram | Alpha Pro worth $375 each.",
   ]
 
   const thirdPrize = [
@@ -41,6 +43,7 @@ const Prizes = () => {
     "1-month access to all courses on Interview Cake.",
     "Voiceflow Professional License coupon for all participants valued at $49 per month.",
     "Swags to all members of the team.",
+    "Wolfram Award Letter to all members of the team comprising of a One Year subscription to Wolfram | One Personal Edition and a One Year subscription to Wolfram | Alpha Pro worth $375 each.",
   ]
 
   const trackPrize = [
@@ -65,6 +68,7 @@ const Prizes = () => {
     "Voiceflow Professional License coupon for all participants valued at $49 per month.",
     "5 Year free upgrade of Taskade Workspace for your team.",
     "Certificate of Participation.",
+    "30 day free-license to Wolfram | One for each participant.",
   ]
 
   // const list = [

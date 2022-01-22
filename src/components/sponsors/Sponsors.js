@@ -20,6 +20,7 @@ import Taskade from "../../images/taskade.png"
 import gfg from "../../images/gfg.png"
 import gmc from "../../images/gmc.png"
 import postman from "../../images/postman.png"
+import wolfram from "../../images/wolfram.png"
 
 const Sponsors = () => {
   const title = [
@@ -84,6 +85,10 @@ const Sponsors = () => {
     {
       logo: `${gfg}`,
       link: "https://www.geeksforgeeks.org/",
+    },
+    {
+      logo: `${wolfram}`,
+      link: "https://www.wolfram.com/",
     },
   ]
 
