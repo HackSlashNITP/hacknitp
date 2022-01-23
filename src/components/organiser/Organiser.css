@@ -51,8 +51,11 @@
   width: 100%;
   height: 20%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+}
+.Organiser-card-social-icons .fab {
+  padding: 0 0.75rem 0 1rem;
 }
 @media screen and (max-width: 650px) {
   .Organiser-card {
@@ -67,7 +70,9 @@
   .Organiser-card-text h1 {
     text-align: center;
   }
-
+  .Organiser-card-social-icons .fab {
+    padding: 0 1.5rem 0 0;
+  }
   .Organiser-card-social-icons {
     justify-content: center;
   }

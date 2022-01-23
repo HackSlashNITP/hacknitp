@@ -11,15 +11,21 @@ const OrganizerCard = (props) => {
       <p className="person-name">{props.name}</p>
       <h4 className="person-post">{props.role}</h4>
       <div className="socials">
-        <a href={props.linkedin} target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-linkedin"></i>
-        </a>
-        <a href={props.twitter} target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-twitter"></i>
-        </a>
-        <a href={props.github} target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-github"></i>
-        </a>
+        {props.linkedin && (
+          <a href={props.linkedin} target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-linkedin"></i>
+          </a>
+        )}
+        {props.twitter && (
+          <a href={props.twitter} target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-twitter"></i>
+          </a>
+        )}
+        {props.github && (
+          <a href={props.github} target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-github"></i>
+          </a>
+        )}
       </div>
     </div>
   )
