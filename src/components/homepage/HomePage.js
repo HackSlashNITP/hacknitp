@@ -1,7 +1,7 @@
 import React, { useEffect } from "react"
 // import { Link } from 'react-router-dom'
 import "./Homepage.css"
-import hacknitpold from "../../images/hacknitp-old.svg"
+import hacknitp4 from "../../images/HackNitp-4.0.svg"
 import gameon from "../../images/game-on.svg"
 import Timer from "../timer/Timer"
 import discord from "../../images/discord.svg"
@@ -45,10 +45,14 @@ const HomePage = () => {
         <NavB />
         <div className="home-body-bg" data-aos="fade-up">
           <div className="home-left">
-            <img src={hacknitpold} className="hack-old" alt="hacknitp" />
+            <img src={hacknitp4} className="hack-old" alt="hacknitp" />
             <h3 className="home-date">February 11,2022 - February 13,2022</h3>
             <p className="home-para">
-              A Hackathon is not merely a competition but a place where people learn the art of solving problems, make friends, build their network, and have fun. You learn how to work collaboratively in a team to build a hack. Let the innovation inside you flourish at HackNITP 4.0 and turn the craziest of your ideas into a reality.
+              A Hackathon is not merely a competition but a place where people
+              learn the art of solving problems, make friends, build their
+              network, and have fun. You learn how to work collaboratively in a
+              team to build a hack. Let the innovation inside you flourish at
+              HackNITP 4.0 and turn the craziest of your ideas into a reality.
             </p>
             <div className="home-btns headline">
               <div
