@@ -48,6 +48,15 @@ const NavB = () => {
                 Apply as Mentor/Speaker
               </a>
             </li>
+            <li>
+              <a
+                href="https://rebrand.ly/hacknitp-4/reg/ca"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CA
+              </a>
+            </li>
           </ul>
           <div>
             <a
@@ -102,6 +111,15 @@ const NavB = () => {
                   rel="noreferrer"
                 >
                   Apply as Mentor/Speaker
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://rebrand.ly/hacknitp-4/reg/ca"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  CA
                 </a>
               </li>
             </ul>
