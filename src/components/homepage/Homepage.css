@@ -145,7 +145,7 @@ html::-webkit-scrollbar {
   .game-on {
     max-width: 70vw;
     margin-left: 0;
-    margin-top: 5vh;
+    /* margin-top: 2vh; */
   }
   .home-body-bg {
     padding-top: 0rem;
