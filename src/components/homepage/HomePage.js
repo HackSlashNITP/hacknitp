@@ -82,12 +82,12 @@ const HomePage = () => {
       </div>
       <Intro />
       <Timer />
-      <Timeline />
       <Prizes />
-      <Tracks />
       <Instructions />
-      <Organizers />
+      <Tracks />
+      <Timeline />
       <Sponsors />
+      <Organizers />
       <Contact />
       <Faq />
       <Footer />
