@@ -41,25 +41,25 @@ const Timeline = () => {
           </div>
           <div className="card" data-aos="fade-up">
             <div className="info">
-              <h3 className="title">11 Febraury, 16:00 IST</h3>
+              <h3 className="title">11 February, 16:00 IST</h3>
               <p className="timeline-des">Opening Ceremony.</p>
             </div>
           </div>
           <div className="card" data-aos="fade-up">
             <div className="info">
-              <h3 className="title">11 Febraury, 18:00 IST</h3>
+              <h3 className="title">11 February, 18:00 IST</h3>
               <p className="timeline-des">Hackathon Starts.</p>
             </div>
           </div>
           <div className="card" data-aos="fade-up">
             <div className="info">
-              <h3 className="title">13 Febraury, 18:00 IST</h3>
+              <h3 className="title">13 February, 18:00 IST</h3>
               <p className="timeline-des">Hackathon Ends.</p>
             </div>
           </div>
           <div className="card" data-aos="fade-up">
             <div className="info">
-              <h3 className="title">20 Febraury, 18:00 IST</h3>
+              <h3 className="title">20 February, 18:00 IST</h3>
               <p className="timeline-des">Closing Ceremony.</p>
             </div>
           </div>
