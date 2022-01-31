@@ -2,10 +2,10 @@ import React from 'react'
 import OrganizerCard from './OrganizerCard'
 import './Organizers.css'
 // import img17 from '../../images/avatar.gif'
-import img1 from '../../images/organizer/divyaprakash.jpg'
-import img2 from '../../images/organizer/paritosh-2.jpg'
-import img3 from '../../images/organizer/amritraj.jpg'
-import img4 from '../../images/organizer/neerajpatil.jpg'
+import img1 from '../../images/Speakers/Akash.jpg'
+import img2 from '../../images/Speakers/arko.jpeg'
+import img3 from '../../images/Speakers/krishNaik.jpeg'
+import img4 from '../../images/Speakers/ShivamJha.jpeg'
 
 const Speakers = () => {
 
@@ -14,33 +14,33 @@ const Speakers = () => {
             name: 'Akash Bajpai',
             role: '',
             logo: `${img1}`,
-            linkedin: 'https://www.linkedin.com/in/divyaprakashrx/',
-            twitter: 'https://twitter.com/divyaprakashrx',
-            github: 'https://github.com/divyaprakashrx'
+            linkedin: 'https://www.linkedin.com/in/akash4bajpai/',
+            twitter: '',
+            github: ''
         },
         {
             name: 'Arkodyuti Saha',
             role: '',
             logo: `${img2}`,
-            linkedin: 'https://www.linkedin.com/in/paritoshkr/',
-            twitter: 'https://twitter.com/heyparitosh',
-            github: 'https://github.com/paritoshkr'
+            linkedin: 'https://www.linkedin.com/in/arkodyutisaha/',
+            twitter: '',
+            github: ''
         },
         {
             name: 'Krish Naik',
             role: '',
             logo: `${img3}`,
-            linkedin: 'https://www.linkedin.com/in/amrit-raj-ba2a15190/',
+            linkedin: 'https://www.linkedin.com/in/naikkrish/',
             twitter: '',
-            github: 'https://github.com/dev-amrit460'
+            github: ''
         },
         {
-            name: 'GFG',
+            name: 'Shivam Jha',
             role: '',
             logo: `${img4}`,
-            linkedin: 'https://www.linkedin.com/in/neeraj-2212/',
+            linkedin: 'http://www.linkedin.com/in/shivam-jha-78421592',
             twitter: '',
-            github: 'https://github.com/Neeraj2212'
+            github: ''
         },
     ]
 

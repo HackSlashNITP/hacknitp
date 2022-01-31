@@ -12,7 +12,7 @@ import Timeline from "../timeline/Timeline"
 import Instructions from "../instructions/Instructions"
 import Organizers from "../organizers/Organizers"
 import Judges from "../organizers/Judges"
-// import Speakers from "../organizers/Speakers"
+import Speakers from "../organizers/Speakers"
 import Sponsors from "../sponsors/Sponsors"
 import Contact from "../contact/Contact"
 import Faq from "../faq/Faq"
@@ -88,7 +88,7 @@ const HomePage = () => {
       <Intro />
       <Timer />
       <Judges />
-      {/* <Speakers /> */}
+      <Speakers />
       <Prizes />
       <Instructions />
       <Tracks />

@@ -28,17 +28,17 @@ const Judges = () => {
             name: 'Akash Bajpai',
             role: ' ',
             logo: `${img2}`,
-            linkedin: 'https://www.linkedin.com/in/paritoshkr/',
-            twitter: 'https://twitter.com/heyparitosh',
-            github: 'https://github.com/paritoshkr'
+            linkedin: 'https://www.linkedin.com/in/akash4bajpai/',
+            twitter: '',
+            github: ''
         },
         {
             name: 'Arkodyuti Saha',
             role: '',
             logo: `${img3}`,
-            linkedin: 'https://www.linkedin.com/in/amrit-raj-ba2a15190/',
+            linkedin: 'https://www.linkedin.com/in/arkodyutisaha/',
             twitter: '',
-            github: 'https://github.com/dev-amrit460'
+            github: ''
         },
         {
             name: 'Dominic',
