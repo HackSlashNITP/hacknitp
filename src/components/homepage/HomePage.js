@@ -11,12 +11,17 @@ import Tracks from "../tracks/Tracks"
 import Timeline from "../timeline/Timeline"
 import Instructions from "../instructions/Instructions"
 import Organizers from "../organizers/Organizers"
+import Judges from "../organizers/Judges"
+import Speakers from "../organizers/Speakers"
 import Sponsors from "../sponsors/Sponsors"
 import Contact from "../contact/Contact"
 import Faq from "../faq/Faq"
 import Footer from "../footer/Footer"
 import Intro from "../intro/Intro"
+// import Organizer from "../organiser/Organiser"
+// import Tabs from "../Tabs/tabs";
 import AOS from "aos"
+
 import "aos/dist/aos.css"
 // import apply from '../../images/apply.png'
 
@@ -82,6 +87,8 @@ const HomePage = () => {
       </div>
       <Intro />
       <Timer />
+      <Judges />
+      {/* <Speakers /> */}
       <Prizes />
       <Instructions />
       <Tracks />
