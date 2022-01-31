@@ -33,7 +33,7 @@ const Judges = () => {
             github: 'https://github.com/paritoshkr'
         },
         {
-            name: 'Arko',
+            name: 'Arkodyuti Saha',
             role: '',
             logo: `${img3}`,
             linkedin: 'https://www.linkedin.com/in/amrit-raj-ba2a15190/',
