@@ -89,14 +89,15 @@ const HomePage = () => {
       <Timer />
       <Judges />
       <Speakers />
+      <Tracks />
       <Prizes />
       <Instructions />
-      <Tracks />
+      
       <Timeline />
       <Sponsors />
       <Organizers />
-      <Contact />
       <Faq />
+      <Contact />
       <Footer />
       <a
         href="https://bit.ly/hacknitp-4-discord"

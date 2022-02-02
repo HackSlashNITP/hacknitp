@@ -20,6 +20,7 @@ const Prizes = () => {
     "Voiceflow Professional License coupon for all participants valued at $49 per month.",
     "Swags to all members of the team.",
     "Wolfram Award Letter to all members of the team comprising of a One Year subscription to Wolfram | One Personal Edition and a One Year subscription to Wolfram | Alpha Pro worth $375 each.",
+    "Sketch Standard License with 1 year validity valued at 99$/license.",
   ]
 
   const secondPrize = [
@@ -32,6 +33,7 @@ const Prizes = () => {
     "Voiceflow Professional License coupon for all participants valued at $49 per month.",
     "Swags to all members of the team.",
     "Wolfram Award Letter to all members of the team comprising of a One Year subscription to Wolfram | One Personal Edition and a One Year subscription to Wolfram | Alpha Pro worth $375 each.",
+    "Sketch Standard License with 1 year validity valued at 99$/license.",
   ]
 
   const thirdPrize = [
@@ -44,6 +46,7 @@ const Prizes = () => {
     "Voiceflow Professional License coupon for all participants valued at $49 per month.",
     "Swags to all members of the team.",
     "Wolfram Award Letter to all members of the team comprising of a One Year subscription to Wolfram | One Personal Edition and a One Year subscription to Wolfram | Alpha Pro worth $375 each.",
+    "Sketch Standard License with 1 year validity valued at 99$/license.",
   ]
 
   const trackPrize = [
@@ -69,6 +72,7 @@ const Prizes = () => {
     "5 Year free upgrade of Taskade Workspace for your team.",
     "Certificate of Participation.",
     "30 day free-license to Wolfram | One for each participant.",
+    "All attendees can download and use Sketch software for free during the event.",
   ]
 
   // const list = [

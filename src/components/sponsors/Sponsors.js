@@ -11,7 +11,7 @@ import tezos from "../../images/tezos.png"
 import filecoin from "../../images/filecoin.png"
 import polygon from "../../images/polygon.png"
 import celo from "../../images/celo.png"
-import echo from "../../images/echo.png"
+import echo from "../../images/echo3D.png"
 import interview from "../../images/interview-cake.jpg"
 import voiceflow from "../../images/Voiceflow.png"
 import clerky from "../../images/Clerky.png"
@@ -21,6 +21,7 @@ import gfg from "../../images/gfg.png"
 import gmc from "../../images/gmc.png"
 import postman from "../../images/postman.png"
 import wolfram from "../../images/wolfram.png"
+import Sketch from "../../images/Sketch.png"
 
 const Sponsors = () => {
   const title = [
@@ -90,6 +91,10 @@ const Sponsors = () => {
       logo: `${wolfram}`,
       link: "https://www.wolfram.com/",
     },
+    {
+      logo: `${Sketch}`,
+      link: "https://www.sketch.com/",
+    },
   ]
 
   const certifications = [
@@ -148,6 +153,33 @@ const Sponsors = () => {
       </div>
       <br></br>
       <br></br>
+      <div className="enquire-sponsors-cont" data-aos="fade-up">
+        <h1 className="heading">
+          <span className="white">Want to Sponsor us?</span>
+        </h1>
+        <p className="last-yr-sponsors">
+          <a
+            href="https://hacknitp.netlify.app/#sponsors"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Click here to see our last year sponsors
+          </a>
+          <i className="fab fa-send"></i>
+        </p>
+        <h3 className="heading">
+          <span className="white">
+            Contact us at{" "}
+            <a href="mailto:hackslashclub@nitp.ac.in" className="mail-id">
+              {" "}
+              hackslashclub@nitp.ac.in
+            </a>
+          </span>
+        </h3>
+        {/* <div className="sponsor-brochure-btn dnld-sponsor-broc">
+                     <button className='btn-primary'>Download Sponsor Brochure</button>
+                 </div> */}
+      </div>
       <div>
         <h1 className="heading">
           <span className="white">Lead </span> Organizer
@@ -175,34 +207,6 @@ const Sponsors = () => {
           linkedin={data[1].linkedin}
         />
         <br />
-      </div>
-
-      <div className="enquire-sponsors-cont" data-aos="fade-up">
-        <h1 className="heading">
-          <span className="white">Want to Sponsor us?</span>
-        </h1>
-        <p className="last-yr-sponsors">
-          <a
-            href="https://hacknitp.netlify.app/#sponsors"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Click here to see our last year sponsors
-          </a>
-          <i className="fab fa-send"></i>
-        </p>
-        <h3 className="heading">
-          <span className="white">
-            Contact us at{" "}
-            <a href="mailto:hackslashclub@nitp.ac.in" className="mail-id">
-              {" "}
-              hackslashclub@nitp.ac.in
-            </a>
-          </span>
-        </h3>
-        {/* <div className="sponsor-brochure-btn dnld-sponsor-broc">
-                     <button className='btn-primary'>Download Sponsor Brochure</button>
-                 </div> */}
       </div>
     </div>
   )

@@ -6,6 +6,7 @@ import img1 from '../../images/Speakers/Akash.jpg'
 import img2 from '../../images/Speakers/arko.jpeg'
 import img3 from '../../images/Speakers/krishNaik.jpeg'
 import img4 from '../../images/Speakers/ShivamJha.jpeg'
+import img5 from '../../images/Speakers/kirtiGera.jpeg'
 
 const Speakers = () => {
 
@@ -39,6 +40,14 @@ const Speakers = () => {
             role: '',
             logo: `${img4}`,
             linkedin: 'http://www.linkedin.com/in/shivam-jha-78421592',
+            twitter: '',
+            github: ''
+        },
+        {
+            name: 'Kirti Gera',
+            role: '',
+            logo: `${img5}`,
+            linkedin: 'https://www.linkedin.com/in/kirti-gera/',
             twitter: '',
             github: ''
         },
