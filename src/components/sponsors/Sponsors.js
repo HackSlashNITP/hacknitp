@@ -20,7 +20,7 @@ import Taskade from "../../images/taskade.png"
 import gfg from "../../images/gfg.png"
 import gmc from "../../images/gmc.png"
 import postman from "../../images/postman.png"
-import wolfram from "../../images/wolfram.png"
+import wolfram from "../../images/Wolfram.jpg"
 import Sketch from "../../images/Sketch.png"
 
 const Sponsors = () => {
