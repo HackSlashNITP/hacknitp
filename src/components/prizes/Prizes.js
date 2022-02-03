@@ -62,6 +62,17 @@ const Prizes = () => {
     ],
     ["₹20000 for best use of IPFS and/or Filecoin"],
     ["₹20,000 for best Dapp built on Celo", "Continuity Support"],
+    ["Cash prize of ₹25,000 will be divided among the best projects as decided by the jury members.",
+
+      "What you can work on:",
+      "1.A new FOSS app, tool, or library.",
+      "2.An alternative to any existing popular app or service.",
+      "3.Extending and improve an existing project or library.",
+      "4.Design projects: Redesign of an existing FOSS application.",
+      "5.Open hardware.",
+
+      "What you should (probably) not work on:",
+      "1.An app or project that extensively uses proprietary service or API."],
   ]
 
   const allparticpant = [
@@ -168,6 +179,16 @@ const Prizes = () => {
           <h2 className="prizes-head">Track Prize (Celo)</h2>
           <ul>
             {trackPrize[3].map((item, index) => (
+              <li key={index} className="list-item">
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div data-aos="fade-up">
+          <h2 className="prizes-head">Track Prize (FOSS)</h2>
+          <ul>
+            {trackPrize[4].map((item, index) => (
               <li key={index} className="list-item">
                 {item}
               </li>
