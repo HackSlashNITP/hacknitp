@@ -22,6 +22,7 @@ import gmc from "../../images/gmc.png"
 import postman from "../../images/postman.png"
 import wolfram from "../../images/Wolfram.jpg"
 import Sketch from "../../images/Sketch.png"
+import Foss from "../../images/Foss.svg"
 
 const Sponsors = () => {
   const title = [
@@ -54,6 +55,10 @@ const Sponsors = () => {
     },
     {
       logo: `${postman}`,
+      link: "https://www.postman.com/",
+    },
+    {
+      logo: `${Foss}`,
       link: "https://www.postman.com/",
     },
   ]
