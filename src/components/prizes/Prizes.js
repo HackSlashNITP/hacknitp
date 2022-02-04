@@ -178,7 +178,7 @@ const Prizes = () => {
             ))}
           </ul>
         </div>
-        <div data-aos="fade-up">
+        {/* <div data-aos="fade-up">
           <h2 className="prizes-head">Track Prize (FOSS)</h2>
           <ul>
             {trackPrize[4].map((item, index) => (
@@ -187,7 +187,7 @@ const Prizes = () => {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </div>
       <div className="prize-container">
         <div data-aos="fade-up">
