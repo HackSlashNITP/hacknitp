@@ -65,17 +65,7 @@ const Prizes = () => {
     ],
     ["₹20000 for best use of IPFS and/or Filecoin"],
     ["₹20,000 for best Dapp built on Celo", "Continuity Support"],
-    ["Cash prize of ₹25,000 will be divided among the best projects as decided by the jury members.",
-
-      "What you can work on:",
-      "- A new FOSS app, tool, or library.",
-      "- An alternative to any existing popular app or service.",
-      "- Extending and improve an existing project or library.",
-      "- Design projects: Redesign of an existing FOSS application.",
-      "- Open hardware.",
-
-      "What you should (probably) not work on:",
-      "- An app or project that extensively uses proprietary service or API."],
+  
   ]
 
   const allparticpant = [
