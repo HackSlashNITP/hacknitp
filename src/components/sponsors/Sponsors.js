@@ -59,7 +59,7 @@ const Sponsors = () => {
     },
     {
       logo: `${Foss}`,
-      link: "https://www.postman.com/",
+      link: "https://fossunited.org/",
     },
   ]
 

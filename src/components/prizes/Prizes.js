@@ -10,43 +10,46 @@ const Prizes = () => {
   }, [])
 
   const firstPrize = [
-    "350$ Digital Ocean Credits to all members of the winning team. (100$ 60-day free trial + 250$ DO Credits.)",
-    "₹1200/- GFG-discount coupon to winner team's members.",
-    "Clerky Lifetime package to winning team (as a whole). The idea behind offering this prize is to help the winning team start a company around the project that won the hackathon.",
+    "350$ Digital Ocean Credits to all team members (100$ 60-day free trial + 250$ DO Credits).",
+    "Clerky Lifetime package to the team. The idea behind offering this prize is to help the winning team start a company around the project that won the hackathon.",
     "Lifetime Taskade workspace upgrade to the team.",
     "1 year License of Axure-RP Team Plan.",
+    "Sketch Standard License with 1 year validity to the team (valued at 99$).",
     "1-month FREE access to all Business Plan features of the echo3D platform. ($89 each)",
+    "INR 1200/-  GeeksForGeeks discount coupon to all team members.",
     "1-month access to all courses on Interview Cake.",
-    "Voiceflow Professional License coupon for all participants valued at $49 per month.",
-    "Swags to all members of the team.",
+    "Voiceflow Professional License coupon all team members (valued at $49 per month).",
     "Wolfram Award Letter to all members of the team comprising of a One Year subscription to Wolfram | One Personal Edition and a One Year subscription to Wolfram | Alpha Pro worth $375 each.",
-    "Sketch Standard License with 1 year validity valued at 99$/license.",
+    "Swags Pack to all members of the team.",
+    "Certificate of Excellence",
   ]
 
   const secondPrize = [
-    "225$ Digital Ocean Credits to all members of the winning team. (100$ 60-day free trial + 125$ DO Credits.)",
-    "₹800/- GFG-discount coupon to winner team's members.",
-    "Lifetime Taskade workspace ugrade to the team.",
+    "225$ Digital Ocean Credits to all team members (100$ 60-day free trial + 125$ DO Credits).",
+    "Lifetime Taskade workspace upgrade to the team.",
     "1 year License of Axure-RP Team Plan.",
-    "1-month FREE access to all Business Plan features of the echo3D platform. ($89 each)",
+    "Sketch Standard License with 1 year validity to the team (valued at 99$).",
+    "1-month FREE access to all Business Plan features of the echo3D platform. (valued at $89 each)",
+    "INR 800/- GeeksForGeeks discount coupon to all team members.",
     "1-month access to all courses on Interview Cake.",
-    "Voiceflow Professional License coupon for all participants valued at $49 per month.",
-    "Swags to all members of the team.",
+    "Voiceflow Professional License coupon to all team members (valued at $49 per month each).",
     "Wolfram Award Letter to all members of the team comprising of a One Year subscription to Wolfram | One Personal Edition and a One Year subscription to Wolfram | Alpha Pro worth $375 each.",
-    "Sketch Standard License with 1 year validity valued at 99$/license.",
+    "Swags Pack to all members of the team.",
+    "Certificate of Excellence",
   ]
 
   const thirdPrize = [
-    "225$ Digital Ocean Credits to all members of the winning team. (100$ 60-day free trial + 125$ DO Credits.)",
-    "₹500/- GFG-discount coupon to winner team's members.",
-    "Lifetime Taskade workspace ugrade to the team.",
+    "225$ Digital Ocean Credits to all team members (100$ 60-day free trial + 125$ DO Credits).",
+    "Lifetime Taskade workspace upgrade to the team.",
     "1 year License of Axure-RP Team Plan.",
-    "1-month FREE access to all Business Plan features of the echo3D platform. ($89 each)",
+    "Sketch Standard License with 1 year validity to the team (valued at 99$).",
+    "1-month FREE access to all Business Plan features of the echo3D platform. (valued at $89 each)",
+    "INR 500/- GeeksForGeeks discount coupon to all team members.",
     "1-month access to all courses on Interview Cake.",
-    "Voiceflow Professional License coupon for all participants valued at $49 per month.",
-    "Swags to all members of the team.",
+    "Voiceflow Professional License coupon to all team members (valued at $49 per month each).",
     "Wolfram Award Letter to all members of the team comprising of a One Year subscription to Wolfram | One Personal Edition and a One Year subscription to Wolfram | Alpha Pro worth $375 each.",
-    "Sketch Standard License with 1 year validity valued at 99$/license.",
+    "Swags Pack to all members of the team.",
+    "Certificate of Excellence",
   ]
 
   const trackPrize = [
@@ -65,25 +68,25 @@ const Prizes = () => {
     ["Cash prize of ₹25,000 will be divided among the best projects as decided by the jury members.",
 
       "What you can work on:",
-      "1.A new FOSS app, tool, or library.",
-      "2.An alternative to any existing popular app or service.",
-      "3.Extending and improve an existing project or library.",
-      "4.Design projects: Redesign of an existing FOSS application.",
-      "5.Open hardware.",
+      "- A new FOSS app, tool, or library.",
+      "- An alternative to any existing popular app or service.",
+      "- Extending and improve an existing project or library.",
+      "- Design projects: Redesign of an existing FOSS application.",
+      "- Open hardware.",
 
       "What you should (probably) not work on:",
-      "1.An app or project that extensively uses proprietary service or API."],
+      "- An app or project that extensively uses proprietary service or API."],
   ]
 
   const allparticpant = [
-    "₹300/- GFG-discount coupon to all participants.",
+    "5 Year free Taskade Workspace upgrade to the team.",
     "1-month FREE access to all Business Plan features of the echo3D platform. ($89 each)",
+    "INR 300/- GeeksForGeeks discount coupon to all team members.",
     "1-month access to all courses on Interview Cake.",
-    "Voiceflow Professional License coupon for all participants valued at $49 per month.",
-    "5 Year free upgrade of Taskade Workspace for your team.",
-    "Certificate of Participation.",
-    "30 day free-license to Wolfram | One for each participant.",
-    "All attendees can download and use Sketch software for free during the event.",
+    "Voiceflow Professional License coupon to all team members (valued at $49 per month).",
+    "30 day free-license to Wolfram | One for each team members.",
+    "All participants can download and use Sketch software for free during the hackathon.",
+    "Certificate of Participation",
   ]
 
   // const list = [
@@ -201,8 +204,7 @@ const Prizes = () => {
           <h2 className="prizes-head">For All Participants</h2>
           <ul>
             <li className="list-item">
-              Digital Ocean $100, 60-day free trial for all attendees who
-              register using this{" "}
+            100$ Digital Ocean Credits to all team members, 60-day Free trial who register using this{" "}
               <a
                 href=" https://try.digitalocean.com/developer-cloud "
                 target="_blank"
