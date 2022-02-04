@@ -33,7 +33,7 @@ const Footer = () => {
             rel="noreferrer"
             className="cnc"
           >
-            Apply as Mentor/Speaker
+            Apply as Mentor
           </a>
           {/* <div><a target="_blank" className="discordbtnf" href="https://bit.ly/hacknitp-4-discord" rel='noreferrer'><button className="btn-primary btn-last">Join our Discord server</button></a></div> */}
         </div>
