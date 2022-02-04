@@ -110,7 +110,7 @@ const NavB = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Apply as Mentor/Speaker
+                  Apply as Mentor
                 </a>
               </li>
               <li>
