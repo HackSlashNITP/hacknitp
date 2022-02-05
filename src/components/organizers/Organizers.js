@@ -29,8 +29,6 @@ import img25 from '../../images/organizer/PulkitKAgarwal.jpeg'
 import img26 from '../../images/organizer/RachitSuneja.jpeg'
 import img27 from '../../images/organizer/HarshAnand.jpeg'
 import img28 from '../../images/organizer/AyushGautam.jpeg'
-import img29 from '../../images/organizer/VikasKGond.jpeg'
-import img30 from '../../images/organizer/FirdausJaved.jpeg'
 import img31 from '../../images/organizer/MohitKumar.jpeg'
 import img32 from '../../images/organizer/SudhanshuRanjan.jpeg'
 import img33 from '../../images/organizer/ArchanaKumari.jpeg'
@@ -232,14 +230,6 @@ const Organizers = () => {
             github: 'https://github.com/mohit-kumar-b2'
         },
         {
-            name: 'Firdaus Jawed',
-            role: 'Social Media Manager',
-            logo: `${img30}`,
-            linkedin: 'https://www.linkedin.com/in/firdaus-jawed/',
-            twitter: '',
-            github: 'https://github.com/FirdausJawed'
-        },
-        {
             name: 'Digvijay Srivastava',
             role: 'Outreach Lead',
             logo: `${img7}`,
@@ -286,14 +276,6 @@ const Organizers = () => {
             linkedin: 'https://www.linkedin.com/in/ayushgautam07/',
             twitter: '',
             github: 'https://github.com/ayushgautam7'
-        },
-        {
-            name: 'Vikas Kumar Gond',
-            role: 'Outreach Co-Lead',
-            logo: `${img29}`,
-            linkedin: 'https://www.linkedin.com/in/vikas-kumar-gond-bb1991201/',
-            twitter: '',
-            github: 'https://github.com/VikasKrGond'
         },
     ]
     
