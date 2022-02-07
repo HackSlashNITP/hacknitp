@@ -14,15 +14,15 @@ import img9 from '../../images/judges/Vinit.png'
 
 
 const Judges = () => {
-    
+
     const leads = [
         {
             name: 'Abhinav',
             role: '',
             logo: `${img1}`,
-            linkedin: 'https://www.linkedin.com/in/divyaprakashrx/',
-            twitter: 'https://twitter.com/divyaprakashrx',
-            github: 'https://github.com/divyaprakashrx'
+            linkedin: 'https://www.linkedin.com/in/mastersabh/',
+            twitter: '',
+            github: '',
         },
         {
             name: 'Akash Bajpai',
@@ -30,7 +30,7 @@ const Judges = () => {
             logo: `${img2}`,
             linkedin: 'https://www.linkedin.com/in/akash4bajpai/',
             twitter: '',
-            github: ''
+            github: '',
         },
         {
             name: 'Arkodyuti Saha',
@@ -41,67 +41,67 @@ const Judges = () => {
             github: ''
         },
         {
-            name: 'Dominic',
+            name: 'Dominic Norton',
             role: ' ',
             logo: `${img4}`,
-            linkedin: 'https://www.linkedin.com/in/neeraj-2212/',
+            linkedin: 'https://www.linkedin.com/in/dominiconorton/',
             twitter: '',
-            github: 'https://github.com/Neeraj2212'
-        }, 
+            github: '',
+        },
         {
             name: 'Kaustubh Karkare',
             role: '',
             logo: `${img5}`,
-            linkedin: 'https://www.linkedin.com/in/shaguftaiqbal/',
+            linkedin: 'https://www.linkedin.com/in/kaustubh-karkare/',
             twitter: '',
-            github: 'https://github.com/Shagufta08'
+            github: 'https://github.com/kaustubh-karkare'
         },
         {
             name: 'Manish Kumar Vats',
             role: '',
             logo: `${img6}`,
-            linkedin: 'https://www.linkedin.com/in/kumarsuraj23/',
-            twitter: 'https://twitter.com/kumar_suraj_bit',
-            github: 'https://github.com/kumarSuraj-bit'
+            linkedin: 'https://www.linkedin.com/in/manish-kumar-vats',
+            twitter: ' ',
+            github: 'https://github.com/manish-Kumar-Vats/',
         },
         {
             name: 'Sammer Kashyap',
             role: '',
             logo: `${img7}`,
-            linkedin: 'https://www.linkedin.com/in/samriddhi-ambashta-8528a91ab/',
+            linkedin: 'https://www.linkedin.com/in/sameer-kashyap-083a89184',
             twitter: '',
-            github: 'https://github.com/samriddhiambashta'
+            github: 'https://github.com/Sameerkash',
         },
         {
             name: 'Shreya Singh',
             role: '',
             logo: `${img8}`,
-            linkedin: 'https://www.linkedin.com/in/aditi-kumari-6219931a3/',
+            linkedin: 'https://www.linkedin.com/in/singh-shreya/',
             twitter: '',
-            github: 'https://github.com/aditikr257'
+            github: ' ',
         },
-       {
+        {
             name: 'Vinit Shahdeo',
             role: '',
             logo: `${img9}`,
-            linkedin: 'https://www.linkedin.com/in/ayushman-sharma-2a9380196/',
+            linkedin: 'https://www.linkedin.com/in/vinitshahdeo/',
             twitter: '',
-            github: 'https://github.com/ayushman999'
+            github: 'https://github.com/vinitshahdeo',
         },
     ]
-    
+
     return (
         <div>
             <h1 className="heading">
-                   Judges
+                Judges
             </h1>
-             <div className="organizers-grid">
+            <div className="organizers-grid">
                 {leads.map((data, index) => {
                     return (
                         <OrganizerCard logo={data.logo} key={index} name={data.name} role={data.role} linkedin={data.linkedin} twitter={data.twitter} github={data.github} />
                     )
                 })}
-             </div>
+            </div>
         </div>
     )
 }
