@@ -90,7 +90,7 @@ const Prizes = () => {
   // ]
 
   return (
-    <div>
+    <div id="navbar-prizes">
       <h1 className="heading">PRIZES</h1>
       <div className="prize-container">
         <div data-aos="fade-up">
