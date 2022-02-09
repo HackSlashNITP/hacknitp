@@ -4,7 +4,7 @@ import './Organizers.css'
 // import img17 from '../../images/avatar.gif'
 import img1 from '../../images/Speakers/Akash.jpg'
 import img2 from '../../images/Speakers/arko.jpeg'
-import img3 from '../../images/Speakers/krishNaik.jpeg'
+// import img3 from '../../images/Speakers/krishNaik.jpeg'
 import img4 from '../../images/Speakers/ShivamJha.jpeg'
 import img5 from '../../images/Speakers/kirtiGera.jpeg'
 
