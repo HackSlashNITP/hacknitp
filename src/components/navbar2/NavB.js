@@ -109,6 +109,11 @@ const NavB = () => {
                   Prizes
                 </a>
               </li>
+              <li>
+                <a href="#navbar-sponsers" rel="noreferrer">
+                  Sponsers
+                </a>
+              </li>
               {/* <li>
                 <a
                   href="https://rebrand.ly/hacknitp-4/reg/s-m"
