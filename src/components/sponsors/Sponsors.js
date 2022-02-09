@@ -134,7 +134,7 @@ const Sponsors = () => {
   ]
 
   return (
-    <div>
+    <div id="navbar-sponsers">
       <h1 className="heading">
         <span className="white">SPONSORS \ </span> PARTNERS
       </h1>
