@@ -3,7 +3,7 @@ import "./Instructions.css";
 const Instructions = () => {
   return (
     <div>
-      <div className="prize-container">
+      <div id="Instructions" className="prize-container">
         <h1 className="heading">INSTRUCTIONS</h1>
         <ul data-aos="fade-up">
           <li className="list-item">

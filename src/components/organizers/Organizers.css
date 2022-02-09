@@ -1,6 +1,9 @@
 .white {
   color: white;
 }
+#lead-heading{
+  margin-top: 14rem;
+}
 .animation-circle {
   background-color: rgb(54, 201, 110);
   height: 6rem;
@@ -42,6 +45,13 @@
 .person-post {
   color: white;
   z-index: 999;
+  margin-top: 0.5rem;
+}
+.person-des {
+  color: white;
+  z-index: 999;
+  margin-top: 0.5rem;
+  align-self: center;
 }
 .org-img {
   box-sizing: border-box;

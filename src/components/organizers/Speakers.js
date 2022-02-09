@@ -27,14 +27,14 @@ const Speakers = () => {
             twitter: '',
             github: ''
         },
-        {
-            name: 'Krish Naik',
-            role: '',
-            logo: `${img3}`,
-            linkedin: 'https://www.linkedin.com/in/naikkrish/',
-            twitter: '',
-            github: ''
-        },
+        // {
+        //     name: 'Krish Naik',
+        //     role: '',
+        //     logo: `${img3}`,
+        //     linkedin: 'https://www.linkedin.com/in/naikkrish/',
+        //     twitter: '',
+        //     github: ''
+        // },
         {
             name: 'Shivam Jha',
             role: '',
