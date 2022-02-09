@@ -191,7 +191,7 @@ const Sponsors = () => {
                  </div> */}
       </div>
       <div>
-        <h1 className="heading">
+        <h1 className="heading leadOrganizer-heading">
           <span className="white">Lead </span> Organizer
         </h1>
         <br />
