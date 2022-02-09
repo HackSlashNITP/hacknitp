@@ -282,7 +282,7 @@ const Organizers = () => {
     return (
         <div>
             <h1 className="heading">
-                <span id='lead-heading' className="white ">
+                <span  className="white ">
                    Leads
                 </span>
             </h1>
