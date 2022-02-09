@@ -30,8 +30,18 @@ const NavB = () => {
               </a>
             </li>
             <li>
-              <a href="#contact" rel="noreferrer">
-                Contact
+                <a href="#navbar-prizes" rel="noreferrer">
+                  Prizes
+                </a>
+              </li>
+              <li>
+                <a href="#navbar-sponsers" rel="noreferrer">
+                  Sponsers
+                </a>
+              </li>
+            <li>
+              <a href="#Instructions" rel="noreferrer">
+              Instructions
               </a>
             </li>
             <li>
@@ -39,7 +49,7 @@ const NavB = () => {
                 FAQ
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="https://rebrand.ly/hacknitp-4/reg/s-m"
                 target="_blank"
@@ -56,7 +66,7 @@ const NavB = () => {
               >
                 CA
               </a>
-            </li>
+            </li> */}
           </ul>
           <div>
             <a
@@ -95,16 +105,6 @@ const NavB = () => {
                 </a>
               </li>
               <li>
-                <a href="#contact" rel="noreferrer">
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a href="#faq" rel="noreferrer">
-                  FAQ
-                </a>
-              </li>
-              <li>
                 <a href="#navbar-prizes" rel="noreferrer">
                   Prizes
                 </a>
@@ -114,6 +114,17 @@ const NavB = () => {
                   Sponsers
                 </a>
               </li>
+              <li>
+              <a href="#Instructions" rel="noreferrer">
+                Instructions
+              </a>
+            </li>
+              <li>
+                <a href="#faq" rel="noreferrer">
+                  FAQ
+                </a>
+              </li>
+              
               {/* <li>
                 <a
                   href="https://rebrand.ly/hacknitp-4/reg/s-m"

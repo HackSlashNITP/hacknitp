@@ -20,7 +20,8 @@ const Judges = () => {
     const leads = [
         {
             name: 'Kaustubh Karkare',
-            role: 'Senior Software Engineer / Tech Lead',
+            role: 'Senior Software Engineer',
+            des:'Meta Platforms',
             logo: `${img5}`,
             linkedin: 'https://www.linkedin.com/in/kaustubh-karkare/',
             twitter: '',
@@ -30,6 +31,7 @@ const Judges = () => {
         {
             name: 'Vinit Shahdeo',
             role: 'Software Engineer II',
+            des:'Postman',
             logo: `${img9}`,
             linkedin: 'https://www.linkedin.com/in/vinitshahdeo/',
             twitter: '',
@@ -38,6 +40,7 @@ const Judges = () => {
         {
             name: 'Abhinav',
             role: 'Software Development Engineer',
+            des:'Amazon',
             logo: `${img1}`,
             linkedin: 'https://www.linkedin.com/in/mastersabh/',
             twitter: '',
@@ -46,6 +49,7 @@ const Judges = () => {
         {
             name: 'Shreya Singh',
             role: 'Software Development Engineer',
+            des:'Amazon',
             logo: `${img8}`,
             linkedin: 'https://www.linkedin.com/in/singh-shreya/',
             twitter: '',
@@ -54,6 +58,7 @@ const Judges = () => {
         {
             name: 'Dominic Norton',
             role: 'Product Manager',
+            des:'BlueOptima',
             logo: `${img4}`,
             linkedin: 'https://www.linkedin.com/in/dominiconorton/',
             twitter: '',
@@ -62,6 +67,7 @@ const Judges = () => {
         {
             name: 'Ameer Jhan',
             role: 'Senior Software Development Engineer',
+            des:'HackerRank',
             logo: `${img3}`,
             linkedin: 'https://www.linkedin.com/in/ameerthehacker/',
             twitter: '',
@@ -70,6 +76,7 @@ const Judges = () => {
         {
             name: 'Madhav Bahl',
             role: 'Software Engineer',
+            des:'Microsoft',
             logo: `${img10}`,
             linkedin: 'https://www.linkedin.com/in/madhavbahl/',
             twitter: '',
@@ -78,6 +85,7 @@ const Judges = () => {
         {
             name: 'Akash Bajpai',
             role: 'Associate Software Engineer',
+            des:"Lowe's India",
             logo: `${img2}`,
             linkedin: 'https://www.linkedin.com/in/akash4bajpai/',
             twitter: '',
@@ -86,6 +94,7 @@ const Judges = () => {
         {
             name: 'Manish Kumar Vats',
             role: 'Android Developer',
+            des:'Fruitfal',
             logo: `${img6}`,
             linkedin: 'https://www.linkedin.com/in/manish-kumar-vats',
             twitter: ' ',
@@ -95,6 +104,7 @@ const Judges = () => {
         {
             name: 'Kaustubh Maske Patil',
             role: 'Co-Founder',
+            des:'Hyperlog',
             logo: `${img11}`,
             linkedin: 'https://www.linkedin.com/in/kaustubh42/',
             twitter: '',
@@ -104,6 +114,7 @@ const Judges = () => {
         {
             name: 'Sameer  Kashyap',
             role: 'Software Engineer',
+            des:'FrontRow',
             logo: `${img7}`,
             linkedin: 'https://www.linkedin.com/in/sameer-kashyap-083a89184',
             twitter: '',
@@ -119,7 +130,7 @@ const Judges = () => {
             <div className="organizers-grid">
                 {leads.map((data, index) => {
                     return (
-                        <OrganizerCard logo={data.logo} key={index} name={data.name} role={data.role} linkedin={data.linkedin} twitter={data.twitter} github={data.github} />
+                        <OrganizerCard logo={data.logo} key={index} name={data.name} role={data.role} des={data.des} linkedin={data.linkedin} twitter={data.twitter} github={data.github} />
                     )
                 })}
             </div>

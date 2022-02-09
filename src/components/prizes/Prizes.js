@@ -51,6 +51,10 @@ const Prizes = () => {
     "Swags Pack to all members of the team.",
     "Certificate of Excellence",
   ]
+  const girlsPrize = [
+    "Certificate of Excellence.",
+  ]
+
 
   const trackPrize = [
     [
@@ -130,6 +134,21 @@ const Prizes = () => {
               <b>₹ 5,000/- Cash Prize.</b>
             </li>
             {thirdPrize.map((item, index) => (
+              <li key={index} className="list-item">
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      <div className="prize-container">
+        <div data-aos="fade-up">
+          <h2 className="prizes-head">Top All-Girls Team</h2>
+          <ul>
+            <li className="list-item">
+              <b>₹ 2,000/- Cash Prize.</b>
+            </li>
+            {girlsPrize.map((item, index) => (
               <li key={index} className="list-item">
                 {item}
               </li>

@@ -45,6 +45,13 @@
 .person-post {
   color: white;
   z-index: 999;
+  margin-top: 0.5rem;
+}
+.person-des {
+  color: white;
+  z-index: 999;
+  margin-top: 0.5rem;
+  align-self: center;
 }
 .org-img {
   box-sizing: border-box;

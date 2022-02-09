@@ -2,6 +2,7 @@ import React from "react"
 import "./Organizers.css"
 
 const OrganizerCard = (props) => {
+  
   return (
     <div className="organizer-card" data-aos="fade-up">
       <div className="animation-circle"></div>
@@ -9,7 +10,8 @@ const OrganizerCard = (props) => {
         <img src={props.logo} alt={props.name} className="person-img" />
       </div>
       <p className="person-name">{props.name}</p>
-      <h4 className="person-post">{props.role}</h4>
+      <h5 className="person-post">{props.role}</h5>
+      <h5 className="person-des">{props.des}</h5>
       <div className="socials">
         {props.linkedin && (
           <a href={props.linkedin} target="_blank" rel="noopener noreferrer">
