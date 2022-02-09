@@ -1,6 +1,9 @@
 .white {
   color: white;
 }
+.leads-heading{
+  margin-top: 6rem;
+}
 .animation-circle {
   background-color: rgb(54, 201, 110);
   height: 6rem;
