@@ -52,7 +52,14 @@ const Prizes = () => {
     "Certificate of Excellence",
   ]
   const girlsPrize = [
-    "Certificate of Excellence.",
+    "5 Year free Taskade Workspace upgrade to the team.",
+    "1-month FREE access to all Business Plan features of the echo3D platform. ($89 each)",
+    "INR 300/- GeeksForGeeks discount coupon to all team members.",
+    "1-month access to all courses on Interview Cake.",
+    "Voiceflow Professional License coupon to all team members (valued at $49 per month).",
+    "30 day free-license to Wolfram | One for each team members.",
+    "All participants can download and use Sketch software for free during the hackathon.",
+    "Certificate of Excellence",
   ]
 
 
@@ -146,7 +153,7 @@ const Prizes = () => {
           <h2 className="prizes-head">Top All-Girls Team</h2>
           <ul>
             <li className="list-item">
-              <b>₹ 2,000/- Cash Prize.</b>
+              <b>₹ 2,500/- Cash Prize.</b>
             </li>
             {girlsPrize.map((item, index) => (
               <li key={index} className="list-item">
