@@ -191,7 +191,7 @@ const Sponsors = () => {
                  </div> */}
       </div>
       <div>
-        <h1 className="heading leadOrganizer-heading">
+        <h1 className="heading leadOrganizer-heading organizers">
           <span className="white">Lead </span> Organizer
         </h1>
         <br />
@@ -204,7 +204,7 @@ const Sponsors = () => {
           linkedin={data[0].linkedin}
         />
         <br />
-        <h1 className="heading">
+        <h1 className="heading organizers">
           <span className="white">Community </span> Partner
         </h1>
         <br />
