@@ -4,13 +4,14 @@ import './Organizers.css'
 // import img17 from '../../images/avatar.gif'
 import img1 from '../../images/judges/Abhinav.jpeg'
 import img2 from '../../images/judges/Akash.jpg'
-import img3 from '../../images/judges/arko.jpeg'
+import img3 from '../../images/judges/Ameer Jhan.jpeg'
 import img4 from '../../images/judges/Dominic.png'
 import img5 from '../../images/judges/kaustubh.jpg'
 import img6 from '../../images/judges/ManishKumar.png'
 import img7 from '../../images/judges/Sameer.png'
 import img8 from '../../images/judges/Shreya.jpeg'
 import img9 from '../../images/judges/Vinit.png'
+import img10 from '../../images/judges/MadhavBahl.jpeg'
 
 
 const Judges = () => {
@@ -18,7 +19,7 @@ const Judges = () => {
     const leads = [
         {
             name: 'Abhinav',
-            role: '',
+            role: 'Software Development Engineer',
             logo: `${img1}`,
             linkedin: 'https://www.linkedin.com/in/mastersabh/',
             twitter: '',
@@ -26,23 +27,23 @@ const Judges = () => {
         },
         {
             name: 'Akash Bajpai',
-            role: ' ',
+            role: 'Associate Software Engineer',
             logo: `${img2}`,
             linkedin: 'https://www.linkedin.com/in/akash4bajpai/',
             twitter: '',
             github: '',
         },
         {
-            name: 'Arkodyuti Saha',
-            role: '',
+            name: 'Ameer Jhan',
+            role: 'Senior Software Development Engineer',
             logo: `${img3}`,
-            linkedin: 'https://www.linkedin.com/in/arkodyutisaha/',
+            linkedin: 'https://www.linkedin.com/in/ameerthehacker/',
             twitter: '',
             github: ''
         },
         {
             name: 'Dominic Norton',
-            role: ' ',
+            role: 'Product Manager',
             logo: `${img4}`,
             linkedin: 'https://www.linkedin.com/in/dominiconorton/',
             twitter: '',
@@ -50,7 +51,7 @@ const Judges = () => {
         },
         {
             name: 'Kaustubh Karkare',
-            role: '',
+            role: 'Senior Software Engineer / Tech Lead',
             logo: `${img5}`,
             linkedin: 'https://www.linkedin.com/in/kaustubh-karkare/',
             twitter: '',
@@ -58,23 +59,23 @@ const Judges = () => {
         },
         {
             name: 'Manish Kumar Vats',
-            role: '',
+            role: 'Android Developer',
             logo: `${img6}`,
             linkedin: 'https://www.linkedin.com/in/manish-kumar-vats',
             twitter: ' ',
             github: 'https://github.com/manish-Kumar-Vats/',
         },
         {
-            name: 'Sammer Kashyap',
-            role: '',
+            name: 'Kaustubh Maske Patil',
+            role: 'Co-Founder',
             logo: `${img7}`,
-            linkedin: 'https://www.linkedin.com/in/sameer-kashyap-083a89184',
+            linkedin: 'https://www.linkedin.com/in/kaustubh42/',
             twitter: '',
-            github: 'https://github.com/Sameerkash',
+            github: '',
         },
         {
             name: 'Shreya Singh',
-            role: '',
+            role: 'Software Development Engineer',
             logo: `${img8}`,
             linkedin: 'https://www.linkedin.com/in/singh-shreya/',
             twitter: '',
@@ -82,11 +83,19 @@ const Judges = () => {
         },
         {
             name: 'Vinit Shahdeo',
-            role: '',
+            role: 'Software Engineer II',
             logo: `${img9}`,
             linkedin: 'https://www.linkedin.com/in/vinitshahdeo/',
             twitter: '',
             github: 'https://github.com/vinitshahdeo',
+        },
+        {
+            name: 'Madhav Bahl',
+            role: 'Software Engineer',
+            logo: `${img10}`,
+            linkedin: 'https://www.linkedin.com/in/madhavbahl/',
+            twitter: '',
+            github: '',
         },
     ]
 
