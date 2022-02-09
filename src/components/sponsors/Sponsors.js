@@ -23,6 +23,7 @@ import postman from "../../images/postman.png"
 import wolfram from "../../images/Wolfram.jpg"
 import Sketch from "../../images/Sketch.png"
 import Foss from "../../images/Foss.svg"
+import Github from "../../images/github-logo.png"
 
 const Sponsors = () => {
   const title = [
@@ -99,6 +100,10 @@ const Sponsors = () => {
     {
       logo: `${Sketch}`,
       link: "https://www.sketch.com/",
+    },
+    {
+      logo: `${Github}`,
+      link: "https://github.com/",
     },
   ]
 
