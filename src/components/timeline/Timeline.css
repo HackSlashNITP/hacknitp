@@ -118,6 +118,9 @@
 .card:nth-child(even) > .info > .title::before {
   right: -45px;
 }
+.card:nth-child(2n) > .info > .timeline-des {
+  align-self: flex-end;
+}
 .timeline-des{
     margin: 0.5rem;
 }
