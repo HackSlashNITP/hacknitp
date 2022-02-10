@@ -76,7 +76,9 @@ const Prizes = () => {
     ],
     ["₹20000 for best use of IPFS and/or Filecoin"],
     ["₹20,000 for best Dapp built on Celo", "Continuity Support"],
-  
+    [" Eligibility For FOSS Track", "What you can work on:","1.A new FOSS app, tool, or library.","2.An alternative to any existing popular app or service.","3.Extending and improve an existing project or library","4.Design projects: Redesign of an existing FOSS application."
+    ,"5.Open hardware.","What you should (probably) not work on:","1.An app or project that extensively uses proprietary service or API."],
+   
   ]
 
   const allparticpant = [
@@ -204,7 +206,7 @@ const Prizes = () => {
             ))}
           </ul>
         </div>
-        {/* <div data-aos="fade-up">
+        <div data-aos="fade-up">
           <h2 className="prizes-head">Track Prize (FOSS)</h2>
           <ul>
             {trackPrize[4].map((item, index) => (
@@ -213,7 +215,7 @@ const Prizes = () => {
               </li>
             ))}
           </ul>
-        </div> */}
+        </div>
       </div>
       <div className="prize-container">
         <div data-aos="fade-up">
