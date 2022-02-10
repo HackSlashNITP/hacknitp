@@ -102,7 +102,7 @@ const Judges = () => {
         },
         
         {
-            name: 'Kaustubh Maske Patil',
+            name: 'Kaustubh M. Patil',
             role: 'Co-Founder',
             des:'Hyperlog',
             logo: `${img11}`,
@@ -112,7 +112,7 @@ const Judges = () => {
         },
         
         {
-            name: 'Sameer  Kashyap',
+            name: 'Sameer Kashyap',
             role: 'Software Engineer',
             des:'FrontRow',
             logo: `${img7}`,
