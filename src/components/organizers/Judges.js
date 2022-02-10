@@ -102,9 +102,9 @@ const Judges = () => {
         },
         
         {
-            name: 'Kaustubh Maske Patil',
-            role: 'Co-Founder',
-            des:'Hyperlog',
+            name: 'Kaustubh M. Patil',
+            role: 'Software Developer',
+            des:'FOSS United',
             logo: `${img11}`,
             linkedin: 'https://www.linkedin.com/in/kaustubh42/',
             twitter: '',
@@ -112,7 +112,7 @@ const Judges = () => {
         },
         
         {
-            name: 'Sameer  Kashyap',
+            name: 'Sameer Kashyap',
             role: 'Software Engineer',
             des:'FrontRow',
             logo: `${img7}`,

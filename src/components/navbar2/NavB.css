@@ -141,6 +141,7 @@ nav.fill ul li a:hover:after {
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   margin: 2rem 0 0 0; 
  }
  .stroke{
    flex-direction: column;
