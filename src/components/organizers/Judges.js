@@ -103,8 +103,8 @@ const Judges = () => {
         
         {
             name: 'Kaustubh M. Patil',
-            role: 'Co-Founder',
-            des:'Hyperlog',
+            role: 'Software Developer',
+            des:'FOSS United',
             logo: `${img11}`,
             linkedin: 'https://www.linkedin.com/in/kaustubh42/',
             twitter: '',
