@@ -7,60 +7,25 @@ import img2 from "../../images/Mentors/neel.jpeg"
 import img3 from "../../images/Mentors/tanya.jpeg"
 import img4 from "../../images/Mentors/shrankala.jpg"
 import img5 from "../../images/Mentors/kanchi.jpg"
-import img6 from "../../images/Mentors/aditya.jpeg"
+import img6 from "../../images/Mentors/aditya.png"
 import img7 from "../../images/Mentors/jas.jpeg"
 import img8 from "../../images/Mentors/awantika.jpeg"
-import img9 from "../../images/Mentors/asmit.jpg"
+import img9 from "../../images/Mentors/asmitVimal.jpeg"
 import img10 from "../../images/Mentors/adityaGupta.jpeg"
+import img11 from "../../images/Mentors/Vividha.jpeg"
 
 
 const Mentors = () => {
 
     const leads = [
         {
-            name: 'Dipanwita Guhathakurta',
+            name: 'Aditya Gupta',
             role: '',
             des:'',
-            logo: `${img1}`,
-            linkedin: 'https://www.linkedin.com/in/dipanwita-guhathakurta-408ab1178/',
+            logo: `${img10}`,
+            linkedin: 'https://www.linkedin.com/in/adityagupta150/',
             twitter: '',
-            github: 'https://github.com/susiejojo'
-        },
-        {
-            name: 'Neel Shah',
-            role: '',
-            des:'',
-            logo: `${img2}`,
-            linkedin: 'https://www.linkedin.com/in/neel-shah-07460218a/',
-            twitter: '',
-            github: 'https://github.com/neelshah2409'
-        },
-        {
-            name: 'Tanya Rajhans',
-            role: '',
-            des:'',
-            logo: `${img3}`,
-            linkedin: 'https://www.linkedin.com/in/tanyarajhans/',
-            twitter: '',
-            github: 'https://github.com/tanyarajhans'
-        },
-        {
-            name: 'Shrankhla Srivastava',
-            role: '',
-            des:'',
-            logo: `${img4}`,
-            linkedin: 'https://www.linkedin.com/in/shrankhla-srivastava-igdtuw',
-            twitter: '',
-            github: ''
-        },
-        {
-            name: 'Kanchi Jain',
-            role: '',
-            des:'',
-            logo: `${img5}`,
-            linkedin: 'https://www.linkedin.com/in/kanchi-jain-6475881b5',
-            twitter: '',
-            github: ''
+            github: 'https://github.com/adi-g15'
         },
         {
             name: 'ADITYA KUMAR SINGH',
@@ -72,13 +37,13 @@ const Mentors = () => {
             github: ''
         },
         {
-            name: 'Jaskirat Singh',
+            name: 'Asmit Vimal',
             role: '',
             des:'',
-            logo: `${img7}`,
-            linkedin: 'https://www.linkedin.com/in/jaskirat-singh-009348178/',
+            logo: `${img9}`,
+            linkedin: 'https://www.linkedin.com/in/asmit-vimal-415719199',
             twitter: '',
-            github: 'https://github.com/Jas-Script'
+            github: 'https://github.com/ViAsmit'
         },
         {
             name: 'Awantika Nigam',
@@ -90,22 +55,68 @@ const Mentors = () => {
             github: 'https://github.com/awantika10'
         },
         {
-            name: 'Asmit Vimal',
+            name: 'Dipanwita Guhathakurta',
             role: '',
             des:'',
-            logo: `${img9}`,
-            linkedin: 'https://www.linkedin.com/in/asmit-vimal-415719199',
+            logo: `${img1}`,
+            linkedin: 'https://www.linkedin.com/in/dipanwita-guhathakurta-408ab1178/',
             twitter: '',
-            github: 'https://github.com/ViAsmit'
+            github: 'https://github.com/susiejojo'
         },
         {
-            name: 'Aditya Gupta',
+            name: 'Jaskirat Singh',
             role: '',
             des:'',
-            logo: `${img10}`,
-            linkedin: 'https://www.linkedin.com/in/adityagupta150/',
+            logo: `${img7}`,
+            linkedin: 'https://www.linkedin.com/in/jaskirat-singh-009348178/',
             twitter: '',
-            github: 'https://github.com/adi-g15'
+            github: 'https://github.com/Jas-Script'
+        },
+        {
+            name: 'Kanchi Jain',
+            role: '',
+            des:'',
+            logo: `${img5}`,
+            linkedin: 'https://www.linkedin.com/in/kanchi-jain-6475881b5',
+            twitter: '',
+            github: ''
+        },
+        {
+            name: 'Neel Shah',
+            role: '',
+            des:'',
+            logo: `${img2}`,
+            linkedin: 'https://www.linkedin.com/in/neel-shah-07460218a/',
+            twitter: '',
+            github: 'https://github.com/neelshah2409'
+        },
+        {
+            name: 'Shrankhla Srivastava',
+            role: '',
+            des:'',
+            logo: `${img4}`,
+            linkedin: 'https://www.linkedin.com/in/shrankhla-srivastava-igdtuw',
+            twitter: '',
+            github: ''
+        },
+        {
+            name: 'Tanya Rajhans',
+            role: '',
+            des:'',
+            logo: `${img3}`,
+            linkedin: 'https://www.linkedin.com/in/tanyarajhans/',
+            twitter: '',
+            github: 'https://github.com/tanyarajhans'
+        },
+       
+        {
+            name: 'Vividha Rawat',
+            role: '',
+            des:'',
+            logo: `${img11}`,
+            linkedin: 'https://www.linkedin.com/in/vividharawat/',
+            twitter: '',
+            github: 'https://github.com/V2dha'
         },
         
     ]
