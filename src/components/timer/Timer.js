@@ -4,7 +4,7 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 
 const Timer = () => {
-  var deadline = new Date("feb 11 , 2022  18:00:00").getTime()
+  var deadline = new Date("feb 13 , 2022  18:00:00").getTime()
 
   setInterval(function () {
     var now = new Date().getTime()
@@ -26,7 +26,7 @@ const Timer = () => {
 
   return (
     <div className="timer-contt" data-aos="fade-up">
-      <h1 className="heading">EVENT STARTS IN</h1>
+      <h1 className="heading">EVENT ENDS IN</h1>
       <div className="timercont">
         <div className="timer-box">
           <h1 className="big-time days">00</h1>
