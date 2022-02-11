@@ -18,6 +18,7 @@ import Contact from "../contact/Contact"
 import Faq from "../faq/Faq"
 import Footer from "../footer/Footer"
 import Intro from "../intro/Intro"
+import Mentors from "../organizers/Mentors"
 // import Organizer from "../organiser/Organiser"
 // import Tabs from "../Tabs/tabs";
 import AOS from "aos"
@@ -88,7 +89,9 @@ const HomePage = () => {
       <Intro />
       <Timer />
       <Judges />
+      
       <Speakers />
+      <Mentors />
       <Tracks />
       <Prizes />
       <Instructions />
