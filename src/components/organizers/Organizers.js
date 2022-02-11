@@ -223,7 +223,7 @@ const Organizers = () => {
         },
         {
             name: 'Sudhanshu Ranjan',
-            role: 'Web Developer',
+            role: 'Web Co-Lead',
             logo: `${img32}`,
             linkedin: 'https://www.linkedin.com/in/sudhanshu-ranjan-a1779b202/',
             twitter: '',
