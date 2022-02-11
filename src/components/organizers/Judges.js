@@ -97,7 +97,7 @@ const Judges = () => {
             des:'Fruitfal',
             logo: `${img6}`,
             linkedin: 'https://www.linkedin.com/in/manish-kumar-vats',
-            twitter: ' ',
+            twitter: '',
             github: 'https://github.com/manish-Kumar-Vats/',
         },
         
