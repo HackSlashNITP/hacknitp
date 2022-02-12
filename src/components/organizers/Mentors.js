@@ -28,7 +28,7 @@ const Mentors = () => {
             github: 'https://github.com/adi-g15'
         },
         {
-            name: 'ADITYA KUMAR SINGH',
+            name: 'Aditya Kumar Singh',
             role: '',
             des:'',
             logo: `${img6}`,
