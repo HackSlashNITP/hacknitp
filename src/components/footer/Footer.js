@@ -27,14 +27,14 @@ const Footer = () => {
           >
             Code of conduct
           </a>
-          <a
-            href="https://rebrand.ly/hacknitp-4/reg/s-m"
-            target="_blank"
-            rel="noreferrer"
-            className="cnc"
-          >
-            Apply as Mentor
-          </a>
+//           <a
+//             href="https://rebrand.ly/hacknitp-4/reg/s-m"
+//             target="_blank"
+//             rel="noreferrer"
+//             className="cnc"
+//           >
+//             Apply as Mentor
+//           </a>
           {/* <div><a target="_blank" className="discordbtnf" href="https://bit.ly/hacknitp-4-discord" rel='noreferrer'><button className="btn-primary btn-last">Join our Discord server</button></a></div> */}
         </div>
       </div>
