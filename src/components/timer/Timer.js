@@ -4,17 +4,19 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 
 const Timer = () => {
-  var deadline = new Date("feb 13 , 2022  18:00:00").getTime()
+  var deadlineUTC = new Date("feb 13 , 2022  12:30:00")
 
   setInterval(function () {
-    var now = new Date().getTime()
-    var t = deadline - now
+    var now = new Date();
+    var nowUTC = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), now.getUTCHours(), now.getUTCMinutes(), now.getUTCSeconds());
+    
+    var t = deadlineUTC - nowUTC;
     var days = Math.floor(t / (1000 * 60 * 60 * 24))
     var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
     var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60))
     var seconds = Math.floor((t % (1000 * 60)) / 1000)
 
-    if(deadline < new Date().getTime()) return
+    if(deadlineUTC < new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), now.getUTCHours(), now.getUTCMinutes(), now.getUTCSeconds())) return
 
     document.querySelector(".days").innerHTML = days
     document.querySelector(".hours").innerHTML = hours
