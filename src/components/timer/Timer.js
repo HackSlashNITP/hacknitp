@@ -9,9 +9,8 @@ const Timer = () => {
   setInterval(function () {
     var now = new Date();
     var nowUTC = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), now.getUTCHours(), now.getUTCMinutes(), now.getUTCSeconds());
-    var distance = deadlineUTC - nowUTC;
-
-    var t = deadlineUTC - now
+    
+    var t = deadlineUTC - nowUTC;
     var days = Math.floor(t / (1000 * 60 * 60 * 24))
     var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
     var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60))
