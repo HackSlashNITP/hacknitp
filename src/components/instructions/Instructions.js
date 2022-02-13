@@ -8,7 +8,7 @@ const Instructions = () => {
         <ul data-aos="fade-up">
           <li className="list-item">
             The 48 hours online hackathon would be live on 11/02/2022 at 18:00
-            IST till 13/02/2022 at 18:00 IST.
+            IST / 12:30 GMT till 13/02/2022 at 18:00 IST / 12:30 GMT.
           </li>
           <li className="list-item">
             The registration for the event is absolutely free of cost, implying
