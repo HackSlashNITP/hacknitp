@@ -17,12 +17,10 @@ import img12 from '../../images/organizer/SaizalSinha.jpeg'
 import img13 from '../../images/organizer/TejasManhas.jpeg'
 import img14 from '../../images/organizer/ShivamJha.jpeg'
 import img15 from '../../images/organizer/PriyanshuShekhar.jpeg'
-import img16 from '../../images/organizer/RajMore.jpeg'
 import img18 from '../../images/organizer/PragatiVerma.jpeg'
 import img19 from '../../images/organizer/AvinashKumar.jpeg'
 import img20 from '../../images/organizer/TanviTanya.jpeg'
 import img21 from '../../images/organizer/AnimeshMaru.jpeg'
-import img22 from '../../images/organizer/PratikAnand.jpeg'
 import img23 from '../../images/organizer/PragatiPriya.jpeg'
 import img24 from '../../images/organizer/SrijanShovit.jpeg'
 import img25 from '../../images/organizer/PulkitKAgarwal.jpeg'
@@ -31,7 +29,6 @@ import img27 from '../../images/organizer/HarshAnand.jpeg'
 import img28 from '../../images/organizer/AyushGautam.jpeg'
 import img31 from '../../images/organizer/MohitKumar.jpeg'
 import img32 from '../../images/organizer/SudhanshuRanjan.jpeg'
-import img33 from '../../images/organizer/ArchanaKumari.jpeg'
 
 const Organizers = () => {
     
@@ -85,55 +82,6 @@ const Organizers = () => {
             github: 'https://github.com/kumarSuraj-bit'
         },
         {
-            name: 'Samriddhi Ambashta',
-            role: 'Community Moderator',
-            logo: `${img5}`,
-            linkedin: 'https://www.linkedin.com/in/samriddhi-ambashta-8528a91ab/',
-            twitter: '',
-            github: 'https://github.com/samriddhiambashta'
-        },
-        {
-            name: 'Aditi Kumari',
-            role: 'Community Moderator',
-            logo: `${img9}`,
-            linkedin: 'https://www.linkedin.com/in/aditi-kumari-6219931a3/',
-            twitter: '',
-            github: 'https://github.com/aditikr257'
-        },
-       {
-            name: 'Ayushmaan Sharma',
-            role: 'Community Moderator',
-            logo: `${img10}`,
-            linkedin: 'https://www.linkedin.com/in/ayushman-sharma-2a9380196/',
-            twitter: '',
-            github: 'https://github.com/ayushman999'
-        },
-        {
-            name: 'Digvijay Srivastava',
-            role: 'Community Moderator',
-            logo: `${img7}`,
-            linkedin: 'https://www.linkedin.com/in/dig9074vijay/',
-            twitter: 'https://twitter.com/dig9074vijay',
-            github: 'https://github.com/dig9074vijay'
-        },
-       {
-            name: 'Mayank Kumar',
-            role: 'Community Moderator',
-            logo: `${img11}`,
-            linkedin: 'https://www.linkedin.com/in/sonunayan48/',
-            twitter: '',
-            github: 'https://github.com/Sonunayan48'
-        }, 
-        {
-            name: 'Archana',
-            role: 'Community Moderator',
-            logo: `${img33}`,
-            linkedin: 'https://www.linkedin.com/in/archana-kumari-284091193/',
-            twitter: '',
-            github: 'https://github.com/archana3001'
-        },
-
-        {
             name: 'Saizal Sinha',
             role: 'Event Management Lead',
             logo: `${img12}`,
@@ -143,11 +91,27 @@ const Organizers = () => {
         },
         {
             name: 'Tejas Manhas',
-            role: 'Event Management Co-Lead',
+            role: 'Event Management Lead',
             logo: `${img13}`,
             linkedin: 'https://www.linkedin.com/in/tejas-manhas-97b2b4202/',
             twitter: '',
             github: 'https://github.com/Tejas3772'
+        },
+        {
+            name: 'Samriddhi Ambashta',
+            role: 'Outreach Lead',
+            logo: `${img5}`,
+            linkedin: 'https://www.linkedin.com/in/samriddhi-ambashta-8528a91ab/',
+            twitter: '',
+            github: 'https://github.com/samriddhiambashta'
+        },
+        {
+            name: 'Digvijay Srivastava',
+            role: 'Outreach Lead',
+            logo: `${img7}`,
+            linkedin: 'https://www.linkedin.com/in/dig9074vijay/',
+            twitter: 'https://twitter.com/dig9074vijay',
+            github: 'https://github.com/dig9074vijay'
         },
         {
             name: 'Shivam Jha',
@@ -158,12 +122,36 @@ const Organizers = () => {
             github: 'https://github.com/jhashivam-2001'
         },
         {
+            name: 'Srijan Shovit',
+            role: 'Outreach Lead',
+            logo: `${img24}`,
+            linkedin: 'https://linkedin.com/in/srijan-shovit-6b3b131ba',
+            twitter: '',
+            github: 'https://github.com/SrijanShovit'
+        },  
+        {
             name: 'Priyanshu Shekhar',
             role: 'Design Lead',
             logo: `${img15}`,
             linkedin: 'https://linkedin.com/in/priyaanshu/',
             twitter: 'https://twitter.com/Priyans08981606',
             github: 'https://github.com/PriUY'
+        },
+        {
+            name: 'Ayushmaan Sharma',
+            role: 'Social Media Lead',
+            logo: `${img10}`,
+            linkedin: 'https://www.linkedin.com/in/ayushman-sharma-2a9380196/',
+            twitter: '',
+            github: 'https://github.com/ayushman999'
+        },
+        {
+            name: 'Mohit Kumar',
+            role: 'Social Media Lead',
+            logo: `${img31}`,
+            linkedin: 'https://www.linkedin.com/in/mohit-kumar-02b07667/',
+            twitter: '',
+            github: 'https://github.com/mohit-kumar-b2'
         },
         {
             name: 'Pragati Verma',
@@ -197,54 +185,6 @@ const Organizers = () => {
             twitter: '',
             github: 'https://github.com/animeshmaru'
         },
-        {
-            name: 'Mohit Kumar',
-            role: 'Social Media Lead',
-            logo: `${img31}`,
-            linkedin: 'https://www.linkedin.com/in/mohit-kumar-02b07667/',
-            twitter: '',
-            github: 'https://github.com/mohit-kumar-b2'
-        },
-        {
-            name: 'Pratik Anand',
-            role: 'Web Lead',
-            logo: `${img22}`,
-            linkedin: 'https://www.linkedin.com/in/pratik-anand-/',
-            twitter: '',
-            github: 'https://github.com/pratik8696'
-        },
-        {
-            name: 'Pragati Priya',
-            role: 'Web Lead',
-            logo: `${img23}`,
-            linkedin: 'https://www.linkedin.com/in/pragati2000/',
-            twitter: '',
-            github: 'https://github.com/pragatipriya20'
-        },
-        {
-            name: 'Sudhanshu Ranjan',
-            role: 'Web Co-Lead',
-            logo: `${img32}`,
-            linkedin: 'https://www.linkedin.com/in/sudhanshu-ranjan-a1779b202/',
-            twitter: '',
-            github: 'https://github.com/SudhansuuRanjan'
-        },
-        {
-            name: 'Raj More',
-            role: 'Design Manager',
-            logo: `${img16}`,
-            linkedin: 'https://linkedin.com/in/raj-more-50b543202',
-            twitter: 'https://twitter.com/RajMore92073482?s=09',
-            github: 'https://github.com/Raj82862'
-        },
-       {
-            name: 'Srijan Shovit',
-            role: 'Outreach Co-Lead',
-            logo: `${img24}`,
-            linkedin: 'https://linkedin.com/in/srijan-shovit-6b3b131ba',
-            twitter: '',
-            github: 'https://github.com/SrijanShovit'
-        },  
        {
             name: 'Pulkit Kr Agarwal',
             role: 'Outreach Co-Lead',
@@ -276,6 +216,38 @@ const Organizers = () => {
             linkedin: 'https://www.linkedin.com/in/ayushgautam07/',
             twitter: '',
             github: 'https://github.com/ayushgautam7'
+        },
+        {
+            name: 'Aditi Kumari',
+            role: 'Community Moderator',
+            logo: `${img9}`,
+            linkedin: 'https://www.linkedin.com/in/aditi-kumari-6219931a3/',
+            twitter: '',
+            github: 'https://github.com/aditikr257'
+        },
+        {
+            name: 'Mayank Kumar',
+            role: 'Community Moderator',
+            logo: `${img11}`,
+            linkedin: 'https://www.linkedin.com/in/sonunayan48/',
+            twitter: '',
+            github: 'https://github.com/Sonunayan48'
+        },
+        {
+            name: 'Pragati Priya',
+            role: 'Web Lead',
+            logo: `${img23}`,
+            linkedin: 'https://www.linkedin.com/in/pragati2000/',
+            twitter: '',
+            github: 'https://github.com/pragatipriya20'
+        },
+        {
+            name: 'Sudhanshu Ranjan',
+            role: 'Web Developer',
+            logo: `${img32}`,
+            linkedin: 'https://www.linkedin.com/in/sudhanshu-ranjan-a1779b202/',
+            twitter: '',
+            github: 'https://github.com/SudhansuuRanjan'
         },
     ]
     
